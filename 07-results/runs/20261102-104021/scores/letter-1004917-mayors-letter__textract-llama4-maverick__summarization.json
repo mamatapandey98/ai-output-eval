@@ -1,0 +1,46 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "candidatePages": 2,
+  "candidateChars": 782,
+  "resultPages": 2,
+  "withSourcePdf": false,
+  "judgeProvider": "gemini",
+  "rubricVersion": "summary-reference-v4",
+  "requestedModel": "gemini-3.5-flash",
+  "servedModel": "gemini-3.6-flash",
+  "thinkingLevel": "HIGH",
+  "maxOutputTokens": null,
+  "stopReason": "STOP",
+  "usage": {
+    "input_tokens": 953,
+    "output_tokens": 638,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  },
+  "status": "scored",
+  "scoreScale": "0-10",
+  "weights": {
+    "coverage": 0.4,
+    "accuracy": 0.4,
+    "clarity": 0.1,
+    "conciseness": 0.1
+  },
+  "verdict": {
+    "coverage": 10,
+    "accuracy": 10,
+    "clarity": 9.5,
+    "conciseness": 9
+  },
+  "criteriaScores": {
+    "coverage": 10,
+    "accuracy": 10,
+    "clarity": 9.5,
+    "conciseness": 9
+  },
+  "overall": 9.85,
+  "overallOutOf10": 9.85,
+  "overallPercentage": 98.5,
+  "score": 0.985
+}

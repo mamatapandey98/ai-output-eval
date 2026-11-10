@@ -1,0 +1,88 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "textract-sonnet-4-5",
+  "job": "extraction",
+  "taskId": 231,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:13:06.205Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:13:07.504Z",
+  "configuredAt": "2026-11-02T12:13:14.577Z",
+  "executedAt": "2026-11-02T12:13:15.852Z",
+  "lastPolledAt": "2026-11-02T12:13:27.963Z",
+  "finishedAt": "2026-11-02T12:13:27.963Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "invoice_number": "1102092",
+      "invoice_date": "Sep 28, 2018",
+      "vendor__seller_name": "Sprout Social",
+      "total_amount": "$1,188.00",
+      "due_date": "Sep 28, 2018"
+    }
+  ],
+  "extraction": {
+    "Invoice Number": {
+      "value": "1102092",
+      "pages": [
+        {
+          "page": 1,
+          "value": "1102092"
+        }
+      ]
+    },
+    "Invoice Date": {
+      "value": "Sep 28, 2018",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Sep 28, 2018"
+        }
+      ]
+    },
+    "Vendor / Seller Name": {
+      "value": "Sprout Social",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Sprout Social"
+        }
+      ]
+    },
+    "Total Amount": {
+      "value": "$1,188.00",
+      "pages": [
+        {
+          "page": 1,
+          "value": "$1,188.00"
+        }
+      ]
+    },
+    "Due Date": {
+      "value": "Sep 28, 2018",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Sep 28, 2018"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Invoice Number",
+      "Invoice Date",
+      "Vendor / Seller Name",
+      "Total Amount",
+      "Due Date"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 12111,
+  "totalMs": 21758,
+  "deleted": true
+}

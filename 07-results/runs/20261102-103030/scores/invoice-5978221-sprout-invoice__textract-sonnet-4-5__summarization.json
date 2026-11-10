@@ -1,0 +1,46 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "candidatePages": 1,
+  "candidateChars": 382,
+  "resultPages": 1,
+  "withSourcePdf": false,
+  "judgeProvider": "gemini",
+  "rubricVersion": "summary-reference-v4",
+  "requestedModel": "gemini-3.5-flash",
+  "servedModel": "gemini-3.6-flash",
+  "thinkingLevel": "HIGH",
+  "maxOutputTokens": null,
+  "stopReason": "STOP",
+  "usage": {
+    "input_tokens": 905,
+    "output_tokens": 581,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  },
+  "status": "scored",
+  "scoreScale": "0-10",
+  "weights": {
+    "coverage": 0.4,
+    "accuracy": 0.4,
+    "clarity": 0.1,
+    "conciseness": 0.1
+  },
+  "verdict": {
+    "coverage": 9.8,
+    "accuracy": 10,
+    "clarity": 10,
+    "conciseness": 9.5
+  },
+  "criteriaScores": {
+    "coverage": 9.8,
+    "accuracy": 10,
+    "clarity": 10,
+    "conciseness": 9.5
+  },
+  "overall": 9.87,
+  "overallOutOf10": 9.87,
+  "overallPercentage": 98.7,
+  "score": 0.987
+}

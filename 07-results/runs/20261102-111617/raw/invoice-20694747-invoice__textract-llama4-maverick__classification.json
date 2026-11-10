@@ -1,0 +1,50 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-llama4-maverick",
+  "job": "classification",
+  "taskId": 188,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:35:00.442Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:35:01.843Z",
+  "configuredAt": "2026-11-02T11:35:09.315Z",
+  "executedAt": "2026-11-02T11:35:10.646Z",
+  "lastPolledAt": "2026-11-02T11:35:15.765Z",
+  "finishedAt": "2026-11-02T11:35:15.765Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "invoice"
+    },
+    {
+      "pg_no": 2,
+      "document_type": "letter"
+    }
+  ],
+  "classification": {
+    "label": "invoice",
+    "pages": [
+      {
+        "page": 1,
+        "label": "invoice"
+      },
+      {
+        "page": 2,
+        "label": "letter"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 2,
+    "observedPageCount": 2,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 5119,
+  "totalMs": 15323,
+  "deleted": true
+}

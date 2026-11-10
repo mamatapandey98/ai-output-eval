@@ -1,0 +1,129 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 1,
+  "matchRate": 1,
+  "counts": {
+    "match": 3,
+    "partial": 0,
+    "mismatch": 0,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 2
+  },
+  "comparisonCounts": {
+    "match": 3,
+    "partial": 0,
+    "mismatch": 0,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 2
+  },
+  "fields": [
+    {
+      "name": "Invoice Number",
+      "expected": "04-30-2021-03",
+      "predicted": "04-30-2021-03",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "04-30-2021-03"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Invoice Date",
+      "expected": "",
+      "predicted": "",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": ""
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "agreed-empty",
+      "method": "empty",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Vendor / Seller Name",
+      "expected": "City of Richmond Police Department",
+      "predicted": "City of Richmond Police Department",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "City of Richmond Police Department"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Total Amount",
+      "expected": "$100.00",
+      "predicted": "$100.00",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "$100.00"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "currency-amount-format",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Due Date",
+      "expected": "",
+      "predicted": "",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": ""
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "agreed-empty",
+      "method": "empty",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    }
+  ],
+  "resultPages": 2
+}

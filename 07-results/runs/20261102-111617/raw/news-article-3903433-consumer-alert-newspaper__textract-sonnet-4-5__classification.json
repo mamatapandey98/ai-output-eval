@@ -1,0 +1,42 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-sonnet-4-5",
+  "job": "classification",
+  "taskId": 171,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:24:01.242Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:24:02.653Z",
+  "configuredAt": "2026-11-02T11:24:11.559Z",
+  "executedAt": "2026-11-02T11:24:11.966Z",
+  "lastPolledAt": "2026-11-02T11:24:20.569Z",
+  "finishedAt": "2026-11-02T11:24:20.570Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "news article"
+    }
+  ],
+  "classification": {
+    "label": "news article",
+    "pages": [
+      {
+        "page": 1,
+        "label": "news article"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 8604,
+  "totalMs": 19328,
+  "deleted": true
+}

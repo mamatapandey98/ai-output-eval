@@ -1,0 +1,30 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 128,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:51:06.494Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:51:07.750Z",
+  "configuredAt": "2026-11-02T10:51:17.086Z",
+  "executedAt": "2026-11-02T10:51:17.440Z",
+  "lastPolledAt": "2026-11-02T10:51:26.201Z",
+  "finishedAt": "2026-11-02T10:51:26.202Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The article discusses the \"wise-use\" movement, a pro-development coalition of around 200 groups, including Communities for a Great Northwest and Montana PLUS. Rooted in earlier land-use battles like the Sagebrush Rebellion and James Watt's Mountain States Legal Foundation, the movement advocates for responsible ecological use of natural resources. It has ties to a group partly funded by Rev. Sun Myung Moon's Unification Church, though leaders like Ron Arnold deny any church influence. Members consider themselves \"new environmentalists\" with a vision for the 21st century."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "No relevant content was found in the provided document chunk to summarize."
+    }
+  ],
+  "processingMs": 8762,
+  "totalMs": 19708,
+  "deleted": true,
+  "summary": "Page 1: The article discusses the \"wise-use\" movement, a pro-development coalition of around 200 groups, including Communities for a Great Northwest and Montana PLUS. Rooted in earlier land-use battles like the Sagebrush Rebellion and James Watt's Mountain States Legal Foundation, the movement advocates for responsible ecological use of natural resources. It has ties to a group partly funded by Rev. Sun Myung Moon's Unification Church, though leaders like Ron Arnold deny any church influence. Members consider themselves \"new environmentalists\" with a vision for the 21st century.\n\nPage 2: No relevant content was found in the provided document chunk to summarize."
+}

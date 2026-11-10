@@ -1,0 +1,38 @@
+{
+  "$comment": "Template for the 10-document ground truth. Values are placeholders. file: path relative to data/, folder = category. summary: one string for the whole document. classification: one entry per page, numbered from 1; each label must match a classificationCategories name exactly. extraction: values keyed by the names in fields; null when the document does not contain the field. A job left out of a document is not sent for it.",
+  "classificationCategories": [
+    { "name": "invoice", "description": "A bill from a seller requesting payment." },
+    { "name": "letter", "description": "Formal correspondence to a person or organisation." },
+    { "name": "email", "description": "A printed email message or thread." }
+  ],
+  "documents": [
+    {
+      "file": "invoice/1234567-example-invoice.pdf",
+      "summary": "PLACEHOLDER: human-written summary of the whole document.",
+      "classification": [
+        { "page": 1, "label": "invoice" },
+        { "page": 2, "label": "invoice" }
+      ],
+      "extraction": {
+        "fields": [
+          { "name": "Invoice Number", "type": "Text", "description": "Identifier printed on the invoice" },
+          { "name": "Invoice Date", "type": "Text", "description": "Date the invoice was issued" },
+          { "name": "Total Amount", "type": "Text", "description": "Amount due, with currency" }
+        ],
+        "values": {
+          "Invoice Number": "PLACEHOLDER-001",
+          "Invoice Date": "Sep 28, 2018",
+          "Total Amount": null
+        }
+      }
+    },
+    {
+      "file": "email/7654321-example-email.pdf",
+      "summary": "PLACEHOLDER: human-written summary of the whole document.",
+      "classification": [
+        { "page": 1, "label": "email" },
+        { "page": 2, "label": "letter" }
+      ]
+    }
+  ]
+}

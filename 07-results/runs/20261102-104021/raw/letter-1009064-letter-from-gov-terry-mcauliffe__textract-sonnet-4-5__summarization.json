@@ -1,0 +1,26 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "taskId": 141,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:59:32.662Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:59:33.956Z",
+  "configuredAt": "2026-11-02T10:59:42.149Z",
+  "executedAt": "2026-11-02T10:59:42.532Z",
+  "lastPolledAt": "2026-11-02T10:59:52.490Z",
+  "finishedAt": "2026-11-02T10:59:52.490Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This is a letter dated September 25, 2013, from Terry McAuliffe to the Korean Community of Virginia during his gubernatorial campaign. McAuliffe expresses support for accurately labeling the body of water between Korea and Japan with both names—\"East Sea\" and \"Sea of Japan\"—in Virginia school textbooks. He commits to ensuring new educational materials reflect this dual naming convention and pledges to support legislation similar to that introduced by Senator Dave Marsden in 2012. McAuliffe emphasizes that reforming Virginia's education system and ensuring accurate world understanding for children will be a priority if elected Governor."
+    }
+  ],
+  "processingMs": 9958,
+  "totalMs": 19828,
+  "deleted": true,
+  "summary": "Page 1: This is a letter dated September 25, 2013, from Terry McAuliffe to the Korean Community of Virginia during his gubernatorial campaign. McAuliffe expresses support for accurately labeling the body of water between Korea and Japan with both names—\"East Sea\" and \"Sea of Japan\"—in Virginia school textbooks. He commits to ensuring new educational materials reflect this dual naming convention and pledges to support legislation similar to that introduced by Senator Dave Marsden in 2012. McAuliffe emphasizes that reforming Virginia's education system and ensuring accurate world understanding for children will be a priority if elected Governor."
+}

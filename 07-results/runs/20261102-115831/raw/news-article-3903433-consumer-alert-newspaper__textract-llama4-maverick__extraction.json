@@ -1,0 +1,88 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "taskId": 223,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:07:43.616Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:07:45.028Z",
+  "configuredAt": "2026-11-02T12:07:53.801Z",
+  "executedAt": "2026-11-02T12:07:54.146Z",
+  "lastPolledAt": "2026-11-02T12:07:58.616Z",
+  "finishedAt": "2026-11-02T12:07:58.616Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "headline__title": "Coalition Calls for Less Regulation",
+      "author__byline": "By Warren Brown",
+      "publication_date": "4-29-89",
+      "publication_source__organization": "Washington Post",
+      "primary_subject__topic": "Consumerism"
+    }
+  ],
+  "extraction": {
+    "Headline / Title": {
+      "value": "Coalition Calls for Less Regulation",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Coalition Calls for Less Regulation"
+        }
+      ]
+    },
+    "Author / Byline": {
+      "value": "By Warren Brown",
+      "pages": [
+        {
+          "page": 1,
+          "value": "By Warren Brown"
+        }
+      ]
+    },
+    "Publication Date": {
+      "value": "4-29-89",
+      "pages": [
+        {
+          "page": 1,
+          "value": "4-29-89"
+        }
+      ]
+    },
+    "Publication Source / Organization": {
+      "value": "Washington Post",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Washington Post"
+        }
+      ]
+    },
+    "Primary Subject / Topic": {
+      "value": "Consumerism",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Consumerism"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Headline / Title",
+      "Author / Byline",
+      "Publication Date",
+      "Publication Source / Organization",
+      "Primary Subject / Topic"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 4470,
+  "totalMs": 15000,
+  "deleted": true
+}

@@ -1,0 +1,107 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 1,
+  "matchRate": 1,
+  "counts": {
+    "match": 5,
+    "partial": 0,
+    "mismatch": 0,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 5,
+    "partial": 0,
+    "mismatch": 0,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Fiscal Year / Period",
+      "expected": "2014–2015 (FY15)",
+      "predicted": "2014-2015",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "2014-2015"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "fiscal-period-range-format",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Organization / Department Name",
+      "expected": "Encore Academy",
+      "predicted": "Encore Academy",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Encore Academy"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Total Budget / Revenue",
+      "expected": "$4,746,466",
+      "predicted": "4,746,466",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "4,746,466"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "amount-currency-unspecified-on-one-side",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Total Expenditure / Costs",
+      "expected": "$4,746,466",
+      "predicted": "4,746,466",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "4,746,466"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "amount-currency-unspecified-on-one-side",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Net Balance / Surplus / Deficit",
+      "expected": "$0",
+      "predicted": "0",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "0"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "amount-currency-unspecified-on-one-side",
+      "scope": "document-first-nonempty-page-value"
+    }
+  ],
+  "resultPages": 1
+}

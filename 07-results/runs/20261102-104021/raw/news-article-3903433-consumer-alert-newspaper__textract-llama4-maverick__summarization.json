@@ -1,0 +1,26 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "taskId": 126,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:49:49.956Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:49:51.205Z",
+  "configuredAt": "2026-11-02T10:50:00.104Z",
+  "executedAt": "2026-11-02T10:50:00.498Z",
+  "lastPolledAt": "2026-11-02T10:50:05.000Z",
+  "finishedAt": "2026-11-02T10:50:05.000Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The White House agreed to review economic policy recommendations from the National Consumer Coalition, a conservative group advocating for deregulation. The coalition's proposals include abolishing federal fuel economy standards and eliminating farm subsidies. White House Chief of Staff John Sununu, formerly chairman of Consumer Alert, received the proposals, which were criticized by liberal consumer groups."
+    }
+  ],
+  "processingMs": 4502,
+  "totalMs": 15044,
+  "deleted": true,
+  "summary": "Page 1: The White House agreed to review economic policy recommendations from the National Consumer Coalition, a conservative group advocating for deregulation. The coalition's proposals include abolishing federal fuel economy standards and eliminating farm subsidies. White House Chief of Staff John Sununu, formerly chairman of Consumer Alert, received the proposals, which were criticized by liberal consumer groups."
+}

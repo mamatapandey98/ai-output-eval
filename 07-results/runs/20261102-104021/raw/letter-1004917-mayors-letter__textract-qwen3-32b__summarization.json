@@ -1,0 +1,30 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "taskId": 144,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:01:24.176Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:01:25.486Z",
+  "configuredAt": "2026-11-02T11:01:33.455Z",
+  "executedAt": "2026-11-02T11:01:34.726Z",
+  "lastPolledAt": "2026-11-02T11:01:39.804Z",
+  "finishedAt": "2026-11-02T11:01:39.804Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The letter from the Mayor to the City Council outlines key priorities for 2014, including hiring a permanent city manager by March 1, 2014, initiating the hiring process for a new city attorney, and implementing performance and priority-based budgeting to increase transparency and citizen engagement."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The document outlines the city of Oxnard's budgeting process and priorities for 2014. Key activities include working with city council members to develop public policy initiatives, conducting study sessions on priority and performance-based budgeting, gathering input from civic organizations, and finalizing the 2014-2015 budget by June 17, 2014. Additional priorities include resurfacing neighborhood streets, attracting higher-paying jobs, restoring the general fund reserve, establishing a K-12 magnet program, addressing pension liabilities, reviving the city marketing program, funding Santa Clara River levees, and making the Golf Course and Performing Art Center self-sustaining. The mayor emphasizes collaboration with the city council, staff, and the public to make Oxnard a world-class city."
+    }
+  ],
+  "processingMs": 5078,
+  "totalMs": 15628,
+  "deleted": true,
+  "summary": "Page 1: The letter from the Mayor to the City Council outlines key priorities for 2014, including hiring a permanent city manager by March 1, 2014, initiating the hiring process for a new city attorney, and implementing performance and priority-based budgeting to increase transparency and citizen engagement.\n\nPage 2: The document outlines the city of Oxnard's budgeting process and priorities for 2014. Key activities include working with city council members to develop public policy initiatives, conducting study sessions on priority and performance-based budgeting, gathering input from civic organizations, and finalizing the 2014-2015 budget by June 17, 2014. Additional priorities include resurfacing neighborhood streets, attracting higher-paying jobs, restoring the general fund reserve, establishing a K-12 magnet program, addressing pension liabilities, reviving the city marketing program, funding Santa Clara River levees, and making the Golf Course and Performing Art Center self-sustaining. The mayor emphasizes collaboration with the city council, staff, and the public to make Oxnard a world-class city."
+}

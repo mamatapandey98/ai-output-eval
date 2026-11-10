@@ -1,0 +1,67 @@
+{
+  "documentId": "budget-1165040-singleton-budget",
+  "variantId": "textract-haiku-4-5",
+  "job": "classification",
+  "status": "scored",
+  "expected": "budget",
+  "predicted": "budget",
+  "correct": true,
+  "score": 1,
+  "documentResult": {
+    "confidence": 1,
+    "verdict": "match",
+    "method": "exact"
+  },
+  "pageAccuracy": 1,
+  "pageMacroF1": 1,
+  "perClass": {
+    "budget": {
+      "support": 3,
+      "precision": 1,
+      "recall": 1,
+      "f1": 1
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "expected": "budget",
+      "predicted": "budget",
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact"
+    },
+    {
+      "page": 2,
+      "expected": "budget",
+      "predicted": "budget",
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact"
+    },
+    {
+      "page": 3,
+      "expected": "budget",
+      "predicted": "budget",
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact"
+    }
+  ],
+  "predictedPages": [
+    {
+      "page": 1,
+      "label": "budget"
+    },
+    {
+      "page": 2,
+      "label": "budget"
+    },
+    {
+      "page": 3,
+      "label": "budget"
+    }
+  ],
+  "extraPredictedPages": [],
+  "resultPages": 3
+}

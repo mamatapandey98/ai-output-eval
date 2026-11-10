@@ -1,0 +1,26 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "taskId": 142,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:00:14.158Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:00:15.635Z",
+  "configuredAt": "2026-11-02T11:00:24.030Z",
+  "executedAt": "2026-11-02T11:00:24.437Z",
+  "lastPolledAt": "2026-11-02T11:00:28.857Z",
+  "finishedAt": "2026-11-02T11:00:28.857Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Terry McAuliffe, in a September 25, 2013 letter to the Korean Community of Virginia, expresses support for using both names—East Sea and Sea of Japan—when labeling the body of water in Virginia school textbooks. He commits to ensuring accurate historical and geographical education as Governor and pledges to support legislation, such as that introduced by Senator Dave Marsden in 2012, to implement this dual naming in newly purchased or downloaded textbooks."
+    }
+  ],
+  "processingMs": 4420,
+  "totalMs": 14699,
+  "deleted": true,
+  "summary": "Page 1: Terry McAuliffe, in a September 25, 2013 letter to the Korean Community of Virginia, expresses support for using both names—East Sea and Sea of Japan—when labeling the body of water in Virginia school textbooks. He commits to ensuring accurate historical and geographical education as Governor and pledges to support legislation, such as that introduced by Senator Dave Marsden in 2012, to implement this dual naming in newly purchased or downloaded textbooks."
+}

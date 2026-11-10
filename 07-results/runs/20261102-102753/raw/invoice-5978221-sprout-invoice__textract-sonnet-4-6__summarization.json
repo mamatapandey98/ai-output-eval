@@ -1,0 +1,25 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "textract-sonnet-4-6",
+  "job": "summarization",
+  "pipelineId": 167,
+  "taskId": 109,
+  "outcome": "completed",
+  "status": "completed",
+  "timings": {
+    "startedAt": "2026-11-02T10:27:57.020Z",
+    "uploadedAt": "2026-11-02T10:28:01.406Z",
+    "executedAt": "2026-11-02T10:28:02.340Z",
+    "finishedAt": "2026-11-02T10:28:14.140Z"
+  },
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This is an invoice (#1102092) from Sprout Social, dated September 28, 2018, billed to Alexa Popplewell of the Santa Rosa Police Department. It covers an Annual Premium Plan for the period September 28, 2018 – September 28, 2019, totaling $1,188.00 USD. The invoice was fully paid on October 1, 2018, via Visa, leaving an amount due of $0.00."
+    }
+  ],
+  "failedRemarks": null,
+  "error": null,
+  "processingMs": 11800,
+  "deleted": true
+}

@@ -1,0 +1,1307 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Workspace foundations */
+:root {
+  --ink: #263830;
+  --muted: #748078;
+  --line: #e2e7e3;
+  --accent: #286348;
+}
+body {
+  margin: 0;
+  background: #f7f8f6;
+  color: var(--ink);
+}
+button,
+a,
+input,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #438264;
+  outline-offset: 3px;
+}
+.annotation-studio {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 13px;
+}
+.studio-header {
+  height: 68px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 26px;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  gap: 20px;
+}
+.studio-brand,
+.header-actions,
+.export-actions,
+.review-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.studio-brand strong {
+  font-size: 18px;
+  letter-spacing: -0.7px;
+  font-weight: 650;
+}
+.brand-mark {
+  background: #eaf1eb;
+  color: #286348;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+}
+.header-divider {
+  height: 19px;
+  width: 1px;
+  background: var(--line);
+  margin: 0 5px;
+}
+.workspace-name {
+  color: #7b847f;
+  font-size: 12px;
+}
+.save-state {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+  color: #6c776f;
+  padding: 8px;
+}
+.status-dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: #3e8b61;
+}
+.status-dot.unsaved,
+.status-dot.saving {
+  background: #bc8530;
+}
+.export-actions {
+  gap: 0;
+  border: 1px solid #dce2dc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.export-actions button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 550;
+}
+.export-actions button + button {
+  border-left: 1px solid var(--line);
+}
+.export-actions button:hover {
+  background: #f4f6f3;
+}
+.studio-workspace {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+.document-queue {
+  width: 250px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--line);
+  background: #f9faf8;
+}
+.queue-heading {
+  padding: 26px 20px 18px;
+}
+.eyebrow {
+  font-size: 9px;
+  font-weight: 650;
+  letter-spacing: 1.4px;
+  color: #7b887e;
+}
+.queue-heading > div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 9px;
+}
+.queue-heading h2 {
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+.count-badge {
+  font-size: 10px;
+  background: #e9eee8;
+  color: #667366;
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+.queue-heading p {
+  font-size: 11px;
+  color: #818a82;
+  margin-top: 6px;
+}
+.queue-search {
+  margin: 0 16px 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #e0e5de;
+  background: #fff;
+  border-radius: 6px;
+  padding: 9px;
+  color: #859087;
+}
+.queue-search input {
+  min-width: 0;
+  width: 100%;
+  outline: none;
+  font-size: 11px;
+  background: transparent;
+}
+.queue-search:focus-within {
+  border-color: #438264;
+}
+.queue-list {
+  overflow-y: auto;
+  flex: 1;
+  padding: 0 10px 20px;
+}
+.queue-category {
+  margin-bottom: 17px;
+}
+.category-heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 11px;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  font-weight: 650;
+  color: #7b857c;
+}
+.category-heading span + span {
+  letter-spacing: 0;
+  font-weight: 400;
+}
+.queue-document {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  width: 100%;
+  text-align: left;
+  border-radius: 5px;
+  padding: 11px 10px;
+  color: #869087;
+  margin: 2px 0;
+  border: 1px solid transparent;
+}
+.queue-document:hover {
+  background: #eef1ec;
+}
+.queue-document.active {
+  background: #e8efe7;
+  color: #356044;
+  border-color: #dce7da;
+}
+.queue-document svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.queue-document > span:nth-child(2) {
+  min-width: 0;
+  flex: 1;
+}
+.queue-document strong {
+  display: block;
+  font-size: 11px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #48554a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.queue-document.active strong {
+  color: #264f35;
+}
+.queue-document small {
+  display: block;
+  font-size: 10px;
+  margin-top: 3px;
+  color: #929a91;
+}
+.document-number {
+  font-size: 9px;
+  padding-top: 3px;
+  color: #9ba396;
+}
+.complete-icon {
+  color: #3d8658;
+}
+.queue-progress {
+  padding: 19px 20px;
+  border-top: 1px solid var(--line);
+}
+.queue-progress > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+.queue-progress strong {
+  color: #3c6b49;
+}
+.progress-track {
+  height: 4px;
+  background: #e5eae2;
+  margin: 11px 0 9px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.progress-track > div {
+  height: 100%;
+  background: #4a7953;
+  transition: width 0.2s;
+}
+.queue-progress p {
+  color: #8b9589;
+  font-size: 10px;
+}
+.empty-search {
+  padding: 20px 10px;
+  font-size: 12px;
+  color: #7b857c;
+}
+.review-workspace {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+.review-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 83px;
+  gap: 16px;
+  padding: 16px 25px;
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+.review-toolbar h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.toolbar-slash {
+  margin: 0 11px;
+  color: #c9d0c8;
+  font-weight: 400;
+}
+.document-position {
+  font-size: 11px;
+  color: #879083;
+  font-weight: 400;
+}
+.review-actions {
+  gap: 8px;
+}
+.review-actions button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 10px;
+  border: 1px solid #e1e6de;
+  border-radius: 5px;
+  font-size: 11px;
+  color: #6c776a;
+}
+.review-actions button:hover {
+  background: #f3f6f1;
+}
+.review-columns {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+.pdf-panel {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 15px 18px 18px;
+  background: #edf0eb;
+  border-right: 1px solid var(--line);
+}
+.pdf-panel > div:first-child {
+  padding: 0 2px;
+  margin-bottom: 11px;
+}
+.pdf-page-preview {
+  border-radius: 3px;
+  border-color: #dce1d9;
+  box-shadow: 0 2px 7px #24322109;
+}
+.annotation-panel {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  flex-shrink: 0;
+  min-height: 0;
+  background: white;
+}
+.annotation-heading {
+  min-height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 24px;
+  gap: 12px;
+  border-bottom: 1px solid #edf0eb;
+}
+.annotation-heading > div > span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2c3d30;
+}
+.annotation-heading p {
+  font-size: 10px;
+  margin-top: 5px;
+  color: #929b8e;
+}
+.annotation-heading button {
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 6px 9px;
+  white-space: nowrap;
+}
+.annotation-form {
+  padding: 24px;
+}
+.section-title {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #354332;
+}
+.annotation-field {
+  padding: 4px 0;
+}
+.annotation-field label {
+  font-size: 11px;
+  color: #59634f;
+}
+.annotation-field > div:first-child > div > span {
+  display: none;
+}
+.annotation-field input.extraction-input {
+  height: 37px;
+  font-size: 12px;
+  padding-right: 30px;
+  border-color: #dee4d9;
+  background: #fcfdfb;
+  border-radius: 5px;
+}
+.annotation-field input:focus {
+  border-color: #6f946b;
+  background: white;
+}
+.annotation-form textarea {
+  font-size: 12px;
+  min-height: 135px;
+  background: #fcfdfb;
+  border-color: #dee4d9;
+  border-radius: 5px;
+}
+.annotation-panel > div:last-child {
+  padding: 0 22px;
+  gap: 10px;
+  height: 66px;
+}
+.annotation-panel > div:last-child button {
+  border-radius: 5px;
+  font-size: 11px;
+}
+.annotation-panel > div:last-child button:last-child {
+  background: #315c40;
+}
+.annotation-panel > div:last-child > div {
+  display: none;
+}
+@media (min-width: 1600px) {
+  .annotation-panel {
+    width: 460px;
+  }
+  .document-queue {
+    width: 270px;
+  }
+}
+@media (max-width: 1150px) {
+  .document-queue {
+    width: 210px;
+  }
+  .annotation-panel {
+    width: 365px;
+  }
+  .workspace-name,
+  .header-divider {
+    display: none;
+  }
+  .review-toolbar {
+    padding: 16px 18px;
+  }
+  .annotation-form {
+    padding: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .document-queue {
+    width: 185px;
+  }
+  .review-columns {
+    overflow-y: auto;
+    flex-direction: column;
+  }
+  .pdf-panel {
+    flex: none;
+    min-height: 500px;
+  }
+  .annotation-panel {
+    width: 100%;
+    overflow: visible;
+  }
+  .annotation-form {
+    overflow: visible;
+  }
+  .annotation-heading {
+    min-height: 70px;
+  }
+  .review-actions button {
+    font-size: 0;
+    gap: 0;
+  }
+  .review-actions button svg {
+    width: 16px;
+  }
+  .save-state {
+    font-size: 10px;
+  }
+  .review-toolbar {
+    min-height: 76px;
+  }
+}
+@media (max-width: 600px) {
+  .document-queue {
+    width: 135px;
+  }
+  .queue-heading {
+    padding: 20px 12px 14px;
+  }
+  .queue-heading h2 {
+    font-size: 16px;
+  }
+  .queue-heading p,
+  .queue-heading .eyebrow,
+  .document-number,
+  .workspace-name,
+  .save-state {
+    display: none;
+  }
+  .queue-search {
+    margin: 0 8px 12px;
+  }
+  .queue-list {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .queue-document {
+    gap: 5px;
+    padding: 10px 5px;
+  }
+  .queue-document svg {
+    width: 13px;
+  }
+  .queue-progress {
+    padding: 14px 10px;
+  }
+  .studio-header {
+    padding: 0 14px;
+    height: 60px;
+  }
+  .studio-brand {
+    gap: 7px;
+  }
+  .studio-brand strong {
+    font-size: 15px;
+  }
+  .export-actions button {
+    padding: 7px;
+    font-size: 10px;
+  }
+  .export-actions svg {
+    display: none;
+  }
+  .review-toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 14px;
+  }
+  .document-position {
+    display: block;
+    margin-top: 3px;
+  }
+  .toolbar-slash {
+    display: none;
+  }
+  .annotation-heading {
+    padding: 14px;
+    flex-wrap: wrap;
+  }
+  .annotation-form {
+    padding: 16px;
+  }
+  .pdf-panel {
+    padding: 10px;
+    min-height: 430px;
+  }
+  .pdf-panel > div:first-child > div:first-child > span:first-child {
+    display: none;
+  }
+  .pdf-panel a span {
+    display: none;
+  }
+}
+
+.pdf-page-control {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #69766c;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.pdf-page-control button {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #dce3dc;
+  border-radius: 4px;
+  background: #fff;
+  color: #405247;
+  font-size: 16px;
+  line-height: 1;
+}
+.pdf-page-control button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.pdf-page-control select {
+  height: 24px;
+  min-width: 42px;
+  padding: 0 4px;
+  border: 1px solid #dce3dc;
+  border-radius: 4px;
+  background: #fff;
+  color: #324238;
+  font-size: 10px;
+}
+.pdf-page-preview {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.pdf-page-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 1100px;
+  background: white;
+}
+.preview-fallback {
+  padding: 24px;
+  color: #647066;
+  font-size: 12px;
+}
+.preview-fallback a {
+  color: #286348;
+  text-decoration: underline;
+}
+.preview-fallback button {
+  color: #286348;
+  text-decoration: underline;
+}
+.pdf-page-footer {
+  min-height: 38px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 2px 0;
+  color: #869187;
+}
+.pdf-page-hint {
+  font-size: 10px;
+}
+.page-classification {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #e8ede7;
+}
+.page-classification-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.page-classification-heading p {
+  margin-top: 3px;
+  color: #879187;
+  font-size: 10px;
+  line-height: 1.45;
+}
+.page-reviewed {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background: #edf4ee;
+  color: #3f714b;
+  font-size: 9px;
+  white-space: nowrap;
+}
+.page-classification > label {
+  display: block;
+  margin-bottom: 5px;
+  color: #59634f;
+  font-size: 11px;
+}
+.page-classification > select,
+.page-classification > textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #dee4d9;
+  border-radius: 5px;
+  background: #fcfdfb;
+  color: #344237;
+  font-size: 11px;
+}
+.page-classification > select {
+  height: 35px;
+  padding: 0 9px;
+}
+.page-classification > textarea {
+  min-height: 56px;
+  margin-top: 8px;
+  padding: 8px 9px;
+  resize: vertical;
+}
+.page-classification > select:focus,
+.page-classification > textarea:focus {
+  outline: 2px solid #438264;
+  outline-offset: 1px;
+}
+.page-review-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 9px;
+  padding: 6px 8px;
+  border: 1px solid #dce4dc;
+  border-radius: 5px;
+  color: #536357;
+  font-size: 10px;
+}
+.page-review-toggle:hover {
+  background: #f5f7f4;
+}
+.page-review-toggle.is-reviewed {
+  border-color: #c6ddca;
+  background: #edf4ee;
+  color: #3f714b;
+}
+.page-review-toggle:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+.workflow-tabs {
+  min-height: 46px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: stretch;
+  gap: 3px;
+  padding: 0 20px;
+  border-bottom: 1px solid #edf0eb;
+  background: #fff;
+}
+.workflow-tabs > button {
+  padding: 0 12px;
+  border-bottom: 2px solid transparent;
+  color: #7b857d;
+  font-size: 11px;
+}
+.workflow-tabs > button.active {
+  border-bottom-color: #3d7954;
+  color: #2c6040;
+  font-weight: 600;
+}
+.workflow-tabs > button:hover {
+  color: #315c40;
+}
+.workflow-tabs > .workflow-export {
+  margin-left: auto;
+  padding: 0 6px;
+  color: #4d6c57;
+  font-size: 10px;
+}
+.queue-selection-summary {
+  color: #416d50 !important;
+  font-weight: 600;
+}
+.pdf-page-control input {
+  width: 58px;
+  height: 25px;
+  padding: 0 5px;
+  border: 1px solid #dce3dc;
+  border-radius: 4px;
+  background: white;
+  color: #324238;
+  font-size: 10px;
+}
+.pdf-page-control input:disabled {
+  opacity: 0.45;
+}
+.pdf-page-hint {
+  font-size: 10px;
+}
+.document-classification-heading,
+.workflow-section-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.document-classification-heading p,
+.workflow-section-heading p {
+  margin-top: 3px;
+  color: #879187;
+  font-size: 10px;
+  line-height: 1.45;
+}
+.classification-suggestion {
+  display: inline-block;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background: #f1f4f0;
+  color: #7c8c7d;
+  font-size: 9px;
+  white-space: nowrap;
+}
+.document-classification > label,
+.single-page-classification > label {
+  display: block;
+  margin: 12px 0 5px;
+  color: #59634f;
+  font-size: 11px;
+}
+.document-classification select,
+.single-page-classification select {
+  width: 100%;
+  height: 35px;
+  padding: 0 9px;
+  border: 1px solid #dee4d9;
+  border-radius: 5px;
+  background: #fcfdfb;
+  color: #344237;
+  font-size: 11px;
+}
+.whole-document-classification {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.whole-document-classification select {
+  flex: 1;
+  min-width: 0;
+}
+.whole-document-classification button,
+.range-editor > button,
+.add-page-extraction-field button {
+  flex-shrink: 0;
+  padding: 8px 9px;
+  border: 1px solid #d6e2d6;
+  border-radius: 5px;
+  color: #386346;
+  font-size: 10px;
+}
+.whole-document-classification button:hover,
+.range-editor > button:hover,
+.add-page-extraction-field button:hover {
+  background: #f0f5ef;
+}
+.whole-document-classification button:disabled,
+.range-editor > button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.classification-ranges {
+  margin-top: 20px;
+  border-top: 1px solid #e8ede7;
+}
+.classification-ranges-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0 8px;
+  color: #445347;
+  font-size: 11px;
+}
+.classification-ranges-heading button {
+  color: #456d50;
+  font-size: 10px;
+}
+.classification-range-list {
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid #e7ebe5;
+  border-radius: 5px;
+}
+.classification-range {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #edf0eb;
+  color: #758077;
+  font-size: 10px;
+  text-align: left;
+}
+.classification-range:last-child {
+  border-bottom: 0;
+}
+.classification-range strong {
+  color: #405846;
+  font-size: 10px;
+  font-weight: 550;
+}
+.classification-range:hover {
+  background: #f6f8f5;
+}
+.classification-range.selected {
+  background: #eef4ed;
+  color: #386346;
+}
+.classification-empty {
+  padding: 11px;
+  color: #929a92;
+  font-size: 10px;
+}
+.single-page-classification {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid #edf0eb;
+}
+.single-page-classification > textarea {
+  width: 100%;
+  min-height: 56px;
+  margin-top: 8px;
+  padding: 8px 9px;
+  resize: vertical;
+  border: 1px solid #dee4d9;
+  border-radius: 5px;
+  background: #fcfdfb;
+  color: #344237;
+  font-size: 11px;
+}
+.page-review-toggle:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+.range-editor {
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid #e5ebe4;
+  border-radius: 6px;
+  background: #fafbf9;
+}
+.range-editor > p {
+  margin-bottom: 10px;
+  color: #748078;
+  font-size: 10px;
+  line-height: 1.45;
+}
+.range-editor-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 9px;
+}
+.range-editor-fields label {
+  color: #667269;
+  font-size: 10px;
+}
+.range-editor-fields input,
+.range-editor-fields select {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-top: 4px;
+  padding: 0 7px;
+  border: 1px solid #dce4da;
+  border-radius: 4px;
+  background: white;
+  color: #324238;
+  font-size: 11px;
+}
+.page-extraction-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.page-extraction-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 5px 8px;
+}
+.page-extraction-row label {
+  grid-column: 1 / -1;
+  overflow-wrap: anywhere;
+  color: #4e5f51;
+  font-size: 12px;
+  font-weight: 550;
+  text-transform: capitalize;
+}
+.page-extraction-row input,
+.add-page-extraction-field input {
+  min-width: 0;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid #dee4d9;
+  border-radius: 5px;
+  background: #fcfdfb;
+  color: #344237;
+  font-size: 12px;
+}
+.page-extraction-row > button {
+  color: #8a958c;
+  font-size: 10px;
+}
+.page-extraction-row > button:hover {
+  color: #a54c45;
+}
+.add-page-extraction-field {
+  display: flex;
+  gap: 7px;
+  margin-top: 6px;
+}
+.add-page-extraction-field input {
+  flex: 1;
+}
+.page-summary-section > textarea {
+  display: block;
+  width: 100%;
+  min-height: 200px;
+  padding: 11px;
+  resize: vertical;
+  border: 1px solid #dee4d9;
+  border-radius: 5px;
+  background: #fcfdfb;
+  color: #344237;
+  font-size: 12px;
+  line-height: 1.55;
+}
+.summary-word-count {
+  display: block;
+  margin-top: 6px;
+  color: #929a92;
+  font-size: 10px;
+  text-align: right;
+}
+.legacy-reference {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid #e8ede7;
+  color: #707c72;
+  font-size: 10px;
+}
+.legacy-reference summary {
+  color: #536458;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 550;
+}
+.legacy-reference > p {
+  margin-top: 8px;
+  line-height: 1.5;
+}
+.legacy-reference dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7px;
+  margin-top: 10px;
+}
+.legacy-reference dl div {
+  min-width: 0;
+}
+.legacy-reference dt {
+  color: #849087;
+  font-size: 9px;
+}
+.legacy-reference dd {
+  margin-top: 2px;
+  overflow-wrap: anywhere;
+  color: #4e5b50;
+  font-size: 10px;
+}
+.legacy-reference h4 {
+  margin-top: 12px;
+  color: #59634f;
+  font-size: 10px;
+  font-weight: 600;
+}
+.picker-file-meta {
+  display: block;
+  margin-top: 3px;
+  color: #89948b;
+  font-size: 9px;
+}
+.queue-document-meta {
+  flex-shrink: 0;
+  align-self: center;
+  color: #667364;
+  background: #f2f5f0;
+  border: 1px solid #e5eae2;
+  border-radius: 4px;
+  padding: 3px 5px;
+  font-size: 9px;
+  white-space: nowrap;
+}
+.queue-document.active .queue-document-meta {
+  color: #315c40;
+  background: #f4f8f2;
+  border-color: #dce7da;
+}
+.pdf-page-title {
+  flex-shrink: 0;
+  color: #58685b;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+@media (max-width: 600px) {
+  .workflow-tabs {
+    padding: 0 10px;
+  }
+  .workflow-tabs > button {
+    padding: 0 8px;
+  }
+  .workflow-tabs > .workflow-export {
+    font-size: 9px;
+  }
+  .pdf-page-footer {
+    gap: 8px;
+  }
+  .pdf-page-hint {
+    display: none;
+  }
+}
+
+/* Review workspace legibility and touch refinement */
+.annotation-studio {
+  font-size: 14px;
+}
+.studio-header {
+  box-shadow: 0 1px 2px rgba(25, 48, 32, 0.035);
+}
+.queue-heading h2 {
+  font-size: 20px;
+}
+.queue-document {
+  min-height: 58px;
+  padding: 12px 10px;
+}
+.queue-document strong {
+  font-size: 12px;
+}
+.queue-document small,
+.queue-progress p,
+.queue-heading p {
+  font-size: 11px;
+}
+.review-toolbar h2 {
+  font-size: 18px;
+}
+.review-actions button,
+.export-actions button {
+  min-height: 34px;
+  font-size: 12px;
+}
+.annotation-heading > div > span {
+  font-size: 16px;
+}
+.annotation-heading p,
+.document-classification-heading p,
+.workflow-section-heading p {
+  font-size: 11px;
+  line-height: 1.5;
+}
+.workflow-tabs > button {
+  font-size: 12px;
+  font-weight: 550;
+}
+.workflow-tabs > button.active {
+  color: #245438;
+  border-bottom-width: 3px;
+}
+.annotation-field label,
+.document-classification > label,
+.single-page-classification > label,
+.page-classification > label {
+  font-size: 12px;
+  font-weight: 550;
+}
+.annotation-field input.extraction-input,
+.document-classification select,
+.single-page-classification select,
+.page-classification > select,
+.page-extraction-row input,
+.add-page-extraction-field input {
+  min-height: 40px;
+  font-size: 13px;
+}
+.page-review-toggle,
+.whole-document-classification button,
+.range-editor > button,
+.add-page-extraction-field button {
+  min-height: 34px;
+  font-size: 11px;
+}
+.pdf-page-control button {
+  width: 30px;
+  height: 30px;
+}
+.pdf-page-control input {
+  height: 30px;
+  font-size: 12px;
+}
+::selection {
+  background: #c9e2cf;
+  color: #1c3c28;
+}
+@media (max-width: 700px) {
+  .annotation-studio {
+    overflow: auto;
+    min-height: 100dvh;
+    height: auto;
+  }
+  .studio-workspace {
+    flex-direction: column;
+    min-height: 0;
+  }
+  .document-queue {
+    width: 100%;
+    max-height: 240px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .queue-heading {
+    padding: 14px 16px 8px;
+  }
+  .queue-heading h2 {
+    font-size: 17px;
+  }
+  .queue-heading .eyebrow {
+    display: none;
+  }
+  .queue-heading p.queue-selection-summary {
+    display: block;
+    margin-top: 2px;
+  }
+  .queue-search {
+    margin: 4px 14px 8px;
+  }
+  .queue-list {
+    padding: 0 10px 10px;
+  }
+  .queue-progress {
+    display: none;
+  }
+  .review-workspace {
+    min-height: 0;
+  }
+  .review-columns {
+    overflow: visible;
+  }
+  .pdf-panel {
+    min-height: 470px;
+  }
+  .annotation-panel {
+    min-height: 500px;
+  }
+  .annotation-panel > div:last-child {
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    border-top: 1px solid var(--line);
+    z-index: 2;
+  }
+  .review-actions button {
+    font-size: 11px;
+    gap: 5px;
+  }
+}

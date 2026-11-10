@@ -1,0 +1,42 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-haiku-4-5",
+  "job": "classification",
+  "taskId": 162,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:18:09.875Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:18:11.213Z",
+  "configuredAt": "2026-11-02T11:18:18.177Z",
+  "executedAt": "2026-11-02T11:18:19.444Z",
+  "lastPolledAt": "2026-11-02T11:18:23.074Z",
+  "finishedAt": "2026-11-02T11:18:23.074Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "budget"
+    }
+  ],
+  "classification": {
+    "label": "budget",
+    "pages": [
+      {
+        "page": 1,
+        "label": "budget"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 3630,
+  "totalMs": 13199,
+  "deleted": true
+}

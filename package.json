@@ -1,0 +1,45 @@
+{
+  "name": "ai-output-eval",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An end-to-end method for evaluating AI document-processing output against human ground truth: annotation, screening, running pipeline variants, deterministic scoring, an LLM judge, reporting and results. Worked example: choosing a DocWeaver model setup.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.15"
+  },
+  "bin": {
+    "llmjudge": "bin/llmjudge.mjs"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run lint && npm run format:check",
+    "preflight": "node bin/llmjudge.mjs preflight",
+    "pipelines": "node bin/llmjudge.mjs pipelines",
+    "run": "node bin/llmjudge.mjs run",
+    "run:guarded": "node bin/llmjudge-guarded.mjs",
+    "run:vlm30": "node bin/llmjudge-vlm-30.mjs",
+    "status:vlm30": "node bin/llmjudge-vlm-status.mjs",
+    "status:guarded": "node bin/llmjudge-status.mjs",
+    "score": "node bin/llmjudge.mjs score",
+    "report": "node bin/llmjudge.mjs report",
+    "report:workbook": "python3 06-reporting/build_workbook.py",
+    "all": "node bin/llmjudge.mjs all",
+    "screen": "node bin/llmjudge.mjs screen",
+    "difficulty": "python3 02-document-screening/difficulty.py",
+    "cleanup": "node bin/llmjudge.mjs cleanup"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@huggingface/transformers": "^4.3.2",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.13.0",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10"
+  },
+  "author": "mamatapandey98"
+}

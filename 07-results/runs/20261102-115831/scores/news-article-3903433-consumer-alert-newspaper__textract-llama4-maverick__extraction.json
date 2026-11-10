@@ -1,0 +1,111 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 0.537,
+  "matchRate": 0.4,
+  "counts": {
+    "match": 2,
+    "partial": 1,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 1,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 2,
+    "partial": 1,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 1,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Headline / Title",
+      "expected": "Conservative Consumer Ideas Floated: Coalition Calls for Less Regulation",
+      "predicted": "Coalition Calls for Less Regulation",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Coalition Calls for Less Regulation"
+        }
+      ],
+      "confidence": 0.646,
+      "verdict": "partial",
+      "method": "lexical-only",
+      "word": 0.714,
+      "char": 0.486,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Author / Byline",
+      "expected": "Warren Brown",
+      "predicted": "By Warren Brown",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "By Warren Brown"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "byline-format",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Publication Date",
+      "expected": "",
+      "predicted": "4-29-89",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "4-29-89"
+        }
+      ],
+      "confidence": 0,
+      "verdict": "hallucinated",
+      "method": "empty",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Publication Source / Organization",
+      "expected": "The Washington Post",
+      "predicted": "Washington Post",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Washington Post"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "publication-article",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Primary Subject / Topic",
+      "expected": "A conservative coalition’s proposals to reduce consumer regulation",
+      "predicted": "Consumerism",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Consumerism"
+        }
+      ],
+      "confidence": 0.041,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0,
+      "char": 0.136,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value"
+    }
+  ],
+  "resultPages": 1
+}

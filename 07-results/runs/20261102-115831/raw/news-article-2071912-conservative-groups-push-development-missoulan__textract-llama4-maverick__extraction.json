@@ -1,0 +1,116 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "taskId": 228,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:11:08.639Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:11:09.932Z",
+  "configuredAt": "2026-11-02T12:11:23.129Z",
+  "executedAt": "2026-11-02T12:11:23.485Z",
+  "lastPolledAt": "2026-11-02T12:11:32.220Z",
+  "finishedAt": "2026-11-02T12:11:32.220Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "headline__title": "Conservative groups push development",
+      "author__byline": "DICK MANNING",
+      "publication_date": "",
+      "publication_source__organization": "the Missoulian",
+      "primary_subject__topic": "Conservative groups push development"
+    },
+    {
+      "pg_no": 2,
+      "headline__title": "",
+      "author__byline": "",
+      "publication_date": "",
+      "publication_source__organization": "",
+      "primary_subject__topic": ""
+    }
+  ],
+  "extraction": {
+    "Headline / Title": {
+      "value": "Conservative groups push development",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Conservative groups push development"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Author / Byline": {
+      "value": "DICK MANNING",
+      "pages": [
+        {
+          "page": 1,
+          "value": "DICK MANNING"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Publication Date": {
+      "value": null,
+      "pages": [
+        {
+          "page": 1,
+          "value": ""
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Publication Source / Organization": {
+      "value": "the Missoulian",
+      "pages": [
+        {
+          "page": 1,
+          "value": "the Missoulian"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Primary Subject / Topic": {
+      "value": "Conservative groups push development",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Conservative groups push development"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Headline / Title",
+      "Author / Byline",
+      "Publication Date",
+      "Publication Source / Organization",
+      "Primary Subject / Topic"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 8735,
+  "totalMs": 23581,
+  "deleted": true
+}

@@ -1,0 +1,30 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "taskId": 129,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:51:47.842Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:51:49.178Z",
+  "configuredAt": "2026-11-02T10:51:58.252Z",
+  "executedAt": "2026-11-02T10:51:58.659Z",
+  "lastPolledAt": "2026-11-02T10:52:09.922Z",
+  "finishedAt": "2026-11-02T10:52:09.922Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The document discusses the \"wise-use\" movement, a coalition of approximately 200 pro-development groups that emerged from earlier land-use battles like the Sagebrush Rebellion and James Watt's Mountain States Legal Foundation. The coalition includes groups such as Communities for a Great Northwest in western Montana and Rep. Ron Marlenee's Montana PLUS. A notable aspect is the movement's ties to a group partially funded by Rev. Sun Myung Moon's Unification Church, though movement leaders, including key player Ron Arnold, deny any influence from the controversial religious cult. The movement's members describe themselves as \"new environmentalists\" dedicated to responsible ecological care of natural resources and believe their approach represents the right path for the future."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": ""
+    }
+  ],
+  "processingMs": 11263,
+  "totalMs": 22080,
+  "deleted": true,
+  "summary": "Page 1: The document discusses the \"wise-use\" movement, a coalition of approximately 200 pro-development groups that emerged from earlier land-use battles like the Sagebrush Rebellion and James Watt's Mountain States Legal Foundation. The coalition includes groups such as Communities for a Great Northwest in western Montana and Rep. Ron Marlenee's Montana PLUS. A notable aspect is the movement's ties to a group partially funded by Rev. Sun Myung Moon's Unification Church, though movement leaders, including key player Ron Arnold, deny any influence from the controversial religious cult. The movement's members describe themselves as \"new environmentalists\" dedicated to responsible ecological care of natural resources and believe their approach represents the right path for the future.\n\nPage 2: "
+}

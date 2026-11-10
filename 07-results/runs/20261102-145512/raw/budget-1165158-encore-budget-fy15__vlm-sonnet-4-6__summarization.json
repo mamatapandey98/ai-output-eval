@@ -1,0 +1,27 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 259,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T14:55:18.435Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T14:55:18.793Z",
+  "configuredAt": "2026-11-02T14:55:24.226Z",
+  "executedAt": "2026-11-02T14:55:24.622Z",
+  "lastPolledAt": "2026-11-02T14:56:09.358Z",
+  "finishedAt": "2026-11-02T14:56:09.358Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The document presents Encore Academy's FY15 Budgeted Profit and Loss for the 2014-2015 school year. Total revenue of $4,746,466 was sourced from Base Funding ($3,996,048), Federal Entitlement Funding ($538,427), and State & Local Funding ($211,991). Total expenses equaled the same amount, broken down into Salaries & Benefits ($2,315,587), Other Than Personnel costs ($2,046,869) — including rent, transportation, food service, and consultants — and Non-Operating expenses ($384,000). The budget resulted in a net surplus/deficit of $0, indicating a perfectly balanced budget."
+    }
+  ],
+  "summary": "Page 1: The document presents Encore Academy's FY15 Budgeted Profit and Loss for the 2014-2015 school year. Total revenue of $4,746,466 was sourced from Base Funding ($3,996,048), Federal Entitlement Funding ($538,427), and State & Local Funding ($211,991). Total expenses equaled the same amount, broken down into Salaries & Benefits ($2,315,587), Other Than Personnel costs ($2,046,869) — including rent, transportation, food service, and consultants — and Non-Operating expenses ($384,000). The budget resulted in a net surplus/deficit of $0, indicating a perfectly balanced budget.",
+  "outputValid": true,
+  "processingMs": 44736,
+  "totalMs": 50923,
+  "deleted": true
+}

@@ -1,0 +1,144 @@
+{
+  "documentId": "budget-1165040-singleton-budget",
+  "variantId": "textract-qwen3-32b",
+  "job": "extraction",
+  "taskId": 214,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:01:38.446Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:01:39.942Z",
+  "configuredAt": "2026-11-02T12:01:49.261Z",
+  "executedAt": "2026-11-02T12:01:49.617Z",
+  "lastPolledAt": "2026-11-02T12:01:55.320Z",
+  "finishedAt": "2026-11-02T12:01:55.320Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "fiscal_year__period": "2014-15",
+      "organization__department_name": "VAMED IVI. CINOLETON CRARTEN",
+      "total_budget__revenue": "5,461,160.00",
+      "total_expenditure__costs": "995,359.00",
+      "net_balance__surplus__deficit": "4,465,801.00"
+    },
+    {
+      "pg_no": 2,
+      "fiscal_year__period": "2014-15",
+      "organization__department_name": "JAMES M. SINGLETON CHARTER SCHOOL",
+      "total_budget__revenue": "Not explicitly stated",
+      "total_expenditure__costs": "5,461,160.00",
+      "net_balance__surplus__deficit": "Not explicitly stated"
+    },
+    {
+      "pg_no": 3,
+      "fiscal_year__period": "2012-2013",
+      "organization__department_name": "James Singleton Charter School Program",
+      "total_budget__revenue": null,
+      "total_expenditure__costs": null,
+      "net_balance__surplus__deficit": null
+    }
+  ],
+  "extraction": {
+    "Fiscal Year / Period": {
+      "value": "2014-15",
+      "pages": [
+        {
+          "page": 1,
+          "value": "2014-15"
+        },
+        {
+          "page": 2,
+          "value": "2014-15"
+        },
+        {
+          "page": 3,
+          "value": "2012-2013"
+        }
+      ]
+    },
+    "Organization / Department Name": {
+      "value": "VAMED IVI. CINOLETON CRARTEN",
+      "pages": [
+        {
+          "page": 1,
+          "value": "VAMED IVI. CINOLETON CRARTEN"
+        },
+        {
+          "page": 2,
+          "value": "JAMES M. SINGLETON CHARTER SCHOOL"
+        },
+        {
+          "page": 3,
+          "value": "James Singleton Charter School Program"
+        }
+      ]
+    },
+    "Total Budget / Revenue": {
+      "value": "5,461,160.00",
+      "pages": [
+        {
+          "page": 1,
+          "value": "5,461,160.00"
+        },
+        {
+          "page": 2,
+          "value": "Not explicitly stated"
+        },
+        {
+          "page": 3,
+          "value": null
+        }
+      ]
+    },
+    "Total Expenditure / Costs": {
+      "value": "995,359.00",
+      "pages": [
+        {
+          "page": 1,
+          "value": "995,359.00"
+        },
+        {
+          "page": 2,
+          "value": "5,461,160.00"
+        },
+        {
+          "page": 3,
+          "value": null
+        }
+      ]
+    },
+    "Net Balance / Surplus / Deficit": {
+      "value": "4,465,801.00",
+      "pages": [
+        {
+          "page": 1,
+          "value": "4,465,801.00"
+        },
+        {
+          "page": 2,
+          "value": "Not explicitly stated"
+        },
+        {
+          "page": 3,
+          "value": null
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Fiscal Year / Period",
+      "Organization / Department Name",
+      "Total Budget / Revenue",
+      "Total Expenditure / Costs",
+      "Net Balance / Surplus / Deficit"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 5703,
+  "totalMs": 16874,
+  "deleted": true
+}

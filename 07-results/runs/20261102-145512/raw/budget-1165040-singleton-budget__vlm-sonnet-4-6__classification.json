@@ -1,0 +1,58 @@
+{
+  "documentId": "budget-1165040-singleton-budget",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "classification",
+  "taskId": 270,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:06:13.599Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:06:15.089Z",
+  "configuredAt": "2026-11-02T15:06:23.533Z",
+  "executedAt": "2026-11-02T15:06:23.894Z",
+  "lastPolledAt": "2026-11-02T15:07:01.763Z",
+  "finishedAt": "2026-11-02T15:07:01.764Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "budget"
+    },
+    {
+      "pg_no": 2,
+      "document_type": "budget"
+    },
+    {
+      "pg_no": 3,
+      "document_type": "budget"
+    }
+  ],
+  "classification": {
+    "label": "budget",
+    "pages": [
+      {
+        "page": 1,
+        "label": "budget"
+      },
+      {
+        "page": 2,
+        "label": "budget"
+      },
+      {
+        "page": 3,
+        "label": "budget"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 3,
+    "observedPageCount": 3,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 37870,
+  "totalMs": 48165,
+  "deleted": true
+}

@@ -1,0 +1,88 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "textract-haiku-4-5",
+  "job": "extraction",
+  "taskId": 252,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:26:48.748Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:26:50.245Z",
+  "configuredAt": "2026-11-02T12:26:57.619Z",
+  "executedAt": "2026-11-02T12:26:59.064Z",
+  "lastPolledAt": "2026-11-02T12:27:04.070Z",
+  "finishedAt": "2026-11-02T12:27:04.070Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "date__time": "Sat, 08 Aug 2015 13:59:56 EDT",
+      "from_sender": "Jon Entine <jon@jonentine.com>",
+      "to_recipient": "Kevin Folta <kfolta@ufl.edu>",
+      "subject": "Fwd: Curious",
+      "core_message__action_item": "Forwarded message discussing feedback on a story about Kevin Folta; Jon Entine and Keith Kloor discuss concerns about the use of \"close ties\" descriptor in the article, with Keith explaining it was added in final edits and acknowledging Kevin's fair objection to the phrase"
+    }
+  ],
+  "extraction": {
+    "Date / Time": {
+      "value": "Sat, 08 Aug 2015 13:59:56 EDT",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Sat, 08 Aug 2015 13:59:56 EDT"
+        }
+      ]
+    },
+    "From (Sender)": {
+      "value": "Jon Entine <jon@jonentine.com>",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Jon Entine <jon@jonentine.com>"
+        }
+      ]
+    },
+    "To (Recipient)": {
+      "value": "Kevin Folta <kfolta@ufl.edu>",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Kevin Folta <kfolta@ufl.edu>"
+        }
+      ]
+    },
+    "Subject": {
+      "value": "Fwd: Curious",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Fwd: Curious"
+        }
+      ]
+    },
+    "Core Message / Action Item": {
+      "value": "Forwarded message discussing feedback on a story about Kevin Folta; Jon Entine and Keith Kloor discuss concerns about the use of \"close ties\" descriptor in the article, with Keith explaining it was added in final edits and acknowledging Kevin's fair objection to the phrase",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Forwarded message discussing feedback on a story about Kevin Folta; Jon Entine and Keith Kloor discuss concerns about the use of \"close ties\" descriptor in the article, with Keith explaining it was added in final edits and acknowledging Kevin's fair objection to the phrase"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Date / Time",
+      "From (Sender)",
+      "To (Recipient)",
+      "Subject",
+      "Core Message / Action Item"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 5006,
+  "totalMs": 15322,
+  "deleted": true
+}

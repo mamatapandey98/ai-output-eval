@@ -1,0 +1,114 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-sonnet-4-5",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 0.719,
+  "matchRate": 0.4,
+  "counts": {
+    "match": 2,
+    "partial": 2,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 2,
+    "partial": 2,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Letter Date",
+      "expected": "September 25, 2013",
+      "predicted": "September 25, 2013",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "September 25, 2013"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "date-format",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Sender Name / Organization",
+      "expected": "Terry McAuliffe / McAuliffe for Governor",
+      "predicted": "Terry McAuliffe",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Terry McAuliffe"
+        }
+      ],
+      "confidence": 0.513,
+      "verdict": "partial",
+      "method": "lexical-only",
+      "word": 0.571,
+      "char": 0.375,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Recipient Name / Organization",
+      "expected": "Korean Community of Virginia",
+      "predicted": "Korean Community of Virginia",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Korean Community of Virginia"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "contact-name-or-exact-email",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Subject / Reference",
+      "expected": "Dual naming of East Sea / Sea of Japan in Virginia textbooks",
+      "predicted": "School textbooks labeling of the East Sea/Sea of Japan in Virginia's education system",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "School textbooks labeling of the East Sea/Sea of Japan in Virginia's education system"
+        }
+      ],
+      "confidence": 0.643,
+      "verdict": "partial",
+      "method": "lexical-only",
+      "word": 0.692,
+      "char": 0.529,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Main Purpose / Request",
+      "expected": "Expressing support for dual-naming the East Sea / Sea of Japan in school textbooks and committing to back legislation as Governor.",
+      "predicted": "To express support for efforts to ensure Virginia school textbooks use both names (East Sea/Sea of Japan) when labeling the body of water, and to commit to supporting legislation like that introduced by Senator Dave Marsden in 2012",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "To express support for efforts to ensure Virginia school textbooks use both names (East Sea/Sea of Japan) when labeling the body of water, and to commit to supporting legislation like that introduced by Senator Dave Marsden in 2012"
+        }
+      ],
+      "confidence": 0.437,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.467,
+      "char": 0.368,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value"
+    }
+  ],
+  "resultPages": 1
+}

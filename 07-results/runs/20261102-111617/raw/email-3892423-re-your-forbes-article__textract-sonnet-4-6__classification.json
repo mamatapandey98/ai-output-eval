@@ -1,0 +1,58 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "textract-sonnet-4-6",
+  "job": "classification",
+  "taskId": 205,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:45:43.648Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:45:45.043Z",
+  "configuredAt": "2026-11-02T11:45:52.865Z",
+  "executedAt": "2026-11-02T11:45:54.233Z",
+  "lastPolledAt": "2026-11-02T11:46:00.534Z",
+  "finishedAt": "2026-11-02T11:46:00.534Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "email"
+    },
+    {
+      "pg_no": 2,
+      "document_type": "email"
+    },
+    {
+      "pg_no": 3,
+      "document_type": "email"
+    }
+  ],
+  "classification": {
+    "label": "email",
+    "pages": [
+      {
+        "page": 1,
+        "label": "email"
+      },
+      {
+        "page": 2,
+        "label": "email"
+      },
+      {
+        "page": 3,
+        "label": "email"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 3,
+    "observedPageCount": 3,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 6301,
+  "totalMs": 16886,
+  "deleted": true
+}

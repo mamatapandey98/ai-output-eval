@@ -1,0 +1,154 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 0.849,
+  "matchRate": 0.8,
+  "counts": {
+    "match": 4,
+    "partial": 0,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 4,
+    "partial": 0,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Date / Time",
+      "expected": "Tuesday, June 13, 2017 at 2:27 PM",
+      "predicted": "Tuesday, June 13, 2017 2:27:00 PM",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Tuesday, June 13, 2017 2:27:00 PM"
+        },
+        {
+          "page": 2,
+          "value": "Tuesday, June 13, 2017 11:00 AM"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "date-time-format",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "From (Sender)",
+      "expected": "Victoria Hutter (Assistant Director - Press, National Endowment for the Arts)",
+      "predicted": "Victoria Hutter",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Victoria Hutter"
+        },
+        {
+          "page": 2,
+          "value": "Victoria Hutter <hutterv@arts.gov>"
+        },
+        {
+          "page": 3,
+          "value": "Victoria Hutter, Assistant Director - Press, Public Affairs, National Endowment for the Arts, hutterv@arts.gov, 202-682-5692 (p), 202-682-5611 (fax)"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "contact-name-or-exact-email",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "To (Recipient)",
+      "expected": "Adam Andrzejewski (CEO, OpenTheBooks / Forbes Contributor) <Adam@openthebooks.com>",
+      "predicted": "Adam@openthebooks.com",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Adam@openthebooks.com"
+        },
+        {
+          "page": 2,
+          "value": "Adam Andrzejewski"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "contact-name-or-exact-email",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Subject",
+      "expected": "RE: your Forbes article",
+      "predicted": "RE: your Forbes article",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "RE: your Forbes article"
+        },
+        {
+          "page": 2,
+          "value": "your Forbes article"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Core Message / Action Item",
+      "expected": "Correcting inaccuracies in a Forbes article regarding NEA grants to the Public Theater and providing grant transparency data.",
+      "predicted": "Victoria Hutter thanked Adam for his quick response and made additional comments regarding NEA direct grants to small and medium-sized organizations. She offered to provide additional information if needed.",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Victoria Hutter thanked Adam for his quick response and made additional comments regarding NEA direct grants to small and medium-sized organizations. She offered to provide additional information if needed."
+        },
+        {
+          "page": 2,
+          "value": "The NEA has been open about its funding of the Public Theater and provided information to reporters, sharing that no NEA funding went to the particular production of 'Julius Caesar'."
+        },
+        {
+          "page": 3,
+          "value": "The NEA declined to comment on whether the Public had applied for any grants for this summer season. The Public Theater received $25,000 this year for the New York Voices program at Joe's Pub."
+        }
+      ],
+      "confidence": 0.244,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.208,
+      "char": 0.327,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    }
+  ],
+  "resultPages": 3
+}

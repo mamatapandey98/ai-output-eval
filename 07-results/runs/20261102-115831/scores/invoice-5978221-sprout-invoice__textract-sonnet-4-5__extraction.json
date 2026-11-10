@@ -1,0 +1,106 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "textract-sonnet-4-5",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 1,
+  "matchRate": 1,
+  "counts": {
+    "match": 5,
+    "partial": 0,
+    "mismatch": 0,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 5,
+    "partial": 0,
+    "mismatch": 0,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Invoice Number",
+      "expected": "1102092",
+      "predicted": "1102092",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "1102092"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Invoice Date",
+      "expected": "Sep 28, 2018",
+      "predicted": "Sep 28, 2018",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Sep 28, 2018"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "date-format",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Vendor / Seller Name",
+      "expected": "Sprout Social",
+      "predicted": "Sprout Social",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Sprout Social"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Total Amount",
+      "expected": "$1,188.00",
+      "predicted": "$1,188.00",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "$1,188.00"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "currency-amount-format",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Due Date",
+      "expected": "Sep 28, 2018",
+      "predicted": "Sep 28, 2018",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Sep 28, 2018"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "date-format",
+      "scope": "document-first-nonempty-page-value"
+    }
+  ],
+  "resultPages": 1
+}

@@ -1,0 +1,50 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-qwen3-32b",
+  "job": "classification",
+  "taskId": 184,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:32:29.096Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:32:30.320Z",
+  "configuredAt": "2026-11-02T11:32:37.966Z",
+  "executedAt": "2026-11-02T11:32:39.209Z",
+  "lastPolledAt": "2026-11-02T11:32:43.499Z",
+  "finishedAt": "2026-11-02T11:32:43.499Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "invoice"
+    },
+    {
+      "pg_no": 2,
+      "document_type": "letter"
+    }
+  ],
+  "classification": {
+    "label": "invoice",
+    "pages": [
+      {
+        "page": 1,
+        "label": "invoice"
+      },
+      {
+        "page": 2,
+        "label": "letter"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 2,
+    "observedPageCount": 2,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 4290,
+  "totalMs": 14403,
+  "deleted": true
+}

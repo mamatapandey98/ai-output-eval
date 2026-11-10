@@ -1,0 +1,42 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-llama4-maverick",
+  "job": "classification",
+  "taskId": 163,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:18:44.824Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:18:46.232Z",
+  "configuredAt": "2026-11-02T11:18:53.502Z",
+  "executedAt": "2026-11-02T11:18:54.827Z",
+  "lastPolledAt": "2026-11-02T11:18:59.863Z",
+  "finishedAt": "2026-11-02T11:18:59.863Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "budget"
+    }
+  ],
+  "classification": {
+    "label": "budget",
+    "pages": [
+      {
+        "page": 1,
+        "label": "budget"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 5036,
+  "totalMs": 15039,
+  "deleted": true
+}

@@ -1,0 +1,42 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "textract-sonnet-4-6",
+  "job": "classification",
+  "taskId": 200,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:42:33.469Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:42:34.783Z",
+  "configuredAt": "2026-11-02T11:42:42.304Z",
+  "executedAt": "2026-11-02T11:42:43.592Z",
+  "lastPolledAt": "2026-11-02T11:42:48.711Z",
+  "finishedAt": "2026-11-02T11:42:48.711Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "email"
+    }
+  ],
+  "classification": {
+    "label": "email",
+    "pages": [
+      {
+        "page": 1,
+        "label": "email"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 5119,
+  "totalMs": 15242,
+  "deleted": true
+}

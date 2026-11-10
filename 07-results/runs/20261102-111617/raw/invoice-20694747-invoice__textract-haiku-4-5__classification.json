@@ -1,0 +1,50 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-haiku-4-5",
+  "job": "classification",
+  "taskId": 187,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:34:24.809Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:34:26.206Z",
+  "configuredAt": "2026-11-02T11:34:33.824Z",
+  "executedAt": "2026-11-02T11:34:35.079Z",
+  "lastPolledAt": "2026-11-02T11:34:38.673Z",
+  "finishedAt": "2026-11-02T11:34:38.673Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "invoice"
+    },
+    {
+      "pg_no": 2,
+      "document_type": "letter"
+    }
+  ],
+  "classification": {
+    "label": "invoice",
+    "pages": [
+      {
+        "page": 1,
+        "label": "invoice"
+      },
+      {
+        "page": 2,
+        "label": "letter"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 2,
+    "observedPageCount": 2,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 3594,
+  "totalMs": 13864,
+  "deleted": true
+}

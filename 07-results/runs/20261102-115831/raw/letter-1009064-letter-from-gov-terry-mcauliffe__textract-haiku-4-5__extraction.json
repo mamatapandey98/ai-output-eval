@@ -1,0 +1,88 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-haiku-4-5",
+  "job": "extraction",
+  "taskId": 242,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:20:12.470Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:20:13.966Z",
+  "configuredAt": "2026-11-02T12:20:21.798Z",
+  "executedAt": "2026-11-02T12:20:23.231Z",
+  "lastPolledAt": "2026-11-02T12:20:28.404Z",
+  "finishedAt": "2026-11-02T12:20:28.404Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "September 25, 2013",
+      "sender_name__organization": "Terry McAuliffe",
+      "recipient_name__organization": "Korean Community of Virginia",
+      "subject__reference": "School textbooks labeling of East Sea/Sea of Japan",
+      "main_purpose__request": "Support for efforts to ensure Virginia's school textbooks reflect accurate understanding of history and geography in East Asia by using both names, East Sea/Sea of Japan, when labeling the body of water in maps and descriptions"
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "September 25, 2013",
+      "pages": [
+        {
+          "page": 1,
+          "value": "September 25, 2013"
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Terry McAuliffe",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Terry McAuliffe"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "Korean Community of Virginia",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Korean Community of Virginia"
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": "School textbooks labeling of East Sea/Sea of Japan",
+      "pages": [
+        {
+          "page": 1,
+          "value": "School textbooks labeling of East Sea/Sea of Japan"
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "Support for efforts to ensure Virginia's school textbooks reflect accurate understanding of history and geography in East Asia by using both names, East Sea/Sea of Japan, when labeling the body of water in maps and descriptions",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Support for efforts to ensure Virginia's school textbooks reflect accurate understanding of history and geography in East Asia by using both names, East Sea/Sea of Japan, when labeling the body of water in maps and descriptions"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 5173,
+  "totalMs": 15934,
+  "deleted": true
+}

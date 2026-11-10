@@ -1,0 +1,109 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 0.859,
+  "matchRate": 0.8,
+  "counts": {
+    "match": 4,
+    "partial": 0,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 4,
+    "partial": 0,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Date / Time",
+      "expected": "Saturday, August 8, 2015 1:59:56 PM EDT",
+      "predicted": "Sat, 08 Aug 2015 13:59:56 EDT",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Sat, 08 Aug 2015 13:59:56 EDT"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "date-time-format",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "From (Sender)",
+      "expected": "Jon Entine",
+      "predicted": "Jon Entine <jon@jonentine.com>",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Jon Entine <jon@jonentine.com>"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "contact-name-or-exact-email",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "To (Recipient)",
+      "expected": "Kevin Folta",
+      "predicted": "Kevin Folta <kkfolta@ufl.edu>",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Kevin Folta <kkfolta@ufl.edu>"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "contact-name-or-exact-email",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Subject",
+      "expected": "Fwd: Curious",
+      "predicted": "Fwd: Curious",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Fwd: Curious"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value"
+    },
+    {
+      "name": "Core Message / Action Item",
+      "expected": "Entine forwards a discussion in which Keith Kloor explains and defends how a Nature story was edited and addresses an objection to its headline.",
+      "predicted": "Jon Entine forwards an email exchange with Keith Kloor to Kevin Folta. In the forwarded message, Keith Kloor responds to Jon's feedback about a story, explaining that the \"close ties\" phrase was added during final edits without his review, acknowledging Kevin Folta's objection to it as fair, and suggesting that Jon and Keith should talk since Jon appears in the emails.",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Jon Entine forwards an email exchange with Keith Kloor to Kevin Folta. In the forwarded message, Keith Kloor responds to Jon's feedback about a story, explaining that the \"close ties\" phrase was added during final edits without his review, acknowledging Kevin Folta's objection to it as fair, and suggesting that Jon and Keith should talk since Jon appears in the emails."
+        }
+      ],
+      "confidence": 0.295,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.299,
+      "char": 0.286,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value"
+    }
+  ],
+  "resultPages": 1
+}

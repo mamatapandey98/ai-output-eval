@@ -1,0 +1,26 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "taskId": 114,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:41:35.820Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:41:37.214Z",
+  "configuredAt": "2026-11-02T10:41:44.821Z",
+  "executedAt": "2026-11-02T10:41:46.169Z",
+  "lastPolledAt": "2026-11-02T10:41:58.000Z",
+  "finishedAt": "2026-11-02T10:41:58.000Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This document presents the FY15 budget for Encore Academy for the 2014-2015 school year. The total revenue is $4,746,466, primarily from base funding and federal entitlement funding ($3,996,048 and $538,427), state and local funding ($211,991), and philanthropy. Expenses are divided into two main categories: Salaries and Benefits totaling $2,315,597 (including regular education teachers at $1,149,151, benefits at $433,372, and various other educational and administrative staff), and Other Than Personnel expenses totaling $2,046,869 (covering curriculum supplies, technology, rent at $500,500, transportation at $328,340, food service at $355,562, and other operational costs). Non-operating expenses including depreciation and contingency total $384,000. The budget shows a balanced financial plan with net surplus/deficit of $0."
+    }
+  ],
+  "processingMs": 11831,
+  "totalMs": 22180,
+  "deleted": true,
+  "summary": "Page 1: This document presents the FY15 budget for Encore Academy for the 2014-2015 school year. The total revenue is $4,746,466, primarily from base funding and federal entitlement funding ($3,996,048 and $538,427), state and local funding ($211,991), and philanthropy. Expenses are divided into two main categories: Salaries and Benefits totaling $2,315,597 (including regular education teachers at $1,149,151, benefits at $433,372, and various other educational and administrative staff), and Other Than Personnel expenses totaling $2,046,869 (covering curriculum supplies, technology, rent at $500,500, transportation at $328,340, food service at $355,562, and other operational costs). Non-operating expenses including depreciation and contingency total $384,000. The budget shows a balanced financial plan with net surplus/deficit of $0."
+}

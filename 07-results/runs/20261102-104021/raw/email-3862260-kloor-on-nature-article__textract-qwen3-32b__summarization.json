@@ -1,0 +1,26 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "taskId": 149,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:04:45.393Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:04:46.685Z",
+  "configuredAt": "2026-11-02T11:04:54.063Z",
+  "executedAt": "2026-11-02T11:04:55.390Z",
+  "lastPolledAt": "2026-11-02T11:05:03.211Z",
+  "finishedAt": "2026-11-02T11:05:03.211Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Jon Entine forwards a message to Kevin Folta regarding a story's fairness and the use of the phrase 'close ties' in the headline. The story is described as fair and well-executed, though the term 'close ties' is seen as incorrect and potentially inflammatory. Keith Kloor responds, explaining that the term was added in the final edits and not in the original draft, acknowledging Kevin's objection to it. The message highlights the importance of accurate and respectful reporting while maintaining fairness."
+    }
+  ],
+  "processingMs": 7821,
+  "totalMs": 17818,
+  "deleted": true,
+  "summary": "Page 1: Jon Entine forwards a message to Kevin Folta regarding a story's fairness and the use of the phrase 'close ties' in the headline. The story is described as fair and well-executed, though the term 'close ties' is seen as incorrect and potentially inflammatory. Keith Kloor responds, explaining that the term was added in the final edits and not in the original draft, acknowledging Kevin's objection to it. The message highlights the importance of accurate and respectful reporting while maintaining fairness."
+}

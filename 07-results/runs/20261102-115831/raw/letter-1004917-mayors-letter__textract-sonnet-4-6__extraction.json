@@ -1,0 +1,116 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-sonnet-4-6",
+  "job": "extraction",
+  "taskId": 245,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:22:04.388Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:22:05.785Z",
+  "configuredAt": "2026-11-02T12:22:13.875Z",
+  "executedAt": "2026-11-02T12:22:14.283Z",
+  "lastPolledAt": "2026-11-02T12:22:21.367Z",
+  "finishedAt": "2026-11-02T12:22:21.367Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "January 1, 2014",
+      "sender_name__organization": "Tim B. Flynn, Mayor - City of Oxnard, Office of the Mayor",
+      "recipient_name__organization": "Members of the City Council",
+      "subject__reference": "New Year priorities and opportunities for 2014, including hiring a permanent city manager, hiring a new city attorney, and implementing priority-based budgeting",
+      "main_purpose__request": "The Mayor encourages the City Council to accelerate efforts to regain public trust and outlines key priorities for 2014: (1) hiring a permanent city manager by March 1, 2014, (2) beginning the hiring process for a new city attorney no later than January 14, 2014, and (3) incorporating strategic priorities with a performance and priority-based budgeting process."
+    },
+    {
+      "pg_no": 2,
+      "letter_date": "January (2014, implied)",
+      "sender_name__organization": "Tim Flynn, Mayor, City of Oxnard",
+      "recipient_name__organization": "City Council, City Staff, and the Public",
+      "subject__reference": "Performance and Priority Based Budgeting Benchmarks and Timelines",
+      "main_purpose__request": "To outline the benchmarks and timelines for performance and priority-based budgeting for fiscal year 2014-2015, and to highlight other important priorities for the City of Oxnard to address in 2014, including street resurfacing, job creation, general fund reserve restoration, school district collaboration, pension discussions, city marketing, levee funding, redevelopment properties, and self-sustaining operations for the Golf Course and Performing Arts Center."
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "January 1, 2014",
+      "pages": [
+        {
+          "page": 1,
+          "value": "January 1, 2014"
+        },
+        {
+          "page": 2,
+          "value": "January (2014, implied)"
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Tim B. Flynn, Mayor - City of Oxnard, Office of the Mayor",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Tim B. Flynn, Mayor - City of Oxnard, Office of the Mayor"
+        },
+        {
+          "page": 2,
+          "value": "Tim Flynn, Mayor, City of Oxnard"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "Members of the City Council",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Members of the City Council"
+        },
+        {
+          "page": 2,
+          "value": "City Council, City Staff, and the Public"
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": "New Year priorities and opportunities for 2014, including hiring a permanent city manager, hiring a new city attorney, and implementing priority-based budgeting",
+      "pages": [
+        {
+          "page": 1,
+          "value": "New Year priorities and opportunities for 2014, including hiring a permanent city manager, hiring a new city attorney, and implementing priority-based budgeting"
+        },
+        {
+          "page": 2,
+          "value": "Performance and Priority Based Budgeting Benchmarks and Timelines"
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "The Mayor encourages the City Council to accelerate efforts to regain public trust and outlines key priorities for 2014: (1) hiring a permanent city manager by March 1, 2014, (2) beginning the hiring process for a new city attorney no later than January 14, 2014, and (3) incorporating strategic priorities with a performance and priority-based budgeting process.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "The Mayor encourages the City Council to accelerate efforts to regain public trust and outlines key priorities for 2014: (1) hiring a permanent city manager by March 1, 2014, (2) beginning the hiring process for a new city attorney no later than January 14, 2014, and (3) incorporating strategic priorities with a performance and priority-based budgeting process."
+        },
+        {
+          "page": 2,
+          "value": "To outline the benchmarks and timelines for performance and priority-based budgeting for fiscal year 2014-2015, and to highlight other important priorities for the City of Oxnard to address in 2014, including street resurfacing, job creation, general fund reserve restoration, school district collaboration, pension discussions, city marketing, levee funding, redevelopment properties, and self-sustaining operations for the Golf Course and Performing Arts Center."
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 7084,
+  "totalMs": 16979,
+  "deleted": true
+}

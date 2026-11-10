@@ -1,0 +1,31 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 264,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:00:39.596Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:00:40.839Z",
+  "configuredAt": "2026-11-02T15:00:48.281Z",
+  "executedAt": "2026-11-02T15:00:49.724Z",
+  "lastPolledAt": "2026-11-02T15:01:15.424Z",
+  "finishedAt": "2026-11-02T15:01:15.424Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The document is an invoice (No. 04-30-2021-03) from the City of Richmond Police Department, issued to Tom Nash of MuckRock News in response to a FOIA request. The request sought data on use of force incidents, civilian complaints, biased policing complaints, and officer-involved shootings from 2013–2019. The invoice charges $80.00 for 2 hours by Major Crimes and $20.00 for 30 minutes by Internal Affairs, totaling $100.00, payable to the Richmond Police Department's Central Records Unit at 200 West Grace Street, Richmond, VA 23220."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The document is an official notice from the City of Richmond Police Department, headed by Chief of Police Gerald M. Smith. It states that accepted payment methods are Certified Check, Money Order, and Cash, with a note advising not to mail cash. The department is located at 200 W. Grace Street, Richmond, VA 23220, and can be reached at 804.646.6700 (fax: 804.646.3974)."
+    }
+  ],
+  "summary": "Page 1: The document is an invoice (No. 04-30-2021-03) from the City of Richmond Police Department, issued to Tom Nash of MuckRock News in response to a FOIA request. The request sought data on use of force incidents, civilian complaints, biased policing complaints, and officer-involved shootings from 2013–2019. The invoice charges $80.00 for 2 hours by Major Crimes and $20.00 for 30 minutes by Internal Affairs, totaling $100.00, payable to the Richmond Police Department's Central Records Unit at 200 West Grace Street, Richmond, VA 23220.\n\nPage 2: The document is an official notice from the City of Richmond Police Department, headed by Chief of Police Gerald M. Smith. It states that accepted payment methods are Certified Check, Money Order, and Cash, with a note advising not to mail cash. The department is located at 200 W. Grace Street, Richmond, VA 23220, and can be reached at 804.646.6700 (fax: 804.646.3974).",
+  "outputValid": true,
+  "processingMs": 25700,
+  "totalMs": 35828,
+  "deleted": true
+}

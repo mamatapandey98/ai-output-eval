@@ -1,0 +1,42 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-llama4-maverick",
+  "job": "classification",
+  "taskId": 193,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:38:08.467Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:38:09.743Z",
+  "configuredAt": "2026-11-02T11:38:17.729Z",
+  "executedAt": "2026-11-02T11:38:19.118Z",
+  "lastPolledAt": "2026-11-02T11:38:22.772Z",
+  "finishedAt": "2026-11-02T11:38:22.772Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "letter"
+    }
+  ],
+  "classification": {
+    "label": "letter",
+    "pages": [
+      {
+        "page": 1,
+        "label": "letter"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 3654,
+  "totalMs": 14305,
+  "deleted": true
+}

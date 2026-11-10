@@ -1,0 +1,46 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-sonnet-4-6",
+  "job": "summarization",
+  "candidatePages": 2,
+  "candidateChars": 651,
+  "resultPages": 2,
+  "withSourcePdf": false,
+  "judgeProvider": "gemini",
+  "rubricVersion": "summary-reference-v4",
+  "requestedModel": "gemini-3.5-flash",
+  "servedModel": "gemini-3.6-flash",
+  "thinkingLevel": "HIGH",
+  "maxOutputTokens": null,
+  "stopReason": "STOP",
+  "usage": {
+    "input_tokens": 870,
+    "output_tokens": 942,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  },
+  "status": "scored",
+  "scoreScale": "0-10",
+  "weights": {
+    "coverage": 0.4,
+    "accuracy": 0.4,
+    "clarity": 0.1,
+    "conciseness": 0.1
+  },
+  "verdict": {
+    "coverage": 6,
+    "accuracy": 10,
+    "clarity": 9,
+    "conciseness": 8.5
+  },
+  "criteriaScores": {
+    "coverage": 6,
+    "accuracy": 10,
+    "clarity": 9,
+    "conciseness": 8.5
+  },
+  "overall": 8.15,
+  "overallOutOf10": 8.15,
+  "overallPercentage": 81.5,
+  "score": 0.815
+}

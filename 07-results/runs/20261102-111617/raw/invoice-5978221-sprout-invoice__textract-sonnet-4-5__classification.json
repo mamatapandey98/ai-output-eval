@@ -1,0 +1,42 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "textract-sonnet-4-5",
+  "job": "classification",
+  "taskId": 181,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:30:39.244Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:30:40.644Z",
+  "configuredAt": "2026-11-02T11:30:48.197Z",
+  "executedAt": "2026-11-02T11:30:49.637Z",
+  "lastPolledAt": "2026-11-02T11:30:55.948Z",
+  "finishedAt": "2026-11-02T11:30:55.948Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "invoice"
+    }
+  ],
+  "classification": {
+    "label": "invoice",
+    "pages": [
+      {
+        "page": 1,
+        "label": "invoice"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 6311,
+  "totalMs": 16704,
+  "deleted": true
+}

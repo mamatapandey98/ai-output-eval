@@ -1,0 +1,31 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 262,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T14:58:29.419Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T14:58:30.964Z",
+  "configuredAt": "2026-11-02T14:58:44.596Z",
+  "executedAt": "2026-11-02T14:58:44.953Z",
+  "lastPolledAt": "2026-11-02T14:59:22.381Z",
+  "finishedAt": "2026-11-02T14:59:22.381Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The document covers a news article about conservative pro-development groups in the American West forming a coalition called the \"wise-use\" movement, comprising up to 200 groups including Communities for a Great Northwest and Montana PLUS. The movement has ties to Rev. Sun Myung Moon's Unification Church, though its leaders deny any church influence. A sidebar highlights how the movement's members consider themselves \"new environmentalists\" dedicated to the responsible ecological care of natural resources, believing their ideals represent the wishes of the American people."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The document discusses the ties between a pro-development land-use movement and the American Freedom Coalition (AFC), which is linked to Reverend Sun Myung Moon's Unification Church. Key figures — Arnold, Conton, and Shikara — play central roles in both the land-use movement and the AFC. The AFC was founded in 1981 by Moon's chief lieutenant, Col. Bo Hi Pak, and received $2 million in church loans along with 70 church-sponsored staffers. While AFC officials deny direct ties to the Unification Church, church members actively volunteer for AFC activities. The movement's agenda includes pro-development land-use policy, support for the Contras in Nicaragua, and Col. Oliver North. Moon's broader goal is described as the \"subjugation of the American government\" and establishment of a world theocracy, which has sparked debate even within conservative circles. Despite concerns, many movement participants tolerate AFC's involvement as just one of many groups within the broader coalition."
+    }
+  ],
+  "summary": "Page 1: The document covers a news article about conservative pro-development groups in the American West forming a coalition called the \"wise-use\" movement, comprising up to 200 groups including Communities for a Great Northwest and Montana PLUS. The movement has ties to Rev. Sun Myung Moon's Unification Church, though its leaders deny any church influence. A sidebar highlights how the movement's members consider themselves \"new environmentalists\" dedicated to the responsible ecological care of natural resources, believing their ideals represent the wishes of the American people.\n\nPage 2: The document discusses the ties between a pro-development land-use movement and the American Freedom Coalition (AFC), which is linked to Reverend Sun Myung Moon's Unification Church. Key figures — Arnold, Conton, and Shikara — play central roles in both the land-use movement and the AFC. The AFC was founded in 1981 by Moon's chief lieutenant, Col. Bo Hi Pak, and received $2 million in church loans along with 70 church-sponsored staffers. While AFC officials deny direct ties to the Unification Church, church members actively volunteer for AFC activities. The movement's agenda includes pro-development land-use policy, support for the Contras in Nicaragua, and Col. Oliver North. Moon's broader goal is described as the \"subjugation of the American government\" and establishment of a world theocracy, which has sparked debate even within conservative circles. Despite concerns, many movement participants tolerate AFC's involvement as just one of many groups within the broader coalition.",
+  "outputValid": true,
+  "processingMs": 37428,
+  "totalMs": 52962,
+  "deleted": true
+}

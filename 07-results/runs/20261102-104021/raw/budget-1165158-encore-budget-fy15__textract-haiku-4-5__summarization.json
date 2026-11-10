@@ -1,0 +1,26 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "taskId": 115,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:42:19.672Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:42:20.975Z",
+  "configuredAt": "2026-11-02T10:42:28.004Z",
+  "executedAt": "2026-11-02T10:42:28.540Z",
+  "lastPolledAt": "2026-11-02T10:42:32.927Z",
+  "finishedAt": "2026-11-02T10:42:32.927Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Encore Academy's FY15 budget shows total revenue of $4,746,466, comprised of $3,996,048 in base federal funding, $538,427 in state/local funding, and $211,991 in philanthropy. Total expenses equal $4,746,466, with salaries and benefits accounting for $2,315,597 (including $1,149,151 for regular education teachers), other personnel costs of $433,372, and non-personnel expenses of $2,046,869 (including $500,500 rent, $328,340 transportation, and $174,000 custodial/maintenance). Non-operating expenses total $384,000, resulting in a net surplus/deficit of $0."
+    }
+  ],
+  "processingMs": 4387,
+  "totalMs": 13255,
+  "deleted": true,
+  "summary": "Page 1: Encore Academy's FY15 budget shows total revenue of $4,746,466, comprised of $3,996,048 in base federal funding, $538,427 in state/local funding, and $211,991 in philanthropy. Total expenses equal $4,746,466, with salaries and benefits accounting for $2,315,597 (including $1,149,151 for regular education teachers), other personnel costs of $433,372, and non-personnel expenses of $2,046,869 (including $500,500 rent, $328,340 transportation, and $174,000 custodial/maintenance). Non-operating expenses total $384,000, resulting in a net surplus/deficit of $0."
+}

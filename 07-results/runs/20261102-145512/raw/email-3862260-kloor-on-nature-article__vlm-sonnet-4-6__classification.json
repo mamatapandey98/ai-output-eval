@@ -1,0 +1,42 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "classification",
+  "taskId": 277,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:12:40.334Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:12:41.733Z",
+  "configuredAt": "2026-11-02T15:12:49.415Z",
+  "executedAt": "2026-11-02T15:12:50.743Z",
+  "lastPolledAt": "2026-11-02T15:13:09.709Z",
+  "finishedAt": "2026-11-02T15:13:09.709Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "email"
+    }
+  ],
+  "classification": {
+    "label": "email",
+    "pages": [
+      {
+        "page": 1,
+        "label": "email"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 18966,
+  "totalMs": 29375,
+  "deleted": true
+}

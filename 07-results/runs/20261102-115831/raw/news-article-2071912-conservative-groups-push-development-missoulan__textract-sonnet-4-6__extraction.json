@@ -1,0 +1,116 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-sonnet-4-6",
+  "job": "extraction",
+  "taskId": 225,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:09:00.788Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:09:02.079Z",
+  "configuredAt": "2026-11-02T12:09:10.909Z",
+  "executedAt": "2026-11-02T12:09:11.267Z",
+  "lastPolledAt": "2026-11-02T12:09:21.286Z",
+  "finishedAt": "2026-11-02T12:09:21.286Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "headline__title": "Conservative groups push development",
+      "author__byline": "DICK MANNING",
+      "publication_date": null,
+      "publication_source__organization": "Missoulian",
+      "primary_subject__topic": "The \"wise-use\" movement and pro-development conservative groups in the West"
+    },
+    {
+      "pg_no": 2,
+      "headline__title": null,
+      "author__byline": null,
+      "publication_date": null,
+      "publication_source__organization": null,
+      "primary_subject__topic": null
+    }
+  ],
+  "extraction": {
+    "Headline / Title": {
+      "value": "Conservative groups push development",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Conservative groups push development"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Author / Byline": {
+      "value": "DICK MANNING",
+      "pages": [
+        {
+          "page": 1,
+          "value": "DICK MANNING"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Publication Date": {
+      "value": null,
+      "pages": [
+        {
+          "page": 1,
+          "value": null
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Publication Source / Organization": {
+      "value": "Missoulian",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Missoulian"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Primary Subject / Topic": {
+      "value": "The \"wise-use\" movement and pro-development conservative groups in the West",
+      "pages": [
+        {
+          "page": 1,
+          "value": "The \"wise-use\" movement and pro-development conservative groups in the West"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Headline / Title",
+      "Author / Byline",
+      "Publication Date",
+      "Publication Source / Organization",
+      "Primary Subject / Topic"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 10019,
+  "totalMs": 20498,
+  "deleted": true
+}

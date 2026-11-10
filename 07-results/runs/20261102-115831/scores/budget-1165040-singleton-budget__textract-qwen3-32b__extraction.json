@@ -1,0 +1,161 @@
+{
+  "documentId": "budget-1165040-singleton-budget",
+  "variantId": "textract-qwen3-32b",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 0.524,
+  "matchRate": 0.4,
+  "counts": {
+    "match": 2,
+    "partial": 0,
+    "mismatch": 3,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 2,
+    "partial": 0,
+    "mismatch": 3,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Fiscal Year / Period",
+      "expected": "2014–2015",
+      "predicted": "2014-15",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "2014-15"
+        },
+        {
+          "page": 2,
+          "value": "2014-15"
+        },
+        {
+          "page": 3,
+          "value": "2012-2013"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "fiscal-period-range-format",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Organization / Department Name",
+      "expected": "James M. Singleton Charter School",
+      "predicted": "VAMED IVI. CINOLETON CRARTEN",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "VAMED IVI. CINOLETON CRARTEN"
+        },
+        {
+          "page": 2,
+          "value": "JAMES M. SINGLETON CHARTER SCHOOL"
+        },
+        {
+          "page": 3,
+          "value": "James Singleton Charter School Program"
+        }
+      ],
+      "confidence": 0.155,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0,
+      "char": 0.515,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Total Budget / Revenue",
+      "expected": "$5,461,160.00",
+      "predicted": "5,461,160.00",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "5,461,160.00"
+        },
+        {
+          "page": 2,
+          "value": "Not explicitly stated"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "amount-currency-unspecified-on-one-side",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Total Expenditure / Costs",
+      "expected": "$5,461,160.00",
+      "predicted": "995,359.00",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "995,359.00"
+        },
+        {
+          "page": 2,
+          "value": "5,461,160.00"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ],
+      "confidence": 0.292,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.286,
+      "char": 0.308,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "numericMismatch": true,
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Net Balance / Surplus / Deficit",
+      "expected": "$0.00 (Balanced Budget)",
+      "predicted": "4,465,801.00",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "4,465,801.00"
+        },
+        {
+          "page": 2,
+          "value": "Not explicitly stated"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ],
+      "confidence": 0.175,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.25,
+      "char": 0,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "numericMismatch": true,
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    }
+  ],
+  "resultPages": 3
+}

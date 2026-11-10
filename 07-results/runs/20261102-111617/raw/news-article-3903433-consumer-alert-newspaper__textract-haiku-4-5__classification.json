@@ -1,0 +1,42 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-haiku-4-5",
+  "job": "classification",
+  "taskId": 172,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:24:42.294Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:24:43.635Z",
+  "configuredAt": "2026-11-02T11:24:52.006Z",
+  "executedAt": "2026-11-02T11:24:52.347Z",
+  "lastPolledAt": "2026-11-02T11:24:58.149Z",
+  "finishedAt": "2026-11-02T11:24:58.149Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "news article"
+    }
+  ],
+  "classification": {
+    "label": "news article",
+    "pages": [
+      {
+        "page": 1,
+        "label": "news article"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 5802,
+  "totalMs": 15855,
+  "deleted": true
+}

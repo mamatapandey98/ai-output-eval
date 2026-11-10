@@ -1,0 +1,26 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "taskId": 124,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:48:24.866Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:48:26.128Z",
+  "configuredAt": "2026-11-02T10:48:34.994Z",
+  "executedAt": "2026-11-02T10:48:35.336Z",
+  "lastPolledAt": "2026-11-02T10:48:47.893Z",
+  "finishedAt": "2026-11-02T10:48:47.894Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This 1989 Washington Post article reports on the White House's agreement to review economic policy recommendations from the newly formed National Consumer Coalition, a conservative group challenging traditional consumerism. The coalition, comprising 33 organizations including the Heritage Foundation and Citizens Against Government Waste, advocates for deregulation and calls for abolishing federal fuel economy standards, eliminating farm subsidies and trade barriers, and reviewing antitrust laws. White House Chief of Staff John Sununu, former chairman of Consumer Alert (a coalition organizer), endorsed the philosophy that American citizens can make their own consumer decisions without government intervention. This contrasts sharply with Ralph Nader's regulatory approach to consumerism. Liberal consumer groups, including Public Citizen and the Center for Auto Safety, criticized Sununu's reception of the proposals, arguing it would send the wrong message to business and government. The article also mentions a dispute over Public Citizen receiving voluntary contributions from companies it rated favorably in a radon-testing equipment evaluation."
+    }
+  ],
+  "processingMs": 12558,
+  "totalMs": 23028,
+  "deleted": true,
+  "summary": "Page 1: This 1989 Washington Post article reports on the White House's agreement to review economic policy recommendations from the newly formed National Consumer Coalition, a conservative group challenging traditional consumerism. The coalition, comprising 33 organizations including the Heritage Foundation and Citizens Against Government Waste, advocates for deregulation and calls for abolishing federal fuel economy standards, eliminating farm subsidies and trade barriers, and reviewing antitrust laws. White House Chief of Staff John Sununu, former chairman of Consumer Alert (a coalition organizer), endorsed the philosophy that American citizens can make their own consumer decisions without government intervention. This contrasts sharply with Ralph Nader's regulatory approach to consumerism. Liberal consumer groups, including Public Citizen and the Center for Auto Safety, criticized Sununu's reception of the proposals, arguing it would send the wrong message to business and government. The article also mentions a dispute over Public Citizen receiving voluntary contributions from companies it rated favorably in a radon-testing equipment evaluation."
+}

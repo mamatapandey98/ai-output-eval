@@ -1,0 +1,58 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-qwen3-32b",
+  "job": "classification",
+  "status": "scored",
+  "expected": "invoice",
+  "predicted": "invoice",
+  "correct": true,
+  "score": 0.5,
+  "documentResult": {
+    "confidence": 1,
+    "verdict": "match",
+    "method": "exact"
+  },
+  "pageAccuracy": 0.5,
+  "pageMacroF1": 0.667,
+  "perClass": {
+    "invoice": {
+      "support": 2,
+      "precision": 1,
+      "recall": 0.5,
+      "f1": 0.667
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "expected": "invoice",
+      "predicted": "invoice",
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact"
+    },
+    {
+      "page": 2,
+      "expected": "invoice",
+      "predicted": "letter",
+      "confidence": 0,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0,
+      "char": 0,
+      "limitation": "lexical overlap is not a semantic paraphrase judge"
+    }
+  ],
+  "predictedPages": [
+    {
+      "page": 1,
+      "label": "invoice"
+    },
+    {
+      "page": 2,
+      "label": "letter"
+    }
+  ],
+  "extraPredictedPages": [],
+  "resultPages": 2
+}

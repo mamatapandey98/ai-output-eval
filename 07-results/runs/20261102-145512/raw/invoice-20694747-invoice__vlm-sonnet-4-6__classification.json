@@ -1,0 +1,50 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "classification",
+  "taskId": 274,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:10:14.796Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:10:16.149Z",
+  "configuredAt": "2026-11-02T15:10:23.524Z",
+  "executedAt": "2026-11-02T15:10:24.883Z",
+  "lastPolledAt": "2026-11-02T15:10:43.680Z",
+  "finishedAt": "2026-11-02T15:10:43.680Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "invoice"
+    },
+    {
+      "pg_no": 2,
+      "document_type": "invoice"
+    }
+  ],
+  "classification": {
+    "label": "invoice",
+    "pages": [
+      {
+        "page": 1,
+        "label": "invoice"
+      },
+      {
+        "page": 2,
+        "label": "invoice"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 2,
+    "observedPageCount": 2,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 18797,
+  "totalMs": 28884,
+  "deleted": true
+}

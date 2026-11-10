@@ -1,0 +1,133 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 0.624,
+  "matchRate": 0.6,
+  "counts": {
+    "match": 3,
+    "partial": 0,
+    "mismatch": 1,
+    "missing": 1,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 3,
+    "partial": 0,
+    "mismatch": 1,
+    "missing": 1,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Headline / Title",
+      "expected": "Conservative groups push development",
+      "predicted": "Conservative groups push development",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Conservative groups push development"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Author / Byline",
+      "expected": "Dick Manning",
+      "predicted": "DICK MANNING",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "DICK MANNING"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "byline-format",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Publication Date",
+      "expected": "July 23, 1989",
+      "predicted": "",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": ""
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 0,
+      "verdict": "missing",
+      "method": "empty",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Publication Source / Organization",
+      "expected": "The Missoulian",
+      "predicted": "the Missoulian",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "the Missoulian"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "publication-article",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Primary Subject / Topic",
+      "expected": "The Western pro-development coalition and the wise-use movement, including coalition membership and related political ties.",
+      "predicted": "Conservative groups push development",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Conservative groups push development"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 0.118,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.095,
+      "char": 0.172,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    }
+  ],
+  "resultPages": 2
+}

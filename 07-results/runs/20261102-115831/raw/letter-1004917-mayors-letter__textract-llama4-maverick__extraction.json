@@ -1,0 +1,116 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "taskId": 248,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:24:06.149Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:24:07.468Z",
+  "configuredAt": "2026-11-02T12:24:17.469Z",
+  "executedAt": "2026-11-02T12:24:17.821Z",
+  "lastPolledAt": "2026-11-02T12:24:26.683Z",
+  "finishedAt": "2026-11-02T12:24:26.683Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "January 1, 2014",
+      "sender_name__organization": "Tim B. Flynn, Mayor Office of the Mayor",
+      "recipient_name__organization": "members of the City Council",
+      "subject__reference": "",
+      "main_purpose__request": "The mayor encourages the city council to accelerate efforts to regain the public's trust and to seize specific opportunities in 2014, including hiring a permanent city manager and city attorney, and implementing performance and priority-based budgeting."
+    },
+    {
+      "pg_no": 2,
+      "letter_date": "",
+      "sender_name__organization": "Tim Flynn, Mayor, City of Oxnard",
+      "recipient_name__organization": "",
+      "subject__reference": "Performance and Priority Based Budgeting Benchmarks and Timelines",
+      "main_purpose__request": "Outlining priorities and budget plans for the city of Oxnard in 2014"
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "January 1, 2014",
+      "pages": [
+        {
+          "page": 1,
+          "value": "January 1, 2014"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Tim B. Flynn, Mayor Office of the Mayor",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Tim B. Flynn, Mayor Office of the Mayor"
+        },
+        {
+          "page": 2,
+          "value": "Tim Flynn, Mayor, City of Oxnard"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "members of the City Council",
+      "pages": [
+        {
+          "page": 1,
+          "value": "members of the City Council"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": "Performance and Priority Based Budgeting Benchmarks and Timelines",
+      "pages": [
+        {
+          "page": 1,
+          "value": ""
+        },
+        {
+          "page": 2,
+          "value": "Performance and Priority Based Budgeting Benchmarks and Timelines"
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "The mayor encourages the city council to accelerate efforts to regain the public's trust and to seize specific opportunities in 2014, including hiring a permanent city manager and city attorney, and implementing performance and priority-based budgeting.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "The mayor encourages the city council to accelerate efforts to regain the public's trust and to seize specific opportunities in 2014, including hiring a permanent city manager and city attorney, and implementing performance and priority-based budgeting."
+        },
+        {
+          "page": 2,
+          "value": "Outlining priorities and budget plans for the city of Oxnard in 2014"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 8862,
+  "totalMs": 20534,
+  "deleted": true
+}

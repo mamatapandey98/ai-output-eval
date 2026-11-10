@@ -1,0 +1,34 @@
+{
+  "documentId": "budget-1165040-singleton-budget",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "taskId": 120,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:45:45.759Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:45:47.167Z",
+  "configuredAt": "2026-11-02T10:45:56.056Z",
+  "executedAt": "2026-11-02T10:45:56.412Z",
+  "lastPolledAt": "2026-11-02T10:46:03.548Z",
+  "finishedAt": "2026-11-02T10:46:03.548Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "VAMED IVI Cinolenton Charter 2014-15 Budget Summary: Total revenue of $5,461,160 comprises state/local per-pupil funding ($4,346,160), Title I/II/IDEA grants ($805,000), and donations ($50,000). Major expenditures include: Salaries ($2,709,910 for 27 teachers, 5 paras, specialists, and administrative staff); Employee Benefits ($668,712); Purchased Professional Services ($271,609); Purchased Property Services ($995,359 for utilities, repairs, maintenance); and Other Purchased Services ($640,475 for transportation, insurance, food service)."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "James M. Singleton Charter School's 2014-15 budget includes supplies (Object Code 600) totaling $95,095.43, covering materials, food, books, and custodial supplies. Other uses of funds (Object Code 900) include depreciation ($15,000), indirect costs ($65,000), and contingency ($80,000), with total expenditures reaching $5,461,160.00."
+    },
+    {
+      "pg_no": 3,
+      "generation_response": "James Singleton Charter School's 2012-2013 budget assumes 520 MFP and 40 LA4 students, with MFP funding at $8,358 per pupil and LA4 at $5,532.50 per pupil. The teacher-to-student ratio is 22:1, the school calendar includes 182-192 instructional days, and federal funds (Title I, II, IDEA B) are projected at $805,000, representing 90% of the 2013-14 allocation pending BESE approval."
+    }
+  ],
+  "processingMs": 7136,
+  "totalMs": 17789,
+  "deleted": true,
+  "summary": "Page 1: VAMED IVI Cinolenton Charter 2014-15 Budget Summary: Total revenue of $5,461,160 comprises state/local per-pupil funding ($4,346,160), Title I/II/IDEA grants ($805,000), and donations ($50,000). Major expenditures include: Salaries ($2,709,910 for 27 teachers, 5 paras, specialists, and administrative staff); Employee Benefits ($668,712); Purchased Professional Services ($271,609); Purchased Property Services ($995,359 for utilities, repairs, maintenance); and Other Purchased Services ($640,475 for transportation, insurance, food service).\n\nPage 2: James M. Singleton Charter School's 2014-15 budget includes supplies (Object Code 600) totaling $95,095.43, covering materials, food, books, and custodial supplies. Other uses of funds (Object Code 900) include depreciation ($15,000), indirect costs ($65,000), and contingency ($80,000), with total expenditures reaching $5,461,160.00.\n\nPage 3: James Singleton Charter School's 2012-2013 budget assumes 520 MFP and 40 LA4 students, with MFP funding at $8,358 per pupil and LA4 at $5,532.50 per pupil. The teacher-to-student ratio is 22:1, the school calendar includes 182-192 instructional days, and federal funds (Title I, II, IDEA B) are projected at $805,000, representing 90% of the 2013-14 allocation pending BESE approval."
+}

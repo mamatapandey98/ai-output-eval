@@ -1,0 +1,40 @@
+{
+  "$comment": "Five AWS Textract + Bedrock LLM variants retained for the current evaluation; no VLM variants.",
+  "variants": [
+    {
+      "id": "textract-qwen3-32b",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/qwen.qwen3-32b-v1:0"
+    },
+    {
+      "id": "textract-sonnet-4-6",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.anthropic.claude-sonnet-4-6"
+    },
+    {
+      "id": "textract-sonnet-4-5",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    },
+    {
+      "id": "textract-haiku-4-5",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.anthropic.claude-haiku-4-5-20251001-v1:0"
+    },
+    {
+      "id": "textract-llama4-maverick",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.meta.llama4-maverick-17b-instruct-v1:0"
+    }
+  ]
+}

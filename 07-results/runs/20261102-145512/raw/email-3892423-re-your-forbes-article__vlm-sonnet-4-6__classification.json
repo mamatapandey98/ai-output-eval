@@ -1,0 +1,58 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "classification",
+  "taskId": 278,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:13:31.526Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:13:32.929Z",
+  "configuredAt": "2026-11-02T15:13:40.852Z",
+  "executedAt": "2026-11-02T15:13:42.184Z",
+  "lastPolledAt": "2026-11-02T15:14:03.854Z",
+  "finishedAt": "2026-11-02T15:14:03.854Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "email"
+    },
+    {
+      "pg_no": 2,
+      "document_type": "email"
+    },
+    {
+      "pg_no": 3,
+      "document_type": "email"
+    }
+  ],
+  "classification": {
+    "label": "email",
+    "pages": [
+      {
+        "page": 1,
+        "label": "email"
+      },
+      {
+        "page": 2,
+        "label": "email"
+      },
+      {
+        "page": 3,
+        "label": "email"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 3,
+    "observedPageCount": 3,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 21670,
+  "totalMs": 32328,
+  "deleted": true
+}

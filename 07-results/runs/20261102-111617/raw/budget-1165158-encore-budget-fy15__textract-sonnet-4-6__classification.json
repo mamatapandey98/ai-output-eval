@@ -1,0 +1,42 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-sonnet-4-6",
+  "job": "classification",
+  "taskId": 160,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:16:51.916Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:16:53.143Z",
+  "configuredAt": "2026-11-02T11:17:00.456Z",
+  "executedAt": "2026-11-02T11:17:01.779Z",
+  "lastPolledAt": "2026-11-02T11:17:06.800Z",
+  "finishedAt": "2026-11-02T11:17:06.800Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "budget"
+    }
+  ],
+  "classification": {
+    "label": "budget",
+    "pages": [
+      {
+        "page": 1,
+        "label": "budget"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 5021,
+  "totalMs": 14884,
+  "deleted": true
+}

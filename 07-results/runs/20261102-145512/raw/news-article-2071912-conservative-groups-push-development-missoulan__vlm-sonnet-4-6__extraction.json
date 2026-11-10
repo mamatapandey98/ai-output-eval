@@ -1,0 +1,116 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "extraction",
+  "taskId": 282,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:17:21.262Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:17:22.601Z",
+  "configuredAt": "2026-11-02T15:17:30.980Z",
+  "executedAt": "2026-11-02T15:17:31.337Z",
+  "lastPolledAt": "2026-11-02T15:17:59.898Z",
+  "finishedAt": "2026-11-02T15:17:59.898Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "headline__title": "Conservative groups push development",
+      "author__byline": "Dick Manning",
+      "publication_date": null,
+      "publication_source__organization": "Missoulian",
+      "primary_subject__topic": "The \"wise-use\" movement and pro-development conservative groups in the West, including ties to the Unification Church"
+    },
+    {
+      "pg_no": 2,
+      "headline__title": "Coalition",
+      "author__byline": null,
+      "publication_date": "Sunday, June 23, 1989",
+      "publication_source__organization": "Washington",
+      "primary_subject__topic": "American Freedom Coalition's ties to Sun Myung Moon's Unification Church and its influence on conservative land-use and political movements in the West"
+    }
+  ],
+  "extraction": {
+    "Headline / Title": {
+      "value": "Conservative groups push development",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Conservative groups push development"
+        },
+        {
+          "page": 2,
+          "value": "Coalition"
+        }
+      ]
+    },
+    "Author / Byline": {
+      "value": "Dick Manning",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Dick Manning"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Publication Date": {
+      "value": "Sunday, June 23, 1989",
+      "pages": [
+        {
+          "page": 1,
+          "value": null
+        },
+        {
+          "page": 2,
+          "value": "Sunday, June 23, 1989"
+        }
+      ]
+    },
+    "Publication Source / Organization": {
+      "value": "Missoulian",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Missoulian"
+        },
+        {
+          "page": 2,
+          "value": "Washington"
+        }
+      ]
+    },
+    "Primary Subject / Topic": {
+      "value": "The \"wise-use\" movement and pro-development conservative groups in the West, including ties to the Unification Church",
+      "pages": [
+        {
+          "page": 1,
+          "value": "The \"wise-use\" movement and pro-development conservative groups in the West, including ties to the Unification Church"
+        },
+        {
+          "page": 2,
+          "value": "American Freedom Coalition's ties to Sun Myung Moon's Unification Church and its influence on conservative land-use and political movements in the West"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Headline / Title",
+      "Author / Byline",
+      "Publication Date",
+      "Publication Source / Organization",
+      "Primary Subject / Topic"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 28561,
+  "totalMs": 38636,
+  "deleted": true
+}

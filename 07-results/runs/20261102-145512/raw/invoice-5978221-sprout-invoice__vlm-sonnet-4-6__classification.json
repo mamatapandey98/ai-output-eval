@@ -1,0 +1,42 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "classification",
+  "taskId": 273,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:09:22.557Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:09:23.833Z",
+  "configuredAt": "2026-11-02T15:09:30.715Z",
+  "executedAt": "2026-11-02T15:09:31.072Z",
+  "lastPolledAt": "2026-11-02T15:09:53.116Z",
+  "finishedAt": "2026-11-02T15:09:53.116Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "invoice"
+    }
+  ],
+  "classification": {
+    "label": "invoice",
+    "pages": [
+      {
+        "page": 1,
+        "label": "invoice"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 22044,
+  "totalMs": 30559,
+  "deleted": true
+}

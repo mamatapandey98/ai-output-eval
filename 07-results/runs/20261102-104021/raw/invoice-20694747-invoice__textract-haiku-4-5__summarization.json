@@ -1,0 +1,30 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "taskId": 137,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:57:03.975Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:57:05.372Z",
+  "configuredAt": "2026-11-02T10:57:12.746Z",
+  "executedAt": "2026-11-02T10:57:14.180Z",
+  "lastPolledAt": "2026-11-02T10:57:19.197Z",
+  "finishedAt": "2026-11-02T10:57:19.197Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Richmond Police Department invoice dated April 30, 2021 (Invoice #04-30-2021-03) from Chief Gerald M. Smith responding to a MuckRock News FOIA request. The request seeks use of force incident data (2013-2019) including incidents separated by year and type, civilian complaints and sustained complaints, use of force complaints, biased policing complaints, and officer-involved shooting details. The invoice charges $80.00 for 2 hours of Timekeeper Major Crimes work and $20.00 for 30 minutes of Internal Affairs work, totaling $100.00. Payment should be sent to Richmond Police Department Central Records Unit, 200 West Grace Street, Richmond, VA 23220."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The Richmond Police Department accepts payment via Certified Check, Money Order, and Cash (mail cash not recommended). Contact: Chief Gerald M. Smith, 200 W. Grace Street, Richmond, VA 23220. Phone: 804.646.6700, Fax: 804.646.3974. Website: www.ci.richmond.va.us/police/"
+    }
+  ],
+  "processingMs": 5017,
+  "totalMs": 15222,
+  "deleted": true,
+  "summary": "Page 1: Richmond Police Department invoice dated April 30, 2021 (Invoice #04-30-2021-03) from Chief Gerald M. Smith responding to a MuckRock News FOIA request. The request seeks use of force incident data (2013-2019) including incidents separated by year and type, civilian complaints and sustained complaints, use of force complaints, biased policing complaints, and officer-involved shooting details. The invoice charges $80.00 for 2 hours of Timekeeper Major Crimes work and $20.00 for 30 minutes of Internal Affairs work, totaling $100.00. Payment should be sent to Richmond Police Department Central Records Unit, 200 West Grace Street, Richmond, VA 23220.\n\nPage 2: The Richmond Police Department accepts payment via Certified Check, Money Order, and Cash (mail cash not recommended). Contact: Chief Gerald M. Smith, 200 W. Grace Street, Richmond, VA 23220. Phone: 804.646.6700, Fax: 804.646.3974. Website: www.ci.richmond.va.us/police/"
+}

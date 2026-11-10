@@ -1,0 +1,26 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "taskId": 153,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:07:24.622Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:07:26.020Z",
+  "configuredAt": "2026-11-02T11:07:33.437Z",
+  "executedAt": "2026-11-02T11:07:34.862Z",
+  "lastPolledAt": "2026-11-02T11:07:38.717Z",
+  "finishedAt": "2026-11-02T11:07:38.717Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Jon Entine forwarded an email from Keith Kloor discussing a story about Kevin Folta. Keith Kloor defended his story as fair and scrupulously reported despite some controversy over the phrase 'close ties'."
+    }
+  ],
+  "processingMs": 3855,
+  "totalMs": 14095,
+  "deleted": true,
+  "summary": "Page 1: Jon Entine forwarded an email from Keith Kloor discussing a story about Kevin Folta. Keith Kloor defended his story as fair and scrupulously reported despite some controversy over the phrase 'close ties'."
+}

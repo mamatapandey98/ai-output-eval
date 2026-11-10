@@ -1,0 +1,30 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "taskId": 127,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:50:26.663Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:50:28.039Z",
+  "configuredAt": "2026-11-02T10:50:37.111Z",
+  "executedAt": "2026-11-02T10:50:37.562Z",
+  "lastPolledAt": "2026-11-02T10:50:44.832Z",
+  "finishedAt": "2026-11-02T10:50:44.832Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The article discusses the emergence of a new political coalition called the 'wise-use' movement in the West, which promotes responsible development and ecological care of natural resources. This movement draws from earlier land-use battles like the Sagebrush Rebellion and the influence of the Mountain States Legal Foundation. The coalition includes groups such as the Communities for a Great Northwest and Montana PLUS and has connections to the Unification Church, although leaders deny any influence from the religious cult. The movement aims to represent a new form of environmentalism focused on sustainable resource management."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": ""
+    }
+  ],
+  "processingMs": 7270,
+  "totalMs": 18169,
+  "deleted": true,
+  "summary": "Page 1: The article discusses the emergence of a new political coalition called the 'wise-use' movement in the West, which promotes responsible development and ecological care of natural resources. This movement draws from earlier land-use battles like the Sagebrush Rebellion and the influence of the Mountain States Legal Foundation. The coalition includes groups such as the Communities for a Great Northwest and Montana PLUS and has connections to the Unification Church, although leaders deny any influence from the religious cult. The movement aims to represent a new form of environmentalism focused on sustainable resource management.\n\nPage 2: "
+}

@@ -1,0 +1,116 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-haiku-4-5",
+  "job": "extraction",
+  "taskId": 247,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:23:27.110Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:23:28.420Z",
+  "configuredAt": "2026-11-02T12:23:36.612Z",
+  "executedAt": "2026-11-02T12:23:37.930Z",
+  "lastPolledAt": "2026-11-02T12:23:44.414Z",
+  "finishedAt": "2026-11-02T12:23:44.414Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "January 1, 2014",
+      "sender_name__organization": "Tim B. Flynn, Mayor, Office of the Mayor, City of Oxnard",
+      "recipient_name__organization": "City Council Members",
+      "subject__reference": "City Council Goals and Opportunities for 2014",
+      "main_purpose__request": "To encourage the city council to accelerate efforts to regain and maintain public trust in local government and to seize opportunities in 2014, including: hiring a permanent city manager by March 1, 2014; beginning the process of hiring a new city attorney by January 14, 2014; and incorporating strategic priorities with performance and priority-based budgeting"
+    },
+    {
+      "pg_no": 2,
+      "letter_date": "<UNKNOWN>",
+      "sender_name__organization": "Tim Flynn, Mayor, City of Oxnard",
+      "recipient_name__organization": "City Council and City Staff of Oxnard",
+      "subject__reference": "Performance and Priority Based Budgeting Benchmarks and Timelines",
+      "main_purpose__request": "To outline the 2014 budgeting timeline and priorities for the City of Oxnard, including performance-based budgeting initiatives, street resurfacing, job attraction strategy, general fund reserve restoration, school district collaboration, pension discussions, downtown revitalization, flood mitigation, and operational sustainability of city facilities"
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "January 1, 2014",
+      "pages": [
+        {
+          "page": 1,
+          "value": "January 1, 2014"
+        },
+        {
+          "page": 2,
+          "value": "<UNKNOWN>"
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Tim B. Flynn, Mayor, Office of the Mayor, City of Oxnard",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Tim B. Flynn, Mayor, Office of the Mayor, City of Oxnard"
+        },
+        {
+          "page": 2,
+          "value": "Tim Flynn, Mayor, City of Oxnard"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "City Council Members",
+      "pages": [
+        {
+          "page": 1,
+          "value": "City Council Members"
+        },
+        {
+          "page": 2,
+          "value": "City Council and City Staff of Oxnard"
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": "City Council Goals and Opportunities for 2014",
+      "pages": [
+        {
+          "page": 1,
+          "value": "City Council Goals and Opportunities for 2014"
+        },
+        {
+          "page": 2,
+          "value": "Performance and Priority Based Budgeting Benchmarks and Timelines"
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "To encourage the city council to accelerate efforts to regain and maintain public trust in local government and to seize opportunities in 2014, including: hiring a permanent city manager by March 1, 2014; beginning the process of hiring a new city attorney by January 14, 2014; and incorporating strategic priorities with performance and priority-based budgeting",
+      "pages": [
+        {
+          "page": 1,
+          "value": "To encourage the city council to accelerate efforts to regain and maintain public trust in local government and to seize opportunities in 2014, including: hiring a permanent city manager by March 1, 2014; beginning the process of hiring a new city attorney by January 14, 2014; and incorporating strategic priorities with performance and priority-based budgeting"
+        },
+        {
+          "page": 2,
+          "value": "To outline the 2014 budgeting timeline and priorities for the City of Oxnard, including performance-based budgeting initiatives, street resurfacing, job attraction strategy, general fund reserve restoration, school district collaboration, pension discussions, downtown revitalization, flood mitigation, and operational sustainability of city facilities"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 6484,
+  "totalMs": 17304,
+  "deleted": true
+}

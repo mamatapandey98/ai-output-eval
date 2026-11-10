@@ -1,0 +1,88 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-haiku-4-5",
+  "job": "extraction",
+  "taskId": 222,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:07:04.369Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:07:05.775Z",
+  "configuredAt": "2026-11-02T12:07:15.709Z",
+  "executedAt": "2026-11-02T12:07:16.073Z",
+  "lastPolledAt": "2026-11-02T12:07:21.812Z",
+  "finishedAt": "2026-11-02T12:07:21.812Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "headline__title": "Conservative Consumer Ideas Floated Coalition Calls for Less Regulation",
+      "author__byline": "By Warren Brown",
+      "publication_date": "4-29-89",
+      "publication_source__organization": "Washington Post",
+      "primary_subject__topic": "Conservative consumer coalition challenging traditional consumerism with deregulation proposals"
+    }
+  ],
+  "extraction": {
+    "Headline / Title": {
+      "value": "Conservative Consumer Ideas Floated Coalition Calls for Less Regulation",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Conservative Consumer Ideas Floated Coalition Calls for Less Regulation"
+        }
+      ]
+    },
+    "Author / Byline": {
+      "value": "By Warren Brown",
+      "pages": [
+        {
+          "page": 1,
+          "value": "By Warren Brown"
+        }
+      ]
+    },
+    "Publication Date": {
+      "value": "4-29-89",
+      "pages": [
+        {
+          "page": 1,
+          "value": "4-29-89"
+        }
+      ]
+    },
+    "Publication Source / Organization": {
+      "value": "Washington Post",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Washington Post"
+        }
+      ]
+    },
+    "Primary Subject / Topic": {
+      "value": "Conservative consumer coalition challenging traditional consumerism with deregulation proposals",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Conservative consumer coalition challenging traditional consumerism with deregulation proposals"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Headline / Title",
+      "Author / Byline",
+      "Publication Date",
+      "Publication Source / Organization",
+      "Primary Subject / Topic"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 5739,
+  "totalMs": 17443,
+  "deleted": true
+}

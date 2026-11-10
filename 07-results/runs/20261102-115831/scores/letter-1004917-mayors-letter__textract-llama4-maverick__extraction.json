@@ -1,0 +1,141 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 0.65,
+  "matchRate": 0.2,
+  "counts": {
+    "match": 1,
+    "partial": 2,
+    "mismatch": 2,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 1,
+    "partial": 2,
+    "mismatch": 2,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Letter Date",
+      "expected": "January 1, 2014",
+      "predicted": "January 1, 2014",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "January 1, 2014"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "date-format",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Sender Name / Organization",
+      "expected": "Tim B. Flynn, Mayor / Office of the Mayor, City of Oxnard",
+      "predicted": "Tim B. Flynn, Mayor Office of the Mayor",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Tim B. Flynn, Mayor Office of the Mayor"
+        },
+        {
+          "page": 2,
+          "value": "Tim Flynn, Mayor, City of Oxnard"
+        }
+      ],
+      "confidence": 0.795,
+      "verdict": "partial",
+      "method": "lexical-only",
+      "word": 0.842,
+      "char": 0.684,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Recipient Name / Organization",
+      "expected": "Members of the City Council, City of Oxnard",
+      "predicted": "members of the City Council",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "members of the City Council"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 0.727,
+      "verdict": "partial",
+      "method": "lexical-only",
+      "word": 0.769,
+      "char": 0.628,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Subject / Reference",
+      "expected": "Agenda Item No. M-1 (2014 Strategic Priorities and Timelines)",
+      "predicted": "Performance and Priority Based Budgeting Benchmarks and Timelines",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": ""
+        },
+        {
+          "page": 2,
+          "value": "Performance and Priority Based Budgeting Benchmarks and Timelines"
+        }
+      ],
+      "confidence": 0.248,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.222,
+      "char": 0.308,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Main Purpose / Request",
+      "expected": "To set 2014 priorities including hiring a permanent city manager and city attorney, establishing priority-based budgeting, and restoring city reserves.",
+      "predicted": "The mayor encourages the city council to accelerate efforts to regain the public's trust and to seize specific opportunities in 2014, including hiring a permanent city manager and city attorney, and implementing performance and priority-based budgeting.",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "The mayor encourages the city council to accelerate efforts to regain the public's trust and to seize specific opportunities in 2014, including hiring a permanent city manager and city attorney, and implementing performance and priority-based budgeting."
+        },
+        {
+          "page": 2,
+          "value": "Outlining priorities and budget plans for the city of Oxnard in 2014"
+        }
+      ],
+      "confidence": 0.481,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.542,
+      "char": 0.337,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    }
+  ],
+  "resultPages": 2
+}

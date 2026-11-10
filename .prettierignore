@@ -1,0 +1,9 @@
+node_modules/
+runs/
+.cache/
+package-lock.json
+01-ground-truth-annotation/data/
+07-results/runs/
+01-ground-truth-annotation/app/.next/
+01-ground-truth-annotation/app/workspace/
+01-ground-truth-annotation/app/package-lock.json

@@ -1,0 +1,88 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "extraction",
+  "taskId": 287,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:21:51.170Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:21:52.666Z",
+  "configuredAt": "2026-11-02T15:22:00.271Z",
+  "executedAt": "2026-11-02T15:22:01.804Z",
+  "lastPolledAt": "2026-11-02T15:22:23.796Z",
+  "finishedAt": "2026-11-02T15:22:23.796Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "date__time": "Sat, 08 Aug 2015 13:59:56 EDT",
+      "from_sender": "Jon Entine <jon@jonentine.com>",
+      "to_recipient": "Kevin Folta <kkfolta@ufl.edu>",
+      "subject": "Fwd: Curious",
+      "core_message__action_item": "Jon Entine forwards an email exchange with Keith Kloor to Kevin Folta. In the forwarded message, Keith Kloor responds to Jon's feedback about a story, explaining that the \"close ties\" phrase was added during final edits without his review, acknowledging Kevin Folta's objection to it as fair, and suggesting that Jon and Keith should talk since Jon appears in the emails."
+    }
+  ],
+  "extraction": {
+    "Date / Time": {
+      "value": "Sat, 08 Aug 2015 13:59:56 EDT",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Sat, 08 Aug 2015 13:59:56 EDT"
+        }
+      ]
+    },
+    "From (Sender)": {
+      "value": "Jon Entine <jon@jonentine.com>",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Jon Entine <jon@jonentine.com>"
+        }
+      ]
+    },
+    "To (Recipient)": {
+      "value": "Kevin Folta <kkfolta@ufl.edu>",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Kevin Folta <kkfolta@ufl.edu>"
+        }
+      ]
+    },
+    "Subject": {
+      "value": "Fwd: Curious",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Fwd: Curious"
+        }
+      ]
+    },
+    "Core Message / Action Item": {
+      "value": "Jon Entine forwards an email exchange with Keith Kloor to Kevin Folta. In the forwarded message, Keith Kloor responds to Jon's feedback about a story, explaining that the \"close ties\" phrase was added during final edits without his review, acknowledging Kevin Folta's objection to it as fair, and suggesting that Jon and Keith should talk since Jon appears in the emails.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Jon Entine forwards an email exchange with Keith Kloor to Kevin Folta. In the forwarded message, Keith Kloor responds to Jon's feedback about a story, explaining that the \"close ties\" phrase was added during final edits without his review, acknowledging Kevin Folta's objection to it as fair, and suggesting that Jon and Keith should talk since Jon appears in the emails."
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Date / Time",
+      "From (Sender)",
+      "To (Recipient)",
+      "Subject",
+      "Core Message / Action Item"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 21992,
+  "totalMs": 32626,
+  "deleted": true
+}

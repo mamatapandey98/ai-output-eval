@@ -1,0 +1,42 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-sonnet-4-6",
+  "job": "classification",
+  "taskId": 190,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:36:15.101Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:36:16.592Z",
+  "configuredAt": "2026-11-02T11:36:24.784Z",
+  "executedAt": "2026-11-02T11:36:25.193Z",
+  "lastPolledAt": "2026-11-02T11:36:29.556Z",
+  "finishedAt": "2026-11-02T11:36:29.556Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "letter"
+    }
+  ],
+  "classification": {
+    "label": "letter",
+    "pages": [
+      {
+        "page": 1,
+        "label": "letter"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 4363,
+  "totalMs": 14455,
+  "deleted": true
+}

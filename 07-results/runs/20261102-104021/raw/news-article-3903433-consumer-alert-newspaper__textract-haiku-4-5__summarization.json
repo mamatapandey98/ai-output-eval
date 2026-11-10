@@ -1,0 +1,26 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "taskId": 125,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:49:09.536Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:49:10.849Z",
+  "configuredAt": "2026-11-02T10:49:20.894Z",
+  "executedAt": "2026-11-02T10:49:21.238Z",
+  "lastPolledAt": "2026-11-02T10:49:28.338Z",
+  "finishedAt": "2026-11-02T10:49:28.338Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The White House agreed to review economic policy recommendations from the National Consumer Coalition, a 33-group conservative alliance including the Heritage Foundation and Citizens Against Government Waste. The coalition proposes abolishing federal fuel economy standards, reviewing antitrust laws, eliminating farm subsidies, and removing marketplace restrictions. White House Chief of Staff John Sununu endorsed the coalition's deregulation philosophy, arguing consumers are capable of making their own decisions. Liberal consumer groups including Public Citizen and the Center for Auto Safety opposed the coalition's approach, criticizing Sununu's participation as sending the wrong message to business and government. The coalition's free-market philosophy contrasts sharply with Ralph Nader's consumer advocacy model, which emphasizes government regulation to prevent business misconduct."
+    }
+  ],
+  "processingMs": 7100,
+  "totalMs": 18802,
+  "deleted": true,
+  "summary": "Page 1: The White House agreed to review economic policy recommendations from the National Consumer Coalition, a 33-group conservative alliance including the Heritage Foundation and Citizens Against Government Waste. The coalition proposes abolishing federal fuel economy standards, reviewing antitrust laws, eliminating farm subsidies, and removing marketplace restrictions. White House Chief of Staff John Sununu endorsed the coalition's deregulation philosophy, arguing consumers are capable of making their own decisions. Liberal consumer groups including Public Citizen and the Center for Auto Safety opposed the coalition's approach, criticizing Sununu's participation as sending the wrong message to business and government. The coalition's free-market philosophy contrasts sharply with Ralph Nader's consumer advocacy model, which emphasizes government regulation to prevent business misconduct."
+}

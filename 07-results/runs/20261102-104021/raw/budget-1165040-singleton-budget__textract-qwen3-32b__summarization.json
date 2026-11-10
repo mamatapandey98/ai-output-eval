@@ -1,0 +1,34 @@
+{
+  "documentId": "budget-1165040-singleton-budget",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "taskId": 117,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:43:30.708Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:43:31.942Z",
+  "configuredAt": "2026-11-02T10:43:41.174Z",
+  "executedAt": "2026-11-02T10:43:41.535Z",
+  "lastPolledAt": "2026-11-02T10:43:48.630Z",
+  "finishedAt": "2026-11-02T10:43:48.630Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The document provides a detailed budget projection for the 2014-15 academic year, including funding sources such as state and local per pupil funding, Title I and other programs, and contributions. It outlines expenses under categories like salaries, employee benefits, purchased professional and technical services, property services, and other purchased services. Total revenue and expenditures are itemized, with figures such as $4,346,160.00 for state funding and $1,960,500.00 for instructional staff salaries."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The 2014-15 budget projections for James M. Singleton Charter School include expenditures for supplies, food & commodities, books, custodial supplies, depreciation, and contingency funds. The total expenditures are listed as $5,461,160.00, with no specified difference between the figures."
+    },
+    {
+      "pg_no": 3,
+      "generation_response": "The James Singleton Charter School Program's 2012-2013 budget assumptions include an enrollment of 520 students under MFP count and 40 under LA4. The MFP allocation per pupil is $8,358, while the LA4 allocation is $5,532.50 pending approval. The teacher-student ratio is 22:1. Federal funds allocation for Title I, Title II, and IDEA B is estimated at $805,000, covering 90% of the 2013-14 allocation for 182-192 instructional days."
+    }
+  ],
+  "processingMs": 7095,
+  "totalMs": 17922,
+  "deleted": true,
+  "summary": "Page 1: The document provides a detailed budget projection for the 2014-15 academic year, including funding sources such as state and local per pupil funding, Title I and other programs, and contributions. It outlines expenses under categories like salaries, employee benefits, purchased professional and technical services, property services, and other purchased services. Total revenue and expenditures are itemized, with figures such as $4,346,160.00 for state funding and $1,960,500.00 for instructional staff salaries.\n\nPage 2: The 2014-15 budget projections for James M. Singleton Charter School include expenditures for supplies, food & commodities, books, custodial supplies, depreciation, and contingency funds. The total expenditures are listed as $5,461,160.00, with no specified difference between the figures.\n\nPage 3: The James Singleton Charter School Program's 2012-2013 budget assumptions include an enrollment of 520 students under MFP count and 40 under LA4. The MFP allocation per pupil is $8,358, while the LA4 allocation is $5,532.50 pending approval. The teacher-student ratio is 22:1. Federal funds allocation for Title I, Title II, and IDEA B is estimated at $805,000, covering 90% of the 2013-14 allocation for 182-192 instructional days."
+}

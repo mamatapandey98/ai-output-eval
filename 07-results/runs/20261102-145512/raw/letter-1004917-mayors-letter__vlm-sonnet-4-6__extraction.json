@@ -1,0 +1,116 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "extraction",
+  "taskId": 286,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:20:54.013Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:20:55.426Z",
+  "configuredAt": "2026-11-02T15:21:03.413Z",
+  "executedAt": "2026-11-02T15:21:03.764Z",
+  "lastPolledAt": "2026-11-02T15:21:29.422Z",
+  "finishedAt": "2026-11-02T15:21:29.422Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "January 1, 2014",
+      "sender_name__organization": "Tim B. Flynn, Mayor, City of Oxnard",
+      "recipient_name__organization": "Members of the City Council",
+      "subject__reference": "New Year priorities and opportunities for 2014, including hiring a permanent city manager, hiring a new city attorney, and implementing priority-based budgeting",
+      "main_purpose__request": "Mayor Tim B. Flynn outlines key priorities and requests for the City Council to act upon in 2014, including: (1) hiring a permanent city manager by March 1, 2014, (2) beginning the process of hiring a new city attorney no later than January 14, 2014, and (3) incorporating strategic priorities with a performance and priority-based budgeting process."
+    },
+    {
+      "pg_no": 2,
+      "letter_date": "January (2014, implied from context)",
+      "sender_name__organization": "Tim Flynn, Mayor, City of Oxnard",
+      "recipient_name__organization": null,
+      "subject__reference": "Performance and Priority Based Budgeting Benchmarks and Timelines",
+      "main_purpose__request": "To outline the benchmarks and timelines for performance and priority-based budgeting for the City of Oxnard, including monthly milestones from January through June 2014 and other important priorities to be addressed in 2014."
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "January 1, 2014",
+      "pages": [
+        {
+          "page": 1,
+          "value": "January 1, 2014"
+        },
+        {
+          "page": 2,
+          "value": "January (2014, implied from context)"
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Tim B. Flynn, Mayor, City of Oxnard",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Tim B. Flynn, Mayor, City of Oxnard"
+        },
+        {
+          "page": 2,
+          "value": "Tim Flynn, Mayor, City of Oxnard"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "Members of the City Council",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Members of the City Council"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": "New Year priorities and opportunities for 2014, including hiring a permanent city manager, hiring a new city attorney, and implementing priority-based budgeting",
+      "pages": [
+        {
+          "page": 1,
+          "value": "New Year priorities and opportunities for 2014, including hiring a permanent city manager, hiring a new city attorney, and implementing priority-based budgeting"
+        },
+        {
+          "page": 2,
+          "value": "Performance and Priority Based Budgeting Benchmarks and Timelines"
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "Mayor Tim B. Flynn outlines key priorities and requests for the City Council to act upon in 2014, including: (1) hiring a permanent city manager by March 1, 2014, (2) beginning the process of hiring a new city attorney no later than January 14, 2014, and (3) incorporating strategic priorities with a performance and priority-based budgeting process.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Mayor Tim B. Flynn outlines key priorities and requests for the City Council to act upon in 2014, including: (1) hiring a permanent city manager by March 1, 2014, (2) beginning the process of hiring a new city attorney no later than January 14, 2014, and (3) incorporating strategic priorities with a performance and priority-based budgeting process."
+        },
+        {
+          "page": 2,
+          "value": "To outline the benchmarks and timelines for performance and priority-based budgeting for the City of Oxnard, including monthly milestones from January through June 2014 and other important priorities to be addressed in 2014."
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 25658,
+  "totalMs": 35409,
+  "deleted": true
+}

@@ -1,0 +1,116 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-qwen3-32b",
+  "job": "extraction",
+  "taskId": 244,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:21:26.514Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:21:27.834Z",
+  "configuredAt": "2026-11-02T12:21:36.295Z",
+  "executedAt": "2026-11-02T12:21:36.703Z",
+  "lastPolledAt": "2026-11-02T12:21:42.642Z",
+  "finishedAt": "2026-11-02T12:21:42.642Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "January 1, 2014",
+      "sender_name__organization": "Tim B. Flynn, Mayor",
+      "recipient_name__organization": "Members of the City Council",
+      "subject__reference": "Priorities and Actions for 2014",
+      "main_purpose__request": "To outline the priorities and actions for the City Council in 2014, including hiring a permanent city manager, starting the hiring process for a new city attorney, and incorporating performance and priority-based budgeting."
+    },
+    {
+      "pg_no": 2,
+      "letter_date": null,
+      "sender_name__organization": "Tim Flynn, Mayor, City of Oxnard",
+      "recipient_name__organization": "City Council, City Staff, and the Public",
+      "subject__reference": "2014-2015 Budget Plan and Key Priorities",
+      "main_purpose__request": "Outlining priorities and budgeting processes for FY 2014-2015, including strategic objectives, public policy initiatives, and various city projects."
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "January 1, 2014",
+      "pages": [
+        {
+          "page": 1,
+          "value": "January 1, 2014"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Tim B. Flynn, Mayor",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Tim B. Flynn, Mayor"
+        },
+        {
+          "page": 2,
+          "value": "Tim Flynn, Mayor, City of Oxnard"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "Members of the City Council",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Members of the City Council"
+        },
+        {
+          "page": 2,
+          "value": "City Council, City Staff, and the Public"
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": "Priorities and Actions for 2014",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Priorities and Actions for 2014"
+        },
+        {
+          "page": 2,
+          "value": "2014-2015 Budget Plan and Key Priorities"
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "To outline the priorities and actions for the City Council in 2014, including hiring a permanent city manager, starting the hiring process for a new city attorney, and incorporating performance and priority-based budgeting.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "To outline the priorities and actions for the City Council in 2014, including hiring a permanent city manager, starting the hiring process for a new city attorney, and incorporating performance and priority-based budgeting."
+        },
+        {
+          "page": 2,
+          "value": "Outlining priorities and budgeting processes for FY 2014-2015, including strategic objectives, public policy initiatives, and various city projects."
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 5939,
+  "totalMs": 16128,
+  "deleted": true
+}

@@ -1,0 +1,46 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "candidatePages": 2,
+  "candidateChars": 354,
+  "resultPages": 2,
+  "withSourcePdf": false,
+  "judgeProvider": "gemini",
+  "rubricVersion": "summary-reference-v4",
+  "requestedModel": "gemini-3.5-flash",
+  "servedModel": "gemini-3.6-flash",
+  "thinkingLevel": "HIGH",
+  "maxOutputTokens": null,
+  "stopReason": "STOP",
+  "usage": {
+    "input_tokens": 898,
+    "output_tokens": 751,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  },
+  "status": "scored",
+  "scoreScale": "0-10",
+  "weights": {
+    "coverage": 0.4,
+    "accuracy": 0.4,
+    "clarity": 0.1,
+    "conciseness": 0.1
+  },
+  "verdict": {
+    "coverage": 8.5,
+    "accuracy": 8.5,
+    "clarity": 9.5,
+    "conciseness": 9.5
+  },
+  "criteriaScores": {
+    "coverage": 8.5,
+    "accuracy": 8.5,
+    "clarity": 9.5,
+    "conciseness": 9.5
+  },
+  "overall": 8.7,
+  "overallOutOf10": 8.7,
+  "overallPercentage": 87,
+  "score": 0.87
+}

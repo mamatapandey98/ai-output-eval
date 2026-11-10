@@ -1,0 +1,7 @@
+node_modules/
+/runs/
+/screens/
+.cache/
+.env
+.DS_Store
+__pycache__/

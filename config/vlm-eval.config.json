@@ -1,0 +1,21 @@
+{
+  "dataDir": "data",
+  "groundTruthFile": "01-ground-truth-annotation/data/final-reference.json",
+  "variantsFile": "config/vlm-sonnet-4-6.variants.json",
+  "runsDir": "runs",
+  "screensDir": "screens",
+  "cacheDir": ".cache",
+  "pipelineNamePrefix": "llmjudge",
+  "jobs": ["summarization", "classification", "extraction"],
+  "task": {
+    "additionalInstruction": "",
+    "enableContext": false
+  },
+  "execution": {
+    "concurrency": 1,
+    "restAfterTaskMs": 20000,
+    "pollMs": 1000,
+    "timeoutMs": 60000,
+    "deleteTasksAfterRun": true
+  }
+}

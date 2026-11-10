@@ -1,0 +1,30 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "taskId": 148,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:04:07.911Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:04:09.412Z",
+  "configuredAt": "2026-11-02T11:04:17.402Z",
+  "executedAt": "2026-11-02T11:04:18.696Z",
+  "lastPolledAt": "2026-11-02T11:04:23.645Z",
+  "finishedAt": "2026-11-02T11:04:23.645Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The mayor's letter to the city council on January 1, 2014, highlights the progress made in 2013 towards ethics reform, fiscal responsibility, and job creation. The mayor encourages the city council to accelerate efforts to regain public trust in 2014 by hiring a permanent city manager by March 1, 2014, and starting the process for hiring a new city attorney. The letter also recommends implementing performance-based budgeting and setting new goals for minimizing lawsuits against the city."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The City of Oxnard's mayor outlines key tasks and priorities for 2014, including implementing performance and priority-based budgeting, resurfacing residential streets, attracting higher-paying jobs, restoring the general fund reserve, and addressing pension liabilities and city marketing."
+    }
+  ],
+  "processingMs": 4949,
+  "totalMs": 15734,
+  "deleted": true,
+  "summary": "Page 1: The mayor's letter to the city council on January 1, 2014, highlights the progress made in 2013 towards ethics reform, fiscal responsibility, and job creation. The mayor encourages the city council to accelerate efforts to regain public trust in 2014 by hiring a permanent city manager by March 1, 2014, and starting the process for hiring a new city attorney. The letter also recommends implementing performance-based budgeting and setting new goals for minimizing lawsuits against the city.\n\nPage 2: The City of Oxnard's mayor outlines key tasks and priorities for 2014, including implementing performance and priority-based budgeting, resurfacing residential streets, attracting higher-paying jobs, restoring the general fund reserve, and addressing pension liabilities and city marketing."
+}

@@ -1,0 +1,30 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "taskId": 131,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:53:12.842Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:53:14.128Z",
+  "configuredAt": "2026-11-02T10:53:26.654Z",
+  "executedAt": "2026-11-02T10:53:27.029Z",
+  "lastPolledAt": "2026-11-02T10:53:34.213Z",
+  "finishedAt": "2026-11-02T10:53:34.213Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Conservative groups are pushing development under the 'wise-use' movement, a coalition of up to 200 groups with ties to earlier land-use battles and some controversial funding sources."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": ""
+    }
+  ],
+  "processingMs": 7184,
+  "totalMs": 21371,
+  "deleted": true,
+  "summary": "Page 1: Conservative groups are pushing development under the 'wise-use' movement, a coalition of up to 200 groups with ties to earlier land-use battles and some controversial funding sources.\n\nPage 2: "
+}

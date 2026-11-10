@@ -1,0 +1,42 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "classification",
+  "taskId": 269,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:05:09.869Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:05:11.193Z",
+  "configuredAt": "2026-11-02T15:05:18.484Z",
+  "executedAt": "2026-11-02T15:05:19.867Z",
+  "lastPolledAt": "2026-11-02T15:05:51.871Z",
+  "finishedAt": "2026-11-02T15:05:51.871Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "budget"
+    }
+  ],
+  "classification": {
+    "label": "budget",
+    "pages": [
+      {
+        "page": 1,
+        "label": "budget"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 32004,
+  "totalMs": 42002,
+  "deleted": true
+}

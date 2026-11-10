@@ -1,0 +1,144 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "textract-sonnet-4-6",
+  "job": "extraction",
+  "taskId": 255,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:28:38.451Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:28:39.820Z",
+  "configuredAt": "2026-11-02T12:28:47.740Z",
+  "executedAt": "2026-11-02T12:28:49.192Z",
+  "lastPolledAt": "2026-11-02T12:28:58.267Z",
+  "finishedAt": "2026-11-02T12:28:58.267Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "date__time": "Tuesday, June 13, 2017 2:27:00 PM",
+      "from_sender": "Victoria Hutter (hutterv@arts.gov)",
+      "to_recipient": "Adam@openthebooks.com",
+      "subject": "RE: your Forbes article",
+      "core_message__action_item": "Victoria Hutter thanks Adam for his quick response and changes made to the Forbes article. She adds that in 2015, 65% of NEA direct grants went to small and medium-sized organizations, and that the NEA funds non-profits for specific projects or productions only, with proposals reviewed on the basis of artistic excellence and merit. She offers to provide additional information if needed."
+    },
+    {
+      "pg_no": 2,
+      "date__time": "Tuesday, June 13, 2017 11:00 AM",
+      "from_sender": "Victoria Hutter <hutterv@arts.gov>",
+      "to_recipient": "Adam Andrzejewski",
+      "subject": "your Forbes article",
+      "core_message__action_item": "Victoria Hutter from the NEA is writing to Adam Andrzejewski to dispute his statement in a recent Forbes article, which claimed the NEA didn't disclose its grants to NYSF. She asserts that the NEA has been open about its funding of the Public Theater and provides several article links as evidence. She also clarifies that while the NEA gave the Public Theater's Shakespeare in the Park festival $300,000–$320,000 over the past four years, no NEA funding went to the specific \"Julius Caesar\" production."
+    },
+    {
+      "pg_no": 3,
+      "date__time": "",
+      "from_sender": "Victoria Hutter, Assistant Director - Press | Public Affairs, National Endowment for the Arts",
+      "to_recipient": "Playbill",
+      "subject": "NEA Grant Information for Public Theater / Shakespeare in the Park",
+      "core_message__action_item": "The NEA declined to comment on whether the Public Theater applied for grants for the summer season. The Public Theater received $25,000 for the New York Voices program at Joe's Pub. Victoria Hutter invites the recipient to use the NEA grant search utility (https://apps.nea.gov/grantsearch/) to research any NEA grantee, with funding history available for the past 19 years online and earlier years via annual report archives."
+    }
+  ],
+  "extraction": {
+    "Date / Time": {
+      "value": "Tuesday, June 13, 2017 2:27:00 PM",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Tuesday, June 13, 2017 2:27:00 PM"
+        },
+        {
+          "page": 2,
+          "value": "Tuesday, June 13, 2017 11:00 AM"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ]
+    },
+    "From (Sender)": {
+      "value": "Victoria Hutter (hutterv@arts.gov)",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Victoria Hutter (hutterv@arts.gov)"
+        },
+        {
+          "page": 2,
+          "value": "Victoria Hutter <hutterv@arts.gov>"
+        },
+        {
+          "page": 3,
+          "value": "Victoria Hutter, Assistant Director - Press | Public Affairs, National Endowment for the Arts"
+        }
+      ]
+    },
+    "To (Recipient)": {
+      "value": "Adam@openthebooks.com",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Adam@openthebooks.com"
+        },
+        {
+          "page": 2,
+          "value": "Adam Andrzejewski"
+        },
+        {
+          "page": 3,
+          "value": "Playbill"
+        }
+      ]
+    },
+    "Subject": {
+      "value": "RE: your Forbes article",
+      "pages": [
+        {
+          "page": 1,
+          "value": "RE: your Forbes article"
+        },
+        {
+          "page": 2,
+          "value": "your Forbes article"
+        },
+        {
+          "page": 3,
+          "value": "NEA Grant Information for Public Theater / Shakespeare in the Park"
+        }
+      ]
+    },
+    "Core Message / Action Item": {
+      "value": "Victoria Hutter thanks Adam for his quick response and changes made to the Forbes article. She adds that in 2015, 65% of NEA direct grants went to small and medium-sized organizations, and that the NEA funds non-profits for specific projects or productions only, with proposals reviewed on the basis of artistic excellence and merit. She offers to provide additional information if needed.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Victoria Hutter thanks Adam for his quick response and changes made to the Forbes article. She adds that in 2015, 65% of NEA direct grants went to small and medium-sized organizations, and that the NEA funds non-profits for specific projects or productions only, with proposals reviewed on the basis of artistic excellence and merit. She offers to provide additional information if needed."
+        },
+        {
+          "page": 2,
+          "value": "Victoria Hutter from the NEA is writing to Adam Andrzejewski to dispute his statement in a recent Forbes article, which claimed the NEA didn't disclose its grants to NYSF. She asserts that the NEA has been open about its funding of the Public Theater and provides several article links as evidence. She also clarifies that while the NEA gave the Public Theater's Shakespeare in the Park festival $300,000–$320,000 over the past four years, no NEA funding went to the specific \"Julius Caesar\" production."
+        },
+        {
+          "page": 3,
+          "value": "The NEA declined to comment on whether the Public Theater applied for grants for the summer season. The Public Theater received $25,000 for the New York Voices program at Joe's Pub. Victoria Hutter invites the recipient to use the NEA grant search utility (https://apps.nea.gov/grantsearch/) to research any NEA grantee, with funding history available for the past 19 years online and earlier years via annual report archives."
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Date / Time",
+      "From (Sender)",
+      "To (Recipient)",
+      "Subject",
+      "Core Message / Action Item"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 9075,
+  "totalMs": 19816,
+  "deleted": true
+}

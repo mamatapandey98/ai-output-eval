@@ -1,0 +1,37 @@
+{
+  "$comment": "Shape reference only — the values below are placeholders, not real ground truth. Copy to config/ground-truth.json and replace. Every job is optional per document; see src/ground-truth.mjs for all accepted forms.",
+  "classificationCategories": [
+    { "name": "Invoice", "description": "A commercial document issued by a seller to a buyer requesting payment." },
+    { "name": "Memo", "description": "An internal memorandum between people in an organisation." },
+    { "name": "Letter", "description": "Formal correspondence addressed to a person or organisation." },
+    { "name": "Resume", "description": "A summary of a person's education, skills and work history." },
+    { "name": "Form", "description": "A structured document with fields to be filled in." }
+  ],
+  "documents": [
+    {
+      "file": "invoice/6430698-Sinyangwe-Invoice.pdf",
+      "category": "invoice",
+      "summary": "PLACEHOLDER — a human-written summary of the whole document.",
+      "classification": "Invoice",
+      "extraction": {
+        "fields": [
+          { "name": "Invoice Number", "type": "Text", "description": "Identifier printed on the invoice" },
+          { "name": "Invoice Date", "type": "Date", "description": "Date the invoice was issued" },
+          { "name": "Total Amount", "type": "Text", "description": "Amount due, with currency" }
+        ],
+        "values": {
+          "Invoice Number": "PLACEHOLDER-001",
+          "Invoice Date": "01/01/2020",
+          "Total Amount": "$0.00"
+        }
+      }
+    },
+    {
+      "file": "memo/4185725-MEMO.pdf",
+      "category": "memo",
+      "summary": [{ "page": 1, "text": "PLACEHOLDER — summaries may also be given per page." }],
+      "classification": [{ "page": 1, "label": "Memo" }],
+      "extraction": { "From": "PLACEHOLDER", "To": "PLACEHOLDER", "Subject": null }
+    }
+  ]
+}

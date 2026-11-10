@@ -1,0 +1,93 @@
+guarded VLM 30-task run 20261102-145512
+[20:40:12] run 20261102-145512; one VLM pipeline; 30 task cells (10 per job)
+[20:40:18] pipeline llmjudge-vlm-sonnet-4-6 → #179 (created)
+[20:40:18] verified VLM pipeline metadata: OCR=vlm, VLM=bedrock/qwen.qwen3-vl-235b-a22b, LLM=bedrock/us.anthropic.claude-sonnet-4-6
+[20:40:18] starting vlm-sonnet-4-6 × budget-1165158-encore-budget-fy15
+[20:41:10] task 259: completed/completed 50923ms total
+[20:41:10] post-completion cooldown: 20 seconds
+[20:41:30] starting vlm-sonnet-4-6 × budget-1165040-singleton-budget
+[20:42:17] task 260: completed/completed 44630ms total
+[20:42:17] post-completion cooldown: 20 seconds
+[20:42:37] starting vlm-sonnet-4-6 × news-article-3903433-consumer-alert-newspaper
+[20:43:09] task 261: completed/completed 30310ms total
+[20:43:09] post-completion cooldown: 20 seconds
+[20:43:29] starting vlm-sonnet-4-6 × news-article-2071912-conservative-groups-push-development-missoulan
+[20:44:24] task 262: completed/completed 52962ms total
+[20:44:24] post-completion cooldown: 20 seconds
+[20:44:44] starting vlm-sonnet-4-6 × invoice-5978221-sprout-invoice
+[20:45:19] task 263: completed/completed 33861ms total
+[20:45:19] post-completion cooldown: 20 seconds
+[20:45:39] starting vlm-sonnet-4-6 × invoice-20694747-invoice
+[20:46:17] task 264: completed/completed 35828ms total
+[20:46:17] post-completion cooldown: 20 seconds
+[20:46:37] starting vlm-sonnet-4-6 × letter-1009064-letter-from-gov-terry-mcauliffe
+[20:47:00] task 265: completed/completed 21769ms total
+[20:47:00] post-completion cooldown: 20 seconds
+[20:47:20] starting vlm-sonnet-4-6 × letter-1004917-mayors-letter
+[20:47:56] task 266: completed/completed 31931ms total
+[20:47:56] post-completion cooldown: 20 seconds
+[20:48:16] starting vlm-sonnet-4-6 × email-3862260-kloor-on-nature-article
+[20:48:51] task 267: completed/completed 33339ms total
+[20:48:51] post-completion cooldown: 20 seconds
+[20:49:11] starting vlm-sonnet-4-6 × email-3892423-re-your-forbes-article
+[20:49:49] task 268: completed/completed 36785ms total
+[20:49:49] post-completion cooldown: 20 seconds
+[20:50:09] starting vlm-sonnet-4-6 × budget-1165158-encore-budget-fy15
+[20:50:53] task 269: completed/completed 42002ms total
+[20:50:53] post-completion cooldown: 20 seconds
+[20:51:13] starting vlm-sonnet-4-6 × budget-1165040-singleton-budget
+[20:52:03] task 270: completed/completed 48165ms total
+[20:52:03] post-completion cooldown: 20 seconds
+[20:52:23] starting vlm-sonnet-4-6 × news-article-3903433-consumer-alert-newspaper
+[20:52:55] task 271: completed/completed 30733ms total
+[20:52:55] post-completion cooldown: 20 seconds
+[20:53:15] starting vlm-sonnet-4-6 × news-article-2071912-conservative-groups-push-development-missoulan
+[20:54:02] task 272: completed/completed 45110ms total
+[20:54:02] post-completion cooldown: 20 seconds
+[20:54:22] starting vlm-sonnet-4-6 × invoice-5978221-sprout-invoice
+[20:54:54] task 273: completed/completed 30559ms total
+[20:54:54] post-completion cooldown: 20 seconds
+[20:55:14] starting vlm-sonnet-4-6 × invoice-20694747-invoice
+[20:55:45] task 274: completed/completed 28884ms total
+[20:55:45] post-completion cooldown: 20 seconds
+[20:56:05] starting vlm-sonnet-4-6 × letter-1009064-letter-from-gov-terry-mcauliffe
+[20:56:28] task 275: completed/completed 21606ms total
+[20:56:28] post-completion cooldown: 20 seconds
+[20:56:48] starting vlm-sonnet-4-6 × letter-1004917-mayors-letter
+[20:57:20] task 276: completed/completed 29855ms total
+[20:57:20] post-completion cooldown: 20 seconds
+[20:57:40] starting vlm-sonnet-4-6 × email-3862260-kloor-on-nature-article
+[20:58:11] task 277: completed/completed 29375ms total
+[20:58:11] post-completion cooldown: 20 seconds
+[20:58:31] starting vlm-sonnet-4-6 × email-3892423-re-your-forbes-article
+[20:59:05] task 278: completed/completed 32328ms total
+[20:59:05] post-completion cooldown: 20 seconds
+[20:59:25] starting vlm-sonnet-4-6 × budget-1165158-encore-budget-fy15
+[21:00:04] task 279: completed/completed 37077ms total
+[21:00:04] post-completion cooldown: 20 seconds
+[21:00:24] starting vlm-sonnet-4-6 × budget-1165040-singleton-budget
+[21:01:09] task 280: completed/completed 43052ms total
+[21:01:09] post-completion cooldown: 20 seconds
+[21:01:29] starting vlm-sonnet-4-6 × news-article-3903433-consumer-alert-newspaper
+[21:02:01] task 281: completed/completed 30271ms total
+[21:02:01] post-completion cooldown: 20 seconds
+[21:02:21] starting vlm-sonnet-4-6 × news-article-2071912-conservative-groups-push-development-missoulan
+[21:03:01] task 282: completed/completed 38636ms total
+[21:03:01] post-completion cooldown: 20 seconds
+[21:03:21] starting vlm-sonnet-4-6 × invoice-5978221-sprout-invoice
+[21:03:51] task 283: completed/completed 27928ms total
+[21:03:51] post-completion cooldown: 20 seconds
+[21:04:11] starting vlm-sonnet-4-6 × invoice-20694747-invoice
+[21:04:47] task 284: completed/completed 33925ms total
+[21:04:47] post-completion cooldown: 20 seconds
+[21:05:07] starting vlm-sonnet-4-6 × letter-1009064-letter-from-gov-terry-mcauliffe
+[21:05:34] task 285: completed/completed 25175ms total
+[21:05:34] post-completion cooldown: 20 seconds
+[21:05:54] starting vlm-sonnet-4-6 × letter-1004917-mayors-letter
+[21:06:31] task 286: completed/completed 35409ms total
+[21:06:31] post-completion cooldown: 20 seconds
+[21:06:51] starting vlm-sonnet-4-6 × email-3862260-kloor-on-nature-article
+[21:07:25] task 287: completed/completed 32626ms total
+[21:07:25] post-completion cooldown: 20 seconds
+[21:07:45] starting vlm-sonnet-4-6 × email-3892423-re-your-forbes-article
+[21:08:20] task 288: completed/completed 32736ms total

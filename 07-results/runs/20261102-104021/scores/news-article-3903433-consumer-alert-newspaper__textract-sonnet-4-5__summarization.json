@@ -1,0 +1,46 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "candidatePages": 1,
+  "candidateChars": 1158,
+  "resultPages": 1,
+  "withSourcePdf": false,
+  "judgeProvider": "gemini",
+  "rubricVersion": "summary-reference-v4",
+  "requestedModel": "gemini-3.5-flash",
+  "servedModel": "gemini-3.6-flash",
+  "thinkingLevel": "HIGH",
+  "maxOutputTokens": null,
+  "stopReason": "STOP",
+  "usage": {
+    "input_tokens": 904,
+    "output_tokens": 841,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  },
+  "status": "scored",
+  "scoreScale": "0-10",
+  "weights": {
+    "coverage": 0.4,
+    "accuracy": 0.4,
+    "clarity": 0.1,
+    "conciseness": 0.1
+  },
+  "verdict": {
+    "coverage": 9.5,
+    "accuracy": 10,
+    "clarity": 10,
+    "conciseness": 9.5
+  },
+  "criteriaScores": {
+    "coverage": 9.5,
+    "accuracy": 10,
+    "clarity": 10,
+    "conciseness": 9.5
+  },
+  "overall": 9.75,
+  "overallOutOf10": 9.75,
+  "overallPercentage": 97.5,
+  "score": 0.975
+}

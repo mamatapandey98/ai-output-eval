@@ -1,0 +1,42 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "textract-haiku-4-5",
+  "job": "classification",
+  "taskId": 202,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:43:51.623Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:43:52.933Z",
+  "configuredAt": "2026-11-02T11:44:00.357Z",
+  "executedAt": "2026-11-02T11:44:01.660Z",
+  "lastPolledAt": "2026-11-02T11:44:06.534Z",
+  "finishedAt": "2026-11-02T11:44:06.534Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "email"
+    }
+  ],
+  "classification": {
+    "label": "email",
+    "pages": [
+      {
+        "page": 1,
+        "label": "email"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 4874,
+  "totalMs": 14911,
+  "deleted": true
+}

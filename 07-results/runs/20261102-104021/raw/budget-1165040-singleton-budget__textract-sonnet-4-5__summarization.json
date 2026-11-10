@@ -1,0 +1,34 @@
+{
+  "documentId": "budget-1165040-singleton-budget",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "taskId": 119,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:44:52.935Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:44:54.329Z",
+  "configuredAt": "2026-11-02T10:45:05.388Z",
+  "executedAt": "2026-11-02T10:45:05.796Z",
+  "lastPolledAt": "2026-11-02T10:45:24.124Z",
+  "finishedAt": "2026-11-02T10:45:24.124Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This document presents the 2014-15 budget projections for Vamed M. Cindleton Charter school. The budget shows total revenue of $5,461,160 from three main sources: state and local funding per pupil ($4,346,160 for 520 students plus $75,000 ERATE), federal Title I/II/IDEA and other funding ($805,000 plus $185,000 LA-4 for 40 students), and contributions/donations ($50,000). \n\nExpenditures are organized by object codes: Salaries (Code 100) totaling $2,709,910 include school administration ($532,350), instructional staff of 27 teachers, 5 paraprofessionals, 1 reading specialist, and 2 curriculum specialists ($1,960,500), and non-instructional staff ($217,060). Employee Benefits (Code 200) total $668,711.57 covering health insurance, social security, Medicare, retirement, unemployment, and other benefits. Purchased Professional & Technical Services (Code 300) amount to $271,609 for legal, accounting/auditing, management company services, and other purchased services. Purchased Property Services (Code 400) total $995,359 for utilities, facility usage, repairs/maintenance, security, and janitorial services. Other Purchased Services (Code 500) total $640,475 including student transportation ($325,000), insurance, food service management, travel, and other operational expenses."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "This document shows the 2014-15 budget projections for James M. Singleton Charter School, specifically detailing two expenditure categories: Supplies (Object Code 600) totaling $95,095.43, which includes materials/supplies ($42,295.43), food & commodities, books and periodicals ($35,300.00 and $15,000.00), and custodial supplies; and Other Use of Funds (Object Code 900) totaling $80,000.00, covering depreciation ($15,000.00), indirect costs ($65,000.00), and contingency. The total expenditures amount to $5,461,160.00 with a difference of zero."
+    },
+    {
+      "pg_no": 3,
+      "generation_response": "This document outlines the 2012-2013 budget assumptions for James Singleton Charter School Program. Key details include: student enrollment of 520 MFP count students plus 40 LA4 students; MFP allocation of $8,358.00 per pupil (state and local, pending BESE approval for 2014-15 and legislative action); LA4 allocation of $5,532.50 per pupil (pending LA Department of Education approval); a teacher-to-student ratio of 22:1; federal funds allocation of $805,000 (representing 90% of 2013-14 allocation for Title I, Title II, and IDEA B, pending BESE approval); and a school calendar consisting of 182-192 instructional days."
+    }
+  ],
+  "processingMs": 18328,
+  "totalMs": 31189,
+  "deleted": true,
+  "summary": "Page 1: This document presents the 2014-15 budget projections for Vamed M. Cindleton Charter school. The budget shows total revenue of $5,461,160 from three main sources: state and local funding per pupil ($4,346,160 for 520 students plus $75,000 ERATE), federal Title I/II/IDEA and other funding ($805,000 plus $185,000 LA-4 for 40 students), and contributions/donations ($50,000). \n\nExpenditures are organized by object codes: Salaries (Code 100) totaling $2,709,910 include school administration ($532,350), instructional staff of 27 teachers, 5 paraprofessionals, 1 reading specialist, and 2 curriculum specialists ($1,960,500), and non-instructional staff ($217,060). Employee Benefits (Code 200) total $668,711.57 covering health insurance, social security, Medicare, retirement, unemployment, and other benefits. Purchased Professional & Technical Services (Code 300) amount to $271,609 for legal, accounting/auditing, management company services, and other purchased services. Purchased Property Services (Code 400) total $995,359 for utilities, facility usage, repairs/maintenance, security, and janitorial services. Other Purchased Services (Code 500) total $640,475 including student transportation ($325,000), insurance, food service management, travel, and other operational expenses.\n\nPage 2: This document shows the 2014-15 budget projections for James M. Singleton Charter School, specifically detailing two expenditure categories: Supplies (Object Code 600) totaling $95,095.43, which includes materials/supplies ($42,295.43), food & commodities, books and periodicals ($35,300.00 and $15,000.00), and custodial supplies; and Other Use of Funds (Object Code 900) totaling $80,000.00, covering depreciation ($15,000.00), indirect costs ($65,000.00), and contingency. The total expenditures amount to $5,461,160.00 with a difference of zero.\n\nPage 3: This document outlines the 2012-2013 budget assumptions for James Singleton Charter School Program. Key details include: student enrollment of 520 MFP count students plus 40 LA4 students; MFP allocation of $8,358.00 per pupil (state and local, pending BESE approval for 2014-15 and legislative action); LA4 allocation of $5,532.50 per pupil (pending LA Department of Education approval); a teacher-to-student ratio of 22:1; federal funds allocation of $805,000 (representing 90% of 2013-14 allocation for Title I, Title II, and IDEA B, pending BESE approval); and a school calendar consisting of 182-192 instructional days."
+}

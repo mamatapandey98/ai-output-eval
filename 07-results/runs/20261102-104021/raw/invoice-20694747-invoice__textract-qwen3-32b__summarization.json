@@ -1,0 +1,30 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "taskId": 134,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:55:06.391Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:55:07.644Z",
+  "configuredAt": "2026-11-02T10:55:15.225Z",
+  "executedAt": "2026-11-02T10:55:16.680Z",
+  "lastPolledAt": "2026-11-02T10:55:20.516Z",
+  "finishedAt": "2026-11-02T10:55:20.516Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The document is an invoice from the Richmond Police Department related to a FOIA request for data on use of force incidents, civilian complaints, and officer-involved shootings from 2013-2019. The invoice includes charges for services, such as $80 for 2 hours of work and $20 for 30 minutes of work, totaling $100. Payment instructions are provided, specifying the address for remittance and requesting a copy of the invoice with payment."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The document mentions accepted payment methods as Certified Check, Money Order, and Cash, noting not to mail cash. It provides contact information for the Richmond Police Department, including the Chief of Police Gerald M. Smith, address, phone number, fax number, and website."
+    }
+  ],
+  "processingMs": 3836,
+  "totalMs": 14125,
+  "deleted": true,
+  "summary": "Page 1: The document is an invoice from the Richmond Police Department related to a FOIA request for data on use of force incidents, civilian complaints, and officer-involved shootings from 2013-2019. The invoice includes charges for services, such as $80 for 2 hours of work and $20 for 30 minutes of work, totaling $100. Payment instructions are provided, specifying the address for remittance and requesting a copy of the invoice with payment.\n\nPage 2: The document mentions accepted payment methods as Certified Check, Money Order, and Cash, noting not to mail cash. It provides contact information for the Richmond Police Department, including the Chief of Police Gerald M. Smith, address, phone number, fax number, and website."
+}

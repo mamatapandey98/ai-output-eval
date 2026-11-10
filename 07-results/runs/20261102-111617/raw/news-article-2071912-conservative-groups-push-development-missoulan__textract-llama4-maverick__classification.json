@@ -1,0 +1,50 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-llama4-maverick",
+  "job": "classification",
+  "taskId": 178,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:28:46.279Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:28:47.519Z",
+  "configuredAt": "2026-11-02T11:28:56.888Z",
+  "executedAt": "2026-11-02T11:28:57.245Z",
+  "lastPolledAt": "2026-11-02T11:29:05.793Z",
+  "finishedAt": "2026-11-02T11:29:05.793Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "news article"
+    },
+    {
+      "pg_no": 2,
+      "document_type": "letter"
+    }
+  ],
+  "classification": {
+    "label": "news article",
+    "pages": [
+      {
+        "page": 1,
+        "label": "news article"
+      },
+      {
+        "page": 2,
+        "label": "letter"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 2,
+    "observedPageCount": 2,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 8548,
+  "totalMs": 19514,
+  "deleted": true
+}

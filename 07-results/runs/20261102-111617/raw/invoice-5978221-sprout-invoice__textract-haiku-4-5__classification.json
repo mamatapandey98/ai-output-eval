@@ -1,0 +1,42 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "textract-haiku-4-5",
+  "job": "classification",
+  "taskId": 182,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:31:17.570Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:31:18.949Z",
+  "configuredAt": "2026-11-02T11:31:28.134Z",
+  "executedAt": "2026-11-02T11:31:28.538Z",
+  "lastPolledAt": "2026-11-02T11:31:31.612Z",
+  "finishedAt": "2026-11-02T11:31:31.612Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "invoice"
+    }
+  ],
+  "classification": {
+    "label": "invoice",
+    "pages": [
+      {
+        "page": 1,
+        "label": "invoice"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 3074,
+  "totalMs": 14042,
+  "deleted": true
+}

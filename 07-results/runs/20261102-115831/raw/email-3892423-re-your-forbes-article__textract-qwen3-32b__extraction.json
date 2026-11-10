@@ -1,0 +1,144 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "textract-qwen3-32b",
+  "job": "extraction",
+  "taskId": 254,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:28:01.258Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:28:02.623Z",
+  "configuredAt": "2026-11-02T12:28:10.653Z",
+  "executedAt": "2026-11-02T12:28:11.047Z",
+  "lastPolledAt": "2026-11-02T12:28:16.780Z",
+  "finishedAt": "2026-11-02T12:28:16.780Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "date__time": "Tuesday, June 13, 2017 2:27:00 PM",
+      "from_sender": "Victoria Hutter",
+      "to_recipient": "Adam@openthebooks.com",
+      "subject": "RE: your Forbes article",
+      "core_message__action_item": "Adam thanked Victoria for her response and made changes. Victoria provided additional context about NEA grants in 2015 and the criteria for funding. Adam confirmed the changes were made to accurately reflect NEA's statement."
+    },
+    {
+      "pg_no": 2,
+      "date__time": "Tuesday, June 13, 2017 11:00 AM",
+      "from_sender": "Victoria Hutter <hutterv@arts.gov>",
+      "to_recipient": "Adam Andrzejewski",
+      "subject": "your Forbes article",
+      "core_message__action_item": "The NEA has been open about its funding of the Public Theater, sharing that information freely with reporters who have contacted us as the following sample of articles indicates."
+    },
+    {
+      "pg_no": 3,
+      "date__time": null,
+      "from_sender": "Victoria Hutter",
+      "to_recipient": null,
+      "subject": "NEA Grants and Funding Information",
+      "core_message__action_item": "The Public Theater received $25,000 this year for the New York Voices program at Joe's Pub. Playbill has reached out to the theatre company regarding its application process for the Shakespeare in the Park Season."
+    }
+  ],
+  "extraction": {
+    "Date / Time": {
+      "value": "Tuesday, June 13, 2017 2:27:00 PM",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Tuesday, June 13, 2017 2:27:00 PM"
+        },
+        {
+          "page": 2,
+          "value": "Tuesday, June 13, 2017 11:00 AM"
+        },
+        {
+          "page": 3,
+          "value": null
+        }
+      ]
+    },
+    "From (Sender)": {
+      "value": "Victoria Hutter",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Victoria Hutter"
+        },
+        {
+          "page": 2,
+          "value": "Victoria Hutter <hutterv@arts.gov>"
+        },
+        {
+          "page": 3,
+          "value": "Victoria Hutter"
+        }
+      ]
+    },
+    "To (Recipient)": {
+      "value": "Adam@openthebooks.com",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Adam@openthebooks.com"
+        },
+        {
+          "page": 2,
+          "value": "Adam Andrzejewski"
+        },
+        {
+          "page": 3,
+          "value": null
+        }
+      ]
+    },
+    "Subject": {
+      "value": "RE: your Forbes article",
+      "pages": [
+        {
+          "page": 1,
+          "value": "RE: your Forbes article"
+        },
+        {
+          "page": 2,
+          "value": "your Forbes article"
+        },
+        {
+          "page": 3,
+          "value": "NEA Grants and Funding Information"
+        }
+      ]
+    },
+    "Core Message / Action Item": {
+      "value": "Adam thanked Victoria for her response and made changes. Victoria provided additional context about NEA grants in 2015 and the criteria for funding. Adam confirmed the changes were made to accurately reflect NEA's statement.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Adam thanked Victoria for her response and made changes. Victoria provided additional context about NEA grants in 2015 and the criteria for funding. Adam confirmed the changes were made to accurately reflect NEA's statement."
+        },
+        {
+          "page": 2,
+          "value": "The NEA has been open about its funding of the Public Theater, sharing that information freely with reporters who have contacted us as the following sample of articles indicates."
+        },
+        {
+          "page": 3,
+          "value": "The Public Theater received $25,000 this year for the New York Voices program at Joe's Pub. Playbill has reached out to the theatre company regarding its application process for the Shakespeare in the Park Season."
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Date / Time",
+      "From (Sender)",
+      "To (Recipient)",
+      "Subject",
+      "Core Message / Action Item"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 5733,
+  "totalMs": 15522,
+  "deleted": true
+}

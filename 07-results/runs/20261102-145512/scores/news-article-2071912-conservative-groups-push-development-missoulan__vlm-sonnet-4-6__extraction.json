@@ -1,0 +1,137 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 0.78,
+  "matchRate": 0.6,
+  "counts": {
+    "match": 3,
+    "partial": 0,
+    "mismatch": 2,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 3,
+    "partial": 0,
+    "mismatch": 2,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Headline / Title",
+      "expected": "Conservative groups push development",
+      "predicted": "Conservative groups push development",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Conservative groups push development"
+        },
+        {
+          "page": 2,
+          "value": "Coalition"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Author / Byline",
+      "expected": "Dick Manning",
+      "predicted": "Dick Manning",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Dick Manning"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "normalization": "byline-format",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Publication Date",
+      "expected": "July 23, 1989",
+      "predicted": "Sunday, June 23, 1989",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": ""
+        },
+        {
+          "page": 2,
+          "value": "Sunday, June 23, 1989"
+        }
+      ],
+      "confidence": 0.4,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.571,
+      "char": 0.524,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "numericMismatch": true,
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Publication Source / Organization",
+      "expected": "The Missoulian",
+      "predicted": "Missoulian",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Missoulian"
+        },
+        {
+          "page": 2,
+          "value": "Washington"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "publication-article",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Primary Subject / Topic",
+      "expected": "The Western pro-development coalition and the wise-use movement, including coalition membership and related political ties.",
+      "predicted": "The \"wise-use\" movement and pro-development conservative groups in the West, including ties to the Unification Church",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "The \"wise-use\" movement and pro-development conservative groups in the West, including ties to the Unification Church"
+        },
+        {
+          "page": 2,
+          "value": "American Freedom Coalition's ties to Sun Myung Moon's Unification Church and its influence on conservative land-use and political movements in the West"
+        }
+      ],
+      "confidence": 0.498,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.571,
+      "char": 0.328,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    }
+  ],
+  "resultPages": 2
+}

@@ -1,0 +1,116 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-qwen3-32b",
+  "job": "extraction",
+  "taskId": 224,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:08:20.336Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:08:21.551Z",
+  "configuredAt": "2026-11-02T12:08:30.091Z",
+  "executedAt": "2026-11-02T12:08:30.466Z",
+  "lastPolledAt": "2026-11-02T12:08:39.063Z",
+  "finishedAt": "2026-11-02T12:08:39.063Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "headline__title": "New breed of the 'wise-use' movement emerges in the West",
+      "author__byline": "By DICK MANNING of the Missoulian",
+      "publication_date": null,
+      "publication_source__organization": "Missoulian",
+      "primary_subject__topic": "The 'wise-use' movement and its ties to conservative groups and development forces"
+    },
+    {
+      "pg_no": 2,
+      "headline__title": "",
+      "author__byline": "",
+      "publication_date": "",
+      "publication_source__organization": "",
+      "primary_subject__topic": ""
+    }
+  ],
+  "extraction": {
+    "Headline / Title": {
+      "value": "New breed of the 'wise-use' movement emerges in the West",
+      "pages": [
+        {
+          "page": 1,
+          "value": "New breed of the 'wise-use' movement emerges in the West"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Author / Byline": {
+      "value": "By DICK MANNING of the Missoulian",
+      "pages": [
+        {
+          "page": 1,
+          "value": "By DICK MANNING of the Missoulian"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Publication Date": {
+      "value": null,
+      "pages": [
+        {
+          "page": 1,
+          "value": null
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Publication Source / Organization": {
+      "value": "Missoulian",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Missoulian"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    },
+    "Primary Subject / Topic": {
+      "value": "The 'wise-use' movement and its ties to conservative groups and development forces",
+      "pages": [
+        {
+          "page": 1,
+          "value": "The 'wise-use' movement and its ties to conservative groups and development forces"
+        },
+        {
+          "page": 2,
+          "value": ""
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Headline / Title",
+      "Author / Byline",
+      "Publication Date",
+      "Publication Source / Organization",
+      "Primary Subject / Topic"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 8597,
+  "totalMs": 18727,
+  "deleted": true
+}

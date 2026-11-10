@@ -1,0 +1,88 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-qwen3-32b",
+  "job": "extraction",
+  "taskId": 239,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:18:12.865Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:18:14.364Z",
+  "configuredAt": "2026-11-02T12:18:23.725Z",
+  "executedAt": "2026-11-02T12:18:24.195Z",
+  "lastPolledAt": "2026-11-02T12:18:28.721Z",
+  "finishedAt": "2026-11-02T12:18:28.721Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "September 25, 2013",
+      "sender_name__organization": "Terry McAuliffe",
+      "recipient_name__organization": "Korean Community of Virginia",
+      "subject__reference": "Accurate labeling of East Sea/Sea of Japan in educational materials",
+      "main_purpose__request": "Support for accurately labeling the body of water as both the East Sea and the Sea of Japan in Virginia's school textbooks."
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "September 25, 2013",
+      "pages": [
+        {
+          "page": 1,
+          "value": "September 25, 2013"
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Terry McAuliffe",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Terry McAuliffe"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "Korean Community of Virginia",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Korean Community of Virginia"
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": "Accurate labeling of East Sea/Sea of Japan in educational materials",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Accurate labeling of East Sea/Sea of Japan in educational materials"
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "Support for accurately labeling the body of water as both the East Sea and the Sea of Japan in Virginia's school textbooks.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Support for accurately labeling the body of water as both the East Sea and the Sea of Japan in Virginia's school textbooks."
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 4526,
+  "totalMs": 15856,
+  "deleted": true
+}

@@ -1,0 +1,42 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-haiku-4-5",
+  "job": "classification",
+  "taskId": 192,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:37:31.278Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:37:32.778Z",
+  "configuredAt": "2026-11-02T11:37:40.589Z",
+  "executedAt": "2026-11-02T11:37:41.990Z",
+  "lastPolledAt": "2026-11-02T11:37:46.784Z",
+  "finishedAt": "2026-11-02T11:37:46.784Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "letter"
+    }
+  ],
+  "classification": {
+    "label": "letter",
+    "pages": [
+      {
+        "page": 1,
+        "label": "letter"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 4794,
+  "totalMs": 15506,
+  "deleted": true
+}

@@ -1,0 +1,34 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "taskId": 158,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:10:49.466Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:10:50.684Z",
+  "configuredAt": "2026-11-02T11:10:58.568Z",
+  "executedAt": "2026-11-02T11:10:59.900Z",
+  "lastPolledAt": "2026-11-02T11:11:05.121Z",
+  "finishedAt": "2026-11-02T11:11:05.121Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Victoria Hutter from the National Endowment for the Arts (NEA) responded to Adam Andrzejewski regarding a Forbes article. She appreciated the changes made to the article and provided additional information that in 2015, 65% of NEA direct grants went to small and medium-sized organizations. The NEA funds non-profits for specific projects based on artistic excellence and merit."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "Adam Andrzejewski wrote an article in Forbes regarding the NEA's funding of the Public Theater's production of 'Julius Caesar.' The NEA responded, stating they were open about their funding and that no NEA funds were awarded to support this particular production, although they had given grants to the Public Theater's Shakespeare in the Park festival in previous years."
+    },
+    {
+      "pg_no": 3,
+      "generation_response": "The NEA provided $25,000 to the Public Theater for the New York Voices program. Detailed funding history for NEA grantees is available on their website."
+    }
+  ],
+  "processingMs": 5221,
+  "totalMs": 15655,
+  "deleted": true,
+  "summary": "Page 1: Victoria Hutter from the National Endowment for the Arts (NEA) responded to Adam Andrzejewski regarding a Forbes article. She appreciated the changes made to the article and provided additional information that in 2015, 65% of NEA direct grants went to small and medium-sized organizations. The NEA funds non-profits for specific projects based on artistic excellence and merit.\n\nPage 2: Adam Andrzejewski wrote an article in Forbes regarding the NEA's funding of the Public Theater's production of 'Julius Caesar.' The NEA responded, stating they were open about their funding and that no NEA funds were awarded to support this particular production, although they had given grants to the Public Theater's Shakespeare in the Park festival in previous years.\n\nPage 3: The NEA provided $25,000 to the Public Theater for the New York Voices program. Detailed funding history for NEA grantees is available on their website."
+}

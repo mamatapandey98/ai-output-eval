@@ -1,0 +1,46 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "candidatePages": 1,
+  "candidateChars": 561,
+  "resultPages": 1,
+  "withSourcePdf": false,
+  "judgeProvider": "gemini",
+  "rubricVersion": "summary-reference-v4",
+  "requestedModel": "gemini-3.5-flash",
+  "servedModel": "gemini-3.6-flash",
+  "thinkingLevel": "HIGH",
+  "maxOutputTokens": null,
+  "stopReason": "STOP",
+  "usage": {
+    "input_tokens": 927,
+    "output_tokens": 641,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  },
+  "status": "scored",
+  "scoreScale": "0-10",
+  "weights": {
+    "coverage": 0.4,
+    "accuracy": 0.4,
+    "clarity": 0.1,
+    "conciseness": 0.1
+  },
+  "verdict": {
+    "coverage": 10,
+    "accuracy": 10,
+    "clarity": 10,
+    "conciseness": 9
+  },
+  "criteriaScores": {
+    "coverage": 10,
+    "accuracy": 10,
+    "clarity": 10,
+    "conciseness": 9
+  },
+  "overall": 9.9,
+  "overallOutOf10": 9.9,
+  "overallPercentage": 99,
+  "score": 0.99
+}

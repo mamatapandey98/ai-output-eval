@@ -1,0 +1,30 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "taskId": 146,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:02:41.715Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:02:43.191Z",
+  "configuredAt": "2026-11-02T11:02:51.523Z",
+  "executedAt": "2026-11-02T11:02:51.871Z",
+  "lastPolledAt": "2026-11-02T11:03:05.825Z",
+  "finishedAt": "2026-11-02T11:03:05.825Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This is a January 1, 2014 letter from Oxnard Mayor Tim B. Flynn to the City Council outlining priorities for the new year. The mayor acknowledges 2013's progress in ethics reform and addressing fiscal abuses identified in a District Attorney's investigation, while noting that efforts led to lengthy council meetings. \n\nFor 2014, Mayor Flynn proposes three key priorities:\n\n1. **Hire a permanent city manager by March 1, 2014**: The council must determine its role and the public's involvement in the hiring process, with key decisions needed by January 14, 2014.\n\n2. **Begin hiring a new city attorney**: The process should start no later than January 14, 2014, but conclude after the city manager is hired. The council should establish performance-based goals to minimize lawsuits against the city.\n\n3. **Implement priority-based budgeting**: The mayor recommends integrating strategic priorities from April 2013 with a performance and priority-based budgeting process to help the city spend within its means and increase citizen engagement, following the finance director's recommendation from the previous year."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "This document outlines the City of Oxnard's Performance and Priority Based Budgeting process and timeline for fiscal year 2014-2015. The timeline spans January through June 2014, beginning with city staff working with council members to develop public policy initiatives from strategic objectives, followed by study sessions in February and March to adopt initiatives and determine priority-based budgeting for all departments. Input from neighborhood councils and civic organizations is scheduled for April, with budget finalization in May and final approval by June 17, 2014.\n\nThe document also identifies key priorities for 2014, including: resurfacing residential streets through a $30 million bonded plan; attracting higher-paying jobs and improving the business environment; restoring the general fund reserve from 10% to 18%; establishing a K-12 magnet program collaboration with the school district; addressing pension contributions with bargaining units; reviving city marketing and downtown development plans; securing funding for Santa Clara River levees; evaluating former redevelopment properties for purchase; and making the Golf Course and Performing Arts Center self-sustaining. The document concludes with Mayor Tim Flynn's commitment to working with the city council, staff, and public to advance Oxnard."
+    }
+  ],
+  "processingMs": 13954,
+  "totalMs": 24110,
+  "deleted": true,
+  "summary": "Page 1: This is a January 1, 2014 letter from Oxnard Mayor Tim B. Flynn to the City Council outlining priorities for the new year. The mayor acknowledges 2013's progress in ethics reform and addressing fiscal abuses identified in a District Attorney's investigation, while noting that efforts led to lengthy council meetings. \n\nFor 2014, Mayor Flynn proposes three key priorities:\n\n1. **Hire a permanent city manager by March 1, 2014**: The council must determine its role and the public's involvement in the hiring process, with key decisions needed by January 14, 2014.\n\n2. **Begin hiring a new city attorney**: The process should start no later than January 14, 2014, but conclude after the city manager is hired. The council should establish performance-based goals to minimize lawsuits against the city.\n\n3. **Implement priority-based budgeting**: The mayor recommends integrating strategic priorities from April 2013 with a performance and priority-based budgeting process to help the city spend within its means and increase citizen engagement, following the finance director's recommendation from the previous year.\n\nPage 2: This document outlines the City of Oxnard's Performance and Priority Based Budgeting process and timeline for fiscal year 2014-2015. The timeline spans January through June 2014, beginning with city staff working with council members to develop public policy initiatives from strategic objectives, followed by study sessions in February and March to adopt initiatives and determine priority-based budgeting for all departments. Input from neighborhood councils and civic organizations is scheduled for April, with budget finalization in May and final approval by June 17, 2014.\n\nThe document also identifies key priorities for 2014, including: resurfacing residential streets through a $30 million bonded plan; attracting higher-paying jobs and improving the business environment; restoring the general fund reserve from 10% to 18%; establishing a K-12 magnet program collaboration with the school district; addressing pension contributions with bargaining units; reviving city marketing and downtown development plans; securing funding for Santa Clara River levees; evaluating former redevelopment properties for purchase; and making the Golf Course and Performing Arts Center self-sustaining. The document concludes with Mayor Tim Flynn's commitment to working with the city council, staff, and public to advance Oxnard."
+}

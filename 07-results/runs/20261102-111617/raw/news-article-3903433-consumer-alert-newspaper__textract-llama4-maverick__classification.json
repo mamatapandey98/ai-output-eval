@@ -1,0 +1,42 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-llama4-maverick",
+  "job": "classification",
+  "taskId": 173,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:25:19.814Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:25:21.219Z",
+  "configuredAt": "2026-11-02T11:25:29.827Z",
+  "executedAt": "2026-11-02T11:25:30.175Z",
+  "lastPolledAt": "2026-11-02T11:25:34.713Z",
+  "finishedAt": "2026-11-02T11:25:34.713Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "news article"
+    }
+  ],
+  "classification": {
+    "label": "news article",
+    "pages": [
+      {
+        "page": 1,
+        "label": "news article"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 4538,
+  "totalMs": 14899,
+  "deleted": true
+}

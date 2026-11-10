@@ -1,0 +1,154 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "extraction",
+  "status": "scored",
+  "scoringVersion": "document-value-first-nonempty-v8-field-aware-normalization",
+  "score": 0.839,
+  "matchRate": 0.8,
+  "counts": {
+    "match": 4,
+    "partial": 0,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "comparisonCounts": {
+    "match": 4,
+    "partial": 0,
+    "mismatch": 1,
+    "missing": 0,
+    "hallucinated": 0,
+    "agreed-empty": 0
+  },
+  "fields": [
+    {
+      "name": "Date / Time",
+      "expected": "Tuesday, June 13, 2017 at 2:27 PM",
+      "predicted": "Tuesday, June 13, 2017 2:27:00 PM",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Tuesday, June 13, 2017 2:27:00 PM"
+        },
+        {
+          "page": 2,
+          "value": "Tuesday, June 13, 2017 11:00 AM"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "date-time-format",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "From (Sender)",
+      "expected": "Victoria Hutter (Assistant Director - Press, National Endowment for the Arts)",
+      "predicted": "Victoria Hutter",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Victoria Hutter"
+        },
+        {
+          "page": 2,
+          "value": "Victoria Hutter (hutterv@arts.gov)"
+        },
+        {
+          "page": 3,
+          "value": "Victoria Hutter, Assistant Director - Press | Public Affairs, National Endowment for the Arts (hutterv@arts.gov)"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "contact-name-or-exact-email",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "To (Recipient)",
+      "expected": "Adam Andrzejewski (CEO, OpenTheBooks / Forbes Contributor) <Adam@openthebooks.com>",
+      "predicted": "Adam@openthebooks.com",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Adam@openthebooks.com"
+        },
+        {
+          "page": 2,
+          "value": "Adam Andrzejewski"
+        },
+        {
+          "page": 3,
+          "value": "Playbill"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "normalized",
+      "normalization": "contact-name-or-exact-email",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Subject",
+      "expected": "RE: your Forbes article",
+      "predicted": "RE: your Forbes article",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "RE: your Forbes article"
+        },
+        {
+          "page": 2,
+          "value": "your Forbes article"
+        },
+        {
+          "page": 3,
+          "value": "NEA Grant Information"
+        }
+      ],
+      "confidence": 1,
+      "verdict": "match",
+      "method": "exact",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    },
+    {
+      "name": "Core Message / Action Item",
+      "expected": "Correcting inaccuracies in a Forbes article regarding NEA grants to the Public Theater and providing grant transparency data.",
+      "predicted": "Victoria Hutter thanks Adam for his quick response and for making changes to the Forbes article. She adds that in 2015, 65% of NEA direct grants went to small and medium-sized organizations, and that the NEA funds non-profits for specific projects or productions only, with proposals reviewed on the basis of artistic excellence and merit. She invites Adam to reach out if additional information is needed.",
+      "pageValues": [
+        {
+          "page": 1,
+          "value": "Victoria Hutter thanks Adam for his quick response and for making changes to the Forbes article. She adds that in 2015, 65% of NEA direct grants went to small and medium-sized organizations, and that the NEA funds non-profits for specific projects or productions only, with proposals reviewed on the basis of artistic excellence and merit. She invites Adam to reach out if additional information is needed."
+        },
+        {
+          "page": 2,
+          "value": "Victoria Hutter from the NEA is writing to Adam Andrzejewski to dispute a claim in his recent Forbes article. She contends that, contrary to his statement that the NEA didn't disclose its grants to NYSF, the NEA has been open about its funding of the Public Theater and has shared that information freely with reporters, providing several published articles as evidence. She clarifies that while the NEA gave the Public Theater's Shakespeare in the Park festival $300,000–$320,000 over the past four years, no NEA funding went to the specific \"Julius Caesar\" production in question."
+        },
+        {
+          "page": 3,
+          "value": "The NEA declined to comment on whether the Public Theater applied for grants for the summer season. The Public Theater received $25,000 for the New York Voices program at Joe's Pub. Recipients are invited to use the NEA grant search utility at https://apps.nea.gov/grantsearch/ to research any NEA grantee's funding history for the past 19 years; years prior to 1998 are available through the online archive of annual reports."
+        }
+      ],
+      "confidence": 0.197,
+      "verdict": "mismatch",
+      "method": "lexical-only",
+      "word": 0.186,
+      "char": 0.222,
+      "limitation": "lexical overlap is not a semantic paraphrase judge",
+      "scope": "document-first-nonempty-page-value",
+      "pageScopeNote": "Per-page values are shown for review; document-level reference is scored once against the first non-empty value."
+    }
+  ],
+  "resultPages": 3
+}

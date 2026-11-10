@@ -1,0 +1,30 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "taskId": 136,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:56:21.086Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:56:22.414Z",
+  "configuredAt": "2026-11-02T10:56:30.081Z",
+  "executedAt": "2026-11-02T10:56:31.480Z",
+  "lastPolledAt": "2026-11-02T10:56:42.132Z",
+  "finishedAt": "2026-11-02T10:56:42.132Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This is an invoice from the Richmond, Virginia Police Department dated April 30, 2021, addressed to Tom Nash of MuckRock News. The invoice is for a FOIA (Freedom of Information Act) request seeking police data from 2013-2019, including: use of force incidents by year and type, civilian complaints (reported and sustained), use of force complaints (reported and sustained), biased policing/discrimination complaints (reported and sustained), and details of officer-involved shooting incidents including dates, race of subjects, and injuries/deaths. The invoice charges $80 for 2 hours of Major Crimes work at $40/hour and $20 for 30 minutes of Internal Affairs work at $40/hour, totaling $100. Payment is to be remitted to Richmond Police Department Central Records Unit at 200 West Grace Street, Richmond, VA 23220."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "This is a header from the City of Richmond Police Department. It specifies accepted payment methods (Certified Check, Money Order, and Cash, with a warning not to mail cash). The document includes contact information for the police department: Chief Gerald M. Smith, located at 200 W. Grace Street, Richmond, VA 23220, with phone number 804.646.6700, fax 804.646.3974, and website www.ci.richmond.va.us/police/."
+    }
+  ],
+  "processingMs": 10652,
+  "totalMs": 21046,
+  "deleted": true,
+  "summary": "Page 1: This is an invoice from the Richmond, Virginia Police Department dated April 30, 2021, addressed to Tom Nash of MuckRock News. The invoice is for a FOIA (Freedom of Information Act) request seeking police data from 2013-2019, including: use of force incidents by year and type, civilian complaints (reported and sustained), use of force complaints (reported and sustained), biased policing/discrimination complaints (reported and sustained), and details of officer-involved shooting incidents including dates, race of subjects, and injuries/deaths. The invoice charges $80 for 2 hours of Major Crimes work at $40/hour and $20 for 30 minutes of Internal Affairs work at $40/hour, totaling $100. Payment is to be remitted to Richmond Police Department Central Records Unit at 200 West Grace Street, Richmond, VA 23220.\n\nPage 2: This is a header from the City of Richmond Police Department. It specifies accepted payment methods (Certified Check, Money Order, and Cash, with a warning not to mail cash). The document includes contact information for the police department: Chief Gerald M. Smith, located at 200 W. Grace Street, Richmond, VA 23220, with phone number 804.646.6700, fax 804.646.3974, and website www.ci.richmond.va.us/police/."
+}

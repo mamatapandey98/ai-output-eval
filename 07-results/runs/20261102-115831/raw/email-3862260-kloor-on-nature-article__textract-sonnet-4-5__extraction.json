@@ -1,0 +1,88 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "textract-sonnet-4-5",
+  "job": "extraction",
+  "taskId": 251,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:26:06.147Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:26:07.575Z",
+  "configuredAt": "2026-11-02T12:26:15.022Z",
+  "executedAt": "2026-11-02T12:26:16.353Z",
+  "lastPolledAt": "2026-11-02T12:26:27.012Z",
+  "finishedAt": "2026-11-02T12:26:27.012Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "date__time": "Sat, 08 Aug 2015 13:59:56 EDT",
+      "from_sender": "Jon Entine <jon@jonentine.com>",
+      "to_recipient": "Kevin Folta <kfolta@ufl.edu>",
+      "subject": "Fwd: Curious",
+      "core_message__action_item": "Forwarding an email thread discussing a story about Kevin Folta. The forwarded message from Keith Kloor explains that the story was difficult to write but fair, addresses concerns about the phrase \"close ties\" used in the story (which was added in final edits), and mentions that Jon Entine is also in the emails and they should talk."
+    }
+  ],
+  "extraction": {
+    "Date / Time": {
+      "value": "Sat, 08 Aug 2015 13:59:56 EDT",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Sat, 08 Aug 2015 13:59:56 EDT"
+        }
+      ]
+    },
+    "From (Sender)": {
+      "value": "Jon Entine <jon@jonentine.com>",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Jon Entine <jon@jonentine.com>"
+        }
+      ]
+    },
+    "To (Recipient)": {
+      "value": "Kevin Folta <kfolta@ufl.edu>",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Kevin Folta <kfolta@ufl.edu>"
+        }
+      ]
+    },
+    "Subject": {
+      "value": "Fwd: Curious",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Fwd: Curious"
+        }
+      ]
+    },
+    "Core Message / Action Item": {
+      "value": "Forwarding an email thread discussing a story about Kevin Folta. The forwarded message from Keith Kloor explains that the story was difficult to write but fair, addresses concerns about the phrase \"close ties\" used in the story (which was added in final edits), and mentions that Jon Entine is also in the emails and they should talk.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Forwarding an email thread discussing a story about Kevin Folta. The forwarded message from Keith Kloor explains that the story was difficult to write but fair, addresses concerns about the phrase \"close ties\" used in the story (which was added in final edits), and mentions that Jon Entine is also in the emails and they should talk."
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Date / Time",
+      "From (Sender)",
+      "To (Recipient)",
+      "Subject",
+      "Core Message / Action Item"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 10659,
+  "totalMs": 20865,
+  "deleted": true
+}

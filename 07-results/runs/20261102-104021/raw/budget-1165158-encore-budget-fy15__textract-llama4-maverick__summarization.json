@@ -1,0 +1,26 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "taskId": 116,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:42:54.562Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:42:55.787Z",
+  "configuredAt": "2026-11-02T10:43:02.754Z",
+  "executedAt": "2026-11-02T10:43:03.994Z",
+  "lastPolledAt": "2026-11-02T10:43:08.960Z",
+  "finishedAt": "2026-11-02T10:43:08.960Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The FY15 budget for Encore Academy shows total revenue of $4,746,466 and total expenses of $4,746,466, resulting in a net surplus of $0. The revenue is primarily from base funding and state & local funding. Expenses include salaries and benefits for staff, other than personnel costs such as curriculum supplies and utilities, and non-operating costs like depreciation."
+    }
+  ],
+  "processingMs": 4966,
+  "totalMs": 14398,
+  "deleted": true,
+  "summary": "Page 1: The FY15 budget for Encore Academy shows total revenue of $4,746,466 and total expenses of $4,746,466, resulting in a net surplus of $0. The revenue is primarily from base funding and state & local funding. Expenses include salaries and benefits for staff, other than personnel costs such as curriculum supplies and utilities, and non-operating costs like depreciation."
+}

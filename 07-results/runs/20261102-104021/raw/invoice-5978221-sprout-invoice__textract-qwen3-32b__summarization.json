@@ -1,0 +1,26 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "taskId": 132,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:53:56.042Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:53:57.441Z",
+  "configuredAt": "2026-11-02T10:54:04.749Z",
+  "executedAt": "2026-11-02T10:54:06.124Z",
+  "lastPolledAt": "2026-11-02T10:54:09.713Z",
+  "finishedAt": "2026-11-02T10:54:09.713Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The invoice from Sprout Social details a service provided to the Santa Rosa Police Department on September 28, 2018, for an Annual Premium Plan costing $1,188.00. The payment was made on October 1, 2018, and the total amount was fully settled, leaving $0.00 due. The invoice includes billing information and payment details, with all amounts in USD."
+    }
+  ],
+  "processingMs": 3589,
+  "totalMs": 13671,
+  "deleted": true,
+  "summary": "Page 1: The invoice from Sprout Social details a service provided to the Santa Rosa Police Department on September 28, 2018, for an Annual Premium Plan costing $1,188.00. The payment was made on October 1, 2018, and the total amount was fully settled, leaving $0.00 due. The invoice includes billing information and payment details, with all amounts in USD."
+}

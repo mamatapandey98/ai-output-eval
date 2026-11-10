@@ -1,0 +1,26 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "textract-sonnet-4-5",
+  "job": "summarization",
+  "taskId": 151,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:06:04.855Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:06:06.204Z",
+  "configuredAt": "2026-11-02T11:06:13.828Z",
+  "executedAt": "2026-11-02T11:06:15.106Z",
+  "lastPolledAt": "2026-11-02T11:06:25.808Z",
+  "finishedAt": "2026-11-02T11:06:25.808Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This is an email exchange from August 2015 between Jon Entine, Keith Kloor, and Kevin Folta. Keith Kloor discusses writing a story that was difficult and time-consuming to produce, which others including Jon Entine considered fair and well-reported. Jon praises the story but questions the use of \"close ties\" in the headline, calling it incorrect and inflammatory. Keith explains that he didn't write that phrase—it was added during final edits while he was traveling and didn't see the final draft. Keith also mentions that Kevin Folta objects to the \"close ties\" descriptor, which Keith acknowledges as a fair objection. Keith notes that Jon Entine appears in the emails related to the story and suggests they should talk."
+    }
+  ],
+  "processingMs": 10702,
+  "totalMs": 20953,
+  "deleted": true,
+  "summary": "Page 1: This is an email exchange from August 2015 between Jon Entine, Keith Kloor, and Kevin Folta. Keith Kloor discusses writing a story that was difficult and time-consuming to produce, which others including Jon Entine considered fair and well-reported. Jon praises the story but questions the use of \"close ties\" in the headline, calling it incorrect and inflammatory. Keith explains that he didn't write that phrase—it was added during final edits while he was traveling and didn't see the final draft. Keith also mentions that Kevin Folta objects to the \"close ties\" descriptor, which Keith acknowledges as a fair objection. Keith notes that Jon Entine appears in the emails related to the story and suggests they should talk."
+}

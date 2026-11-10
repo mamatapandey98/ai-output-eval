@@ -1,0 +1,26 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 123,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:47:42.902Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:47:44.204Z",
+  "configuredAt": "2026-11-02T10:47:52.918Z",
+  "executedAt": "2026-11-02T10:47:53.257Z",
+  "lastPolledAt": "2026-11-02T10:48:03.142Z",
+  "finishedAt": "2026-11-02T10:48:03.142Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The White House agreed to review economic policy recommendations from the newly formed National Consumer Coalition, a 33-group conservative alliance including the Heritage Foundation and Competitive Enterprise Institute. The coalition advocates for deregulation, abolition of federal fuel economy standards, elimination of farm subsidies, and reduced government intervention, arguing that free markets best serve consumers. White House Chief of Staff John Sununu received the proposals, angering liberal consumer groups like Public Citizen and the Center for Auto Safety, who had not yet gained access to the Bush administration. The coalition's philosophy directly contrasts with Ralph Nader's consumer advocacy model, which emphasizes government regulation to curb business misconduct. Separately, Public Citizen defended itself against accusations of taking \"kickbacks\" from radon-testing companies, stating that voluntary contributions totaling about $400 had no influence on their product evaluations."
+    }
+  ],
+  "processingMs": 9885,
+  "totalMs": 20240,
+  "deleted": true,
+  "summary": "Page 1: The White House agreed to review economic policy recommendations from the newly formed National Consumer Coalition, a 33-group conservative alliance including the Heritage Foundation and Competitive Enterprise Institute. The coalition advocates for deregulation, abolition of federal fuel economy standards, elimination of farm subsidies, and reduced government intervention, arguing that free markets best serve consumers. White House Chief of Staff John Sununu received the proposals, angering liberal consumer groups like Public Citizen and the Center for Auto Safety, who had not yet gained access to the Bush administration. The coalition's philosophy directly contrasts with Ralph Nader's consumer advocacy model, which emphasizes government regulation to curb business misconduct. Separately, Public Citizen defended itself against accusations of taking \"kickbacks\" from radon-testing companies, stating that voluntary contributions totaling about $400 had no influence on their product evaluations."
+}

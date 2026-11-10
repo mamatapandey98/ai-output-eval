@@ -1,0 +1,116 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-haiku-4-5",
+  "job": "extraction",
+  "taskId": 237,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:16:59.034Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:17:00.366Z",
+  "configuredAt": "2026-11-02T12:17:07.765Z",
+  "executedAt": "2026-11-02T12:17:09.173Z",
+  "lastPolledAt": "2026-11-02T12:17:14.152Z",
+  "finishedAt": "2026-11-02T12:17:14.152Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "invoice_number": "04-30-2021-03",
+      "invoice_date": "04-30-2021",
+      "vendor__seller_name": "City of Richmond Police Department",
+      "total_amount": "$100.00",
+      "due_date": "<UNKNOWN>"
+    },
+    {
+      "pg_no": 2,
+      "invoice_number": null,
+      "invoice_date": null,
+      "vendor__seller_name": "City of Richmond Police Department",
+      "total_amount": null,
+      "due_date": null
+    }
+  ],
+  "extraction": {
+    "Invoice Number": {
+      "value": "04-30-2021-03",
+      "pages": [
+        {
+          "page": 1,
+          "value": "04-30-2021-03"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Invoice Date": {
+      "value": "04-30-2021",
+      "pages": [
+        {
+          "page": 1,
+          "value": "04-30-2021"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Vendor / Seller Name": {
+      "value": "City of Richmond Police Department",
+      "pages": [
+        {
+          "page": 1,
+          "value": "City of Richmond Police Department"
+        },
+        {
+          "page": 2,
+          "value": "City of Richmond Police Department"
+        }
+      ]
+    },
+    "Total Amount": {
+      "value": "$100.00",
+      "pages": [
+        {
+          "page": 1,
+          "value": "$100.00"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    },
+    "Due Date": {
+      "value": "<UNKNOWN>",
+      "pages": [
+        {
+          "page": 1,
+          "value": "<UNKNOWN>"
+        },
+        {
+          "page": 2,
+          "value": null
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Invoice Number",
+      "Invoice Date",
+      "Vendor / Seller Name",
+      "Total Amount",
+      "Due Date"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 4979,
+  "totalMs": 15118,
+  "deleted": true
+}

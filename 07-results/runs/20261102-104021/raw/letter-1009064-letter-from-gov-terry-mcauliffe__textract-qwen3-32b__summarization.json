@@ -1,0 +1,26 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "taskId": 139,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:58:16.477Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:58:17.975Z",
+  "configuredAt": "2026-11-02T10:58:25.787Z",
+  "executedAt": "2026-11-02T10:58:27.089Z",
+  "lastPolledAt": "2026-11-02T10:58:31.905Z",
+  "finishedAt": "2026-11-02T10:58:31.905Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Governor Terry McAuliffe supports the inclusion of both 'East Sea' and 'Sea of Japan' in Virginia's school textbooks to accurately reflect historical and geographical understanding. He emphasizes the importance of this issue and plans to support legislation, such as the one introduced by Senator Dave Marsden, to ensure proper labeling in educational materials."
+    }
+  ],
+  "processingMs": 4816,
+  "totalMs": 15428,
+  "deleted": true,
+  "summary": "Page 1: Governor Terry McAuliffe supports the inclusion of both 'East Sea' and 'Sea of Japan' in Virginia's school textbooks to accurately reflect historical and geographical understanding. He emphasizes the importance of this issue and plans to support legislation, such as the one introduced by Senator Dave Marsden, to ensure proper labeling in educational materials."
+}

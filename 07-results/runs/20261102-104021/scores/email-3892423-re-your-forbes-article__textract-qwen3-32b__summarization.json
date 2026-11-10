@@ -1,0 +1,46 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "candidatePages": 3,
+  "candidateChars": 1599,
+  "resultPages": 3,
+  "withSourcePdf": false,
+  "judgeProvider": "gemini",
+  "rubricVersion": "summary-reference-v4",
+  "requestedModel": "gemini-3.5-flash",
+  "servedModel": "gemini-3.6-flash",
+  "thinkingLevel": "HIGH",
+  "maxOutputTokens": null,
+  "stopReason": "STOP",
+  "usage": {
+    "input_tokens": 1161,
+    "output_tokens": 1027,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  },
+  "status": "scored",
+  "scoreScale": "0-10",
+  "weights": {
+    "coverage": 0.4,
+    "accuracy": 0.4,
+    "clarity": 0.1,
+    "conciseness": 0.1
+  },
+  "verdict": {
+    "coverage": 7.5,
+    "accuracy": 9.5,
+    "clarity": 9,
+    "conciseness": 7
+  },
+  "criteriaScores": {
+    "coverage": 7.5,
+    "accuracy": 9.5,
+    "clarity": 9,
+    "conciseness": 7
+  },
+  "overall": 8.4,
+  "overallOutOf10": 8.4,
+  "overallPercentage": 84,
+  "score": 0.84
+}

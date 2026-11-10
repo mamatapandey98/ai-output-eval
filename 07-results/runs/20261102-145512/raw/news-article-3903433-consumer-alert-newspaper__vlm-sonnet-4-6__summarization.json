@@ -1,0 +1,27 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 261,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T14:57:37.438Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T14:57:38.761Z",
+  "configuredAt": "2026-11-02T14:57:49.328Z",
+  "executedAt": "2026-11-02T14:57:49.725Z",
+  "lastPolledAt": "2026-11-02T14:58:07.747Z",
+  "finishedAt": "2026-11-02T14:58:07.748Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The article reports that the White House, through Chief of Staff John Sununu, agreed to review economic policy recommendations from the newly formed National Consumer Coalition, a 33-group conservative alliance including the Heritage Foundation and the Competitive Enterprise Institute. The coalition advocates for deregulation as the best way to serve consumers, proposing measures such as abolishing federal fuel economy standards, eliminating farm subsidies, and reviewing antitrust laws — directly opposing the regulation-focused consumerism philosophy championed by Ralph Nader. Liberal consumer groups, including Public Citizen and the Center for Auto Safety, criticized Sununu's engagement with the coalition, arguing it sent the wrong message. Separately, Public Citizen faced accusations of taking \"kickbacks\" from radon-testing companies it had rated favorably, though a spokesman denied any impropriety, noting contributions totaled only about $400 and were voluntary."
+    }
+  ],
+  "summary": "Page 1: The article reports that the White House, through Chief of Staff John Sununu, agreed to review economic policy recommendations from the newly formed National Consumer Coalition, a 33-group conservative alliance including the Heritage Foundation and the Competitive Enterprise Institute. The coalition advocates for deregulation as the best way to serve consumers, proposing measures such as abolishing federal fuel economy standards, eliminating farm subsidies, and reviewing antitrust laws — directly opposing the regulation-focused consumerism philosophy championed by Ralph Nader. Liberal consumer groups, including Public Citizen and the Center for Auto Safety, criticized Sununu's engagement with the coalition, arguing it sent the wrong message. Separately, Public Citizen faced accusations of taking \"kickbacks\" from radon-testing companies it had rated favorably, though a spokesman denied any impropriety, noting contributions totaled only about $400 and were voluntary.",
+  "outputValid": true,
+  "processingMs": 18023,
+  "totalMs": 30310,
+  "deleted": true
+}

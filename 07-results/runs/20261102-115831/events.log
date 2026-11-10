@@ -1,0 +1,156 @@
+guarded extraction run 20261102-115831
+[17:43:31] run 20261102-115831; extraction; 50 task cells
+[17:43:35] pipeline llmjudge-textract-qwen3-32b → #166 (reused)
+[17:43:35] pipeline llmjudge-textract-sonnet-4-6 → #167 (reused)
+[17:43:35] pipeline llmjudge-textract-sonnet-4-5 → #168 (reused)
+[17:43:35] pipeline llmjudge-textract-haiku-4-5 → #169 (reused)
+[17:43:35] pipeline llmjudge-textract-llama4-maverick → #170 (reused)
+[17:43:35] starting textract-qwen3-32b × budget-1165158-encore-budget-fy15
+[17:43:49] task 209: completed/completed 12552ms total
+[17:43:49] post-completion cooldown: 20 seconds
+[17:44:09] starting textract-sonnet-4-6 × budget-1165158-encore-budget-fy15
+[17:44:26] task 210: completed/completed 14998ms total
+[17:44:26] post-completion cooldown: 20 seconds
+[17:44:46] starting textract-sonnet-4-5 × budget-1165158-encore-budget-fy15
+[17:45:08] task 211: completed/completed 20244ms total
+[17:45:08] post-completion cooldown: 20 seconds
+[17:45:28] starting textract-haiku-4-5 × budget-1165158-encore-budget-fy15
+[17:45:43] task 212: completed/completed 13456ms total
+[17:45:43] post-completion cooldown: 20 seconds
+[17:46:03] starting textract-llama4-maverick × budget-1165158-encore-budget-fy15
+[17:46:18] task 213: completed/completed 13495ms total
+[17:46:18] post-completion cooldown: 20 seconds
+[17:46:38] starting textract-qwen3-32b × budget-1165040-singleton-budget
+[17:46:57] task 214: completed/completed 16874ms total
+[17:46:57] post-completion cooldown: 20 seconds
+[17:47:17] starting textract-sonnet-4-6 × budget-1165040-singleton-budget
+[17:47:36] task 215: completed/completed 17798ms total
+[17:47:36] post-completion cooldown: 20 seconds
+[17:47:56] starting textract-sonnet-4-5 × budget-1165040-singleton-budget
+[17:48:22] task 216: completed/completed 23694ms total
+[17:48:22] post-completion cooldown: 20 seconds
+[17:48:42] starting textract-haiku-4-5 × budget-1165040-singleton-budget
+[17:49:00] task 217: completed/completed 16871ms total
+[17:49:00] post-completion cooldown: 20 seconds
+[17:49:20] starting textract-llama4-maverick × budget-1165040-singleton-budget
+[17:49:43] task 218: completed/completed 21183ms total
+[17:49:43] post-completion cooldown: 20 seconds
+[17:50:03] starting textract-qwen3-32b × news-article-3903433-consumer-alert-newspaper
+[17:50:21] task 219: completed/completed 16185ms total
+[17:50:21] post-completion cooldown: 20 seconds
+[17:50:41] starting textract-sonnet-4-6 × news-article-3903433-consumer-alert-newspaper
+[17:51:01] task 220: completed/completed 18290ms total
+[17:51:01] post-completion cooldown: 20 seconds
+[17:51:21] starting textract-sonnet-4-5 × news-article-3903433-consumer-alert-newspaper
+[17:51:44] task 221: completed/completed 20727ms total
+[17:51:44] post-completion cooldown: 20 seconds
+[17:52:04] starting textract-haiku-4-5 × news-article-3903433-consumer-alert-newspaper
+[17:52:23] task 222: completed/completed 17443ms total
+[17:52:23] post-completion cooldown: 20 seconds
+[17:52:43] starting textract-llama4-maverick × news-article-3903433-consumer-alert-newspaper
+[17:53:00] task 223: completed/completed 15000ms total
+[17:53:00] post-completion cooldown: 20 seconds
+[17:53:20] starting textract-qwen3-32b × news-article-2071912-conservative-groups-push-development-missoulan
+[17:53:40] task 224: completed/completed 18727ms total
+[17:53:40] post-completion cooldown: 20 seconds
+[17:54:00] starting textract-sonnet-4-6 × news-article-2071912-conservative-groups-push-development-missoulan
+[17:54:22] task 225: completed/completed 20498ms total
+[17:54:22] post-completion cooldown: 20 seconds
+[17:54:42] starting textract-sonnet-4-5 × news-article-2071912-conservative-groups-push-development-missoulan
+[17:55:06] task 226: completed/completed 21914ms total
+[17:55:06] post-completion cooldown: 20 seconds
+[17:55:26] starting textract-haiku-4-5 × news-article-2071912-conservative-groups-push-development-missoulan
+[17:55:48] task 227: completed/completed 20428ms total
+[17:55:48] post-completion cooldown: 20 seconds
+[17:56:08] starting textract-llama4-maverick × news-article-2071912-conservative-groups-push-development-missoulan
+[17:56:33] task 228: completed/completed 23581ms total
+[17:56:33] post-completion cooldown: 20 seconds
+[17:56:53] starting textract-qwen3-32b × invoice-5978221-sprout-invoice
+[17:57:09] task 229: completed/completed 13531ms total
+[17:57:09] post-completion cooldown: 20 seconds
+[17:57:29] starting textract-sonnet-4-6 × invoice-5978221-sprout-invoice
+[17:57:46] task 230: completed/completed 15214ms total
+[17:57:46] post-completion cooldown: 20 seconds
+[17:58:06] starting textract-sonnet-4-5 × invoice-5978221-sprout-invoice
+[17:58:29] task 231: completed/completed 21758ms total
+[17:58:29] post-completion cooldown: 20 seconds
+[17:58:49] starting textract-haiku-4-5 × invoice-5978221-sprout-invoice
+[17:59:05] task 232: completed/completed 13682ms total
+[17:59:05] post-completion cooldown: 20 seconds
+[17:59:25] starting textract-llama4-maverick × invoice-5978221-sprout-invoice
+[17:59:40] task 233: completed/completed 13844ms total
+[17:59:40] post-completion cooldown: 20 seconds
+[18:00:00] starting textract-qwen3-32b × invoice-20694747-invoice
+[18:00:18] task 234: completed/completed 15730ms total
+[18:00:18] post-completion cooldown: 20 seconds
+[18:00:38] starting textract-sonnet-4-6 × invoice-20694747-invoice
+[18:00:57] task 235: completed/completed 17552ms total
+[18:00:57] post-completion cooldown: 20 seconds
+[18:01:17] starting textract-sonnet-4-5 × invoice-20694747-invoice
+[18:01:39] task 236: completed/completed 19648ms total
+[18:01:39] post-completion cooldown: 20 seconds
+[18:01:59] starting textract-haiku-4-5 × invoice-20694747-invoice
+[18:02:15] task 237: completed/completed 15118ms total
+[18:02:15] post-completion cooldown: 20 seconds
+[18:02:35] starting textract-llama4-maverick × invoice-20694747-invoice
+[18:02:52] task 238: completed/completed 15384ms total
+[18:02:52] post-completion cooldown: 20 seconds
+[18:03:12] starting textract-qwen3-32b × letter-1009064-letter-from-gov-terry-mcauliffe
+[18:03:30] task 239: completed/completed 15856ms total
+[18:03:30] post-completion cooldown: 20 seconds
+[18:03:50] starting textract-sonnet-4-6 × letter-1009064-letter-from-gov-terry-mcauliffe
+[18:04:10] task 240: completed/completed 18498ms total
+[18:04:10] post-completion cooldown: 20 seconds
+[18:04:30] starting textract-sonnet-4-5 × letter-1009064-letter-from-gov-terry-mcauliffe
+[18:04:52] task 241: completed/completed 20030ms total
+[18:04:52] post-completion cooldown: 20 seconds
+[18:05:12] starting textract-haiku-4-5 × letter-1009064-letter-from-gov-terry-mcauliffe
+[18:05:30] task 242: completed/completed 15934ms total
+[18:05:30] post-completion cooldown: 20 seconds
+[18:05:50] starting textract-llama4-maverick × letter-1009064-letter-from-gov-terry-mcauliffe
+[18:06:06] task 243: completed/completed 14500ms total
+[18:06:06] post-completion cooldown: 20 seconds
+[18:06:26] starting textract-qwen3-32b × letter-1004917-mayors-letter
+[18:06:44] task 244: completed/completed 16128ms total
+[18:06:44] post-completion cooldown: 20 seconds
+[18:07:04] starting textract-sonnet-4-6 × letter-1004917-mayors-letter
+[18:07:23] task 245: completed/completed 16979ms total
+[18:07:23] post-completion cooldown: 20 seconds
+[18:07:43] starting textract-sonnet-4-5 × letter-1004917-mayors-letter
+[18:08:07] task 246: completed/completed 22283ms total
+[18:08:07] post-completion cooldown: 20 seconds
+[18:08:27] starting textract-haiku-4-5 × letter-1004917-mayors-letter
+[18:08:46] task 247: completed/completed 17304ms total
+[18:08:46] post-completion cooldown: 20 seconds
+[18:09:06] starting textract-llama4-maverick × letter-1004917-mayors-letter
+[18:09:28] task 248: completed/completed 20534ms total
+[18:09:28] post-completion cooldown: 20 seconds
+[18:09:48] starting textract-qwen3-32b × email-3862260-kloor-on-nature-article
+[18:10:05] task 249: completed/completed 14839ms total
+[18:10:05] post-completion cooldown: 20 seconds
+[18:10:25] starting textract-sonnet-4-6 × email-3862260-kloor-on-nature-article
+[18:10:46] task 250: completed/completed 19312ms total
+[18:10:46] post-completion cooldown: 20 seconds
+[18:11:06] starting textract-sonnet-4-5 × email-3862260-kloor-on-nature-article
+[18:11:28] task 251: completed/completed 20865ms total
+[18:11:28] post-completion cooldown: 20 seconds
+[18:11:48] starting textract-haiku-4-5 × email-3862260-kloor-on-nature-article
+[18:12:05] task 252: completed/completed 15322ms total
+[18:12:05] post-completion cooldown: 20 seconds
+[18:12:25] starting textract-llama4-maverick × email-3862260-kloor-on-nature-article
+[18:12:41] task 253: completed/completed 13752ms total
+[18:12:41] post-completion cooldown: 20 seconds
+[18:13:01] starting textract-qwen3-32b × email-3892423-re-your-forbes-article
+[18:13:18] task 254: completed/completed 15522ms total
+[18:13:18] post-completion cooldown: 20 seconds
+[18:13:38] starting textract-sonnet-4-6 × email-3892423-re-your-forbes-article
+[18:13:59] task 255: completed/completed 19816ms total
+[18:13:59] post-completion cooldown: 20 seconds
+[18:14:19] starting textract-sonnet-4-5 × email-3892423-re-your-forbes-article
+[18:14:45] task 256: completed/completed 23540ms total
+[18:14:45] post-completion cooldown: 20 seconds
+[18:15:05] starting textract-haiku-4-5 × email-3892423-re-your-forbes-article
+[18:15:24] task 257: completed/completed 17373ms total
+[18:15:24] post-completion cooldown: 20 seconds
+[18:15:44] starting textract-llama4-maverick × email-3892423-re-your-forbes-article
+[18:16:02] task 258: completed/completed 16724ms total

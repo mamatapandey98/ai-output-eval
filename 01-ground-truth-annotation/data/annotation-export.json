@@ -1,0 +1,291 @@
+{
+  "updatedAt": "2026-10-31T12:02:45.521614+00:00",
+  "categorySchemas": {
+    "invoice": [
+      "Invoice Number",
+      "Invoice Date",
+      "Vendor / Seller Name",
+      "Total Amount",
+      "Due Date"
+    ],
+    "letter": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "email": [
+      "Date / Time",
+      "From (Sender)",
+      "To (Recipient)",
+      "Subject",
+      "Core Message / Action Item"
+    ],
+    "budget": [
+      "Fiscal Year / Period",
+      "Organization / Department Name",
+      "Total Budget / Revenue",
+      "Total Expenditure / Costs",
+      "Net Balance / Surplus / Deficit"
+    ],
+    "news article": [
+      "Headline / Title",
+      "Author / Byline",
+      "Publication Date",
+      "Publication Source / Organization",
+      "Primary Subject / Topic"
+    ]
+  },
+  "selectedCategories": [
+    "invoice",
+    "letter",
+    "email",
+    "budget",
+    "news article"
+  ],
+  "selectedDocuments": [
+    "budget/1015351-state-budget-section-d-capital-budget.pdf",
+    "budget/1022437-lyons-103-budget.pdf",
+    "budget/1165040-singleton-budget.pdf",
+    "news article/1033884-solomon-northrup-1853-article.pdf",
+    "news article/1059204-russias-tretiak-earns-ultimate-praise-from-nhl.pdf",
+    "news article/11016-media-clippings.pdf",
+    "invoice/5978221-Sprout-Invoice.pdf",
+    "invoice/5697493-Re-January-Invoice-Attachment-2-27-2017.pdf",
+    "invoice/20694747-invoice.pdf",
+    "letter/1003587-acknowledgement-letter.pdf",
+    "letter/1004917-mayors-letter.pdf",
+    "letter/1009064-letter-from-gov-terry-mcauliffe.pdf",
+    "email/20463616-emergency-justification-form-email.pdf",
+    "email/3892423-RE-your-Forbes-article.pdf",
+    "email/4315312-FW-Letter-of-Resignation.pdf"
+  ],
+  "annotations": {
+    "budget/1015351-state-budget-section-d-capital-budget.pdf": {
+      "relativePath": "budget/1015351-state-budget-section-d-capital-budget.pdf",
+      "category": "budget",
+      "filename": "1015351-state-budget-section-d-capital-budget.pdf",
+      "extraction": {
+        "Fiscal Year / Period": "FY 2015",
+        "Organization / Department Name": "State of Connecticut",
+        "Total Budget / Revenue": "$3,392,397,162",
+        "Total Expenditure / Costs": null,
+        "Net Balance / Surplus / Deficit": null
+      },
+      "summary": "This document is Section D (Capital Budget) of the State of Connecticut budget, with recommended and enacted bond authorizations for fiscal years 1999 through 2015. For FY 2015, total revised recommended capital authorizations are $3,392,397,162, made up of $2,946,937,712 already authorized plus $445,459,450 in recommended adjustments, funded mainly by General Obligation bonds ($1.96B), Special Tax Obligation bonds ($578.6M) and revenue bonds ($332M). The largest functions are conservation and development ($1.03B) and general government ($873.8M), followed by transportation ($663.6M). The debt-incurring margin under the statutory debt limit is estimated at $3.94 billion as of July 1, 2014.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "budget/1022437-lyons-103-budget.pdf": {
+      "relativePath": "budget/1022437-lyons-103-budget.pdf",
+      "category": "budget",
+      "filename": "1022437-lyons-103-budget.pdf",
+      "extraction": {
+        "Fiscal Year / Period": "FY 2014",
+        "Organization / Department Name": null,
+        "Total Budget / Revenue": "$31,091,275",
+        "Total Expenditure / Costs": "$30,813,732",
+        "Net Balance / Surplus / Deficit": "$277,543"
+      },
+      "summary": "This school district budget lists FY 14 budgeted amounts by account for each fund: Education, Operations & Maintenance, Debt Service, Transportation, Illinois Municipal Retirement, Capital Projects, Working Cash, and Fire Prevention and Life Safety, with supply lines for schools including Edison, Lincoln, Robinson, Washington and Costello. Across all funds, estimated revenues of $31,091,275 exceed estimated expenditures of $30,813,732, an annual surplus of $277,543 that raises the ending balance from $10,165,211 to $10,442,754. The Education Fund carries the largest expenditures ($24.55M), followed by Operations & Maintenance ($3.07M) and Transportation ($1.19M). Operations & Maintenance, the Illinois Municipal Retirement Fund and Capital Projects each run a small deficit.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "budget/1165040-singleton-budget.pdf": {
+      "relativePath": "budget/1165040-singleton-budget.pdf",
+      "category": "budget",
+      "filename": "1165040-singleton-budget.pdf",
+      "extraction": {
+        "Fiscal Year / Period": "2014–2015",
+        "Organization / Department Name": "James M. Singleton Charter School",
+        "Total Budget / Revenue": "$5,461,160.00",
+        "Total Expenditure / Costs": "$5,461,160.00",
+        "Net Balance / Surplus / Deficit": "$0.00"
+      },
+      "summary": "This document presents the 2014-15 Budget Projections for James M. Singleton Charter School, based on a projected enrollment of 520 students. Total projected revenues are $5,461,160, funded mainly by State and Local per Pupil (MFP) dollars ($4.35M) and Title I, Title II and IDEA federal funds ($805K). Projected expenditures match revenues exactly at $5,461,160, led by salaries ($2.71M) and purchased property services ($995K), so the budget is balanced.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "news article/1033884-solomon-northrup-1853-article.pdf": {
+      "relativePath": "news article/1033884-solomon-northrup-1853-article.pdf",
+      "category": "news article",
+      "filename": "1033884-solomon-northrup-1853-article.pdf",
+      "extraction": {
+        "Headline / Title": "THE KIDNAPPING CASE. Narrative of the Seizure and Recovery of Solomon Northrup. Interesting Disclosures.",
+        "Author / Byline": null,
+        "Publication Date": "January 20, 1853",
+        "Publication Source / Organization": "The New York Times",
+        "Primary Subject / Topic": "The kidnapping, enslavement in Louisiana, and recovery of Solomon Northrup, a free colored citizen of New York."
+      },
+      "summary": "Published in The New York Times on January 20, 1853, this article gives a narrative, obtained from Washington, of the seizure and recovery of Solomon Northrup, a free colored citizen born in Essex County, New York. Hired in 1841 to drive a team south, he took out free papers in New York and reached Washington on April 2, where, after being given medicine, he lost all recollection and was afterwards sold into slavery and held on a Louisiana cotton plantation. The account describes his recovery through Henry B. Northrup, appointed as agent by New York Governor Hunt, and the later Washington trial of the slave dealer Burch, who was discharged after Northrup's testimony was ruled inadmissible.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "news article/1059204-russias-tretiak-earns-ultimate-praise-from-nhl.pdf": {
+      "relativePath": "news article/1059204-russias-tretiak-earns-ultimate-praise-from-nhl.pdf",
+      "category": "news article",
+      "filename": "1059204-russias-tretiak-earns-ultimate-praise-from-nhl.pdf",
+      "extraction": {
+        "Headline / Title": "Russia's Tretiak earns ultimate-praise from NHL goalies",
+        "Author / Byline": "Dan Proudfoot",
+        "Publication Date": "September 8, 1972",
+        "Publication Source / Organization": "The Globe and Mail",
+        "Primary Subject / Topic": "Team Canada goaltenders praising 20-year-old Soviet goaltender Vladislav Tretiak."
+      },
+      "summary": "Published in The Globe and Mail on September 8, 1972, Dan Proudfoot's report from Winnipeg says that Soviet goaltender Vladislav Tretiak, 20, is admired by no one more than the goaltenders of Team Canada. Tony Esposito says Tretiak is making the big saves and could play in the National Hockey League, though he is still developing and does not come out far enough to cut down the angles. Boston Bruins goaltender Ed Johnston, Ken Dryden's backup that night, says he was surprised after poor scouting reports, and praises how Tretiak stands up, plays the angles well, and shows poise and confidence as the pressure increases.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "news article/11016-media-clippings.pdf": {
+      "relativePath": "news article/11016-media-clippings.pdf",
+      "category": "news article",
+      "filename": "11016-media-clippings.pdf",
+      "extraction": {
+        "Headline / Title": "SENATOR DIES IN CRASH: Wife, daughter, 5 others killed when plane goes down",
+        "Author / Byline": "Pat Doyle, Paul McEnroe, Mark Brunswick",
+        "Publication Date": "October 26, 2002",
+        "Publication Source / Organization": "Star Tribune",
+        "Primary Subject / Topic": "The fatal plane crash of U.S. Senator Paul Wellstone in Minnesota and subsequent NTSB investigations."
+      },
+      "summary": "This FBI file compiles news clippings dated from October 26, 2002 to March 1, 2004 about the plane crash near Eveleth, Minnesota, that killed U.S. Senator Paul Wellstone, his wife, his daughter and five others, ten days before the election. The clippings come from the Star Tribune, St. Paul Pioneer Press, Duluth News-Tribune, Mesabi Daily News and Reader Weekly. They cover the initial reporting and memorials, the NTSB investigation and its November 2003 finding that the pilots failed to maintain adequate airspeed, leading to an aerodynamic stall, scrutiny of the charter operator Aviation Charter and of FAA oversight, and Reader Weekly columns by Jim Fetzer questioning the official account. The final clipping reports the NTSB's finding on a separate January 2003 crash near Hill City.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "invoice/5978221-Sprout-Invoice.pdf": {
+      "relativePath": "invoice/5978221-Sprout-Invoice.pdf",
+      "category": "invoice",
+      "filename": "5978221-Sprout-Invoice.pdf",
+      "extraction": {
+        "Invoice Number": "1102092",
+        "Invoice Date": "Sep 28, 2018",
+        "Vendor / Seller Name": "Sprout Social",
+        "Total Amount": "$1,188.00",
+        "Due Date": "Sep 28, 2018"
+      },
+      "summary": "This invoice was issued by Sprout Social to Alexa Popplewell of the Santa Rosa Police Department for an annual premium plan subscription totaling $1,188.00. The invoice was billed on September 28, 2018, with payment due on receipt. Records confirm full payment of $1,188.00 via Visa on October 1, 2018, leaving a zero remaining balance.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "invoice/5697493-Re-January-Invoice-Attachment-2-27-2017.pdf": {
+      "relativePath": "invoice/5697493-Re-January-Invoice-Attachment-2-27-2017.pdf",
+      "category": "invoice",
+      "filename": "5697493-Re-January-Invoice-Attachment-2-27-2017.pdf",
+      "extraction": {
+        "Invoice Number": "AFL 2016-19 (Jan)",
+        "Invoice Date": "02/13/2017",
+        "Vendor / Seller Name": "Alliance for Life-Missouri",
+        "Total Amount": "$105,325.26",
+        "Due Date": null
+      },
+      "summary": "Dated February 13, 2017, this invoice from Alliance for Life-Missouri to the Missouri Office of Administration bills January 2017 services under contract C312062002. Line items include residential care, emergency shelter and housing assistance, professional and non-professional case management, prenatal education and parenting skills, child care, transportation, supplies and utilities. The total fee of $97,523.39 plus an admin fee of $7,801.87 gives a grand total of $105,325.26.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "invoice/20694747-invoice.pdf": {
+      "relativePath": "invoice/20694747-invoice.pdf",
+      "category": "invoice",
+      "filename": "20694747-invoice.pdf",
+      "extraction": {
+        "Invoice Number": "04-30-2021-03",
+        "Invoice Date": null,
+        "Vendor / Seller Name": "City of Richmond Police Department",
+        "Total Amount": "$100.00",
+        "Due Date": null
+      },
+      "summary": "This invoice, number 04-30-2021-03, was issued by the City of Richmond Police Department to Tom Nash of MuckRock News for a FOIA request seeking police use-of-force, civilian complaint, biased policing and officer-involved shooting data from 2013 to 2019. It charges two hours by Major Crimes ($80.00) and 30 minutes by Internal Affairs ($20.00) at $40.00 per hour. The total of $100.00 is to be remitted to the Richmond Police Department's Central Records Unit by certified check, money order or cash.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "letter/1003587-acknowledgement-letter.pdf": {
+      "relativePath": "letter/1003587-acknowledgement-letter.pdf",
+      "category": "letter",
+      "filename": "1003587-acknowledgement-letter.pdf",
+      "extraction": {
+        "Letter Date": "January 7, 2014",
+        "Sender Name / Organization": "E. Rhett Towles, Associate City Solicitor / City of Springfield Law Department",
+        "Recipient Name / Organization": "Michael Morisy / MuckRock News",
+        "Subject / Reference": "RE: Public Records Request dated January 6, 2014",
+        "Main Purpose / Request": "Acknowledging receipt of the public records request for the current Dog Registration or Dog License Database and stating it is under review."
+      },
+      "summary": "This letter was sent on January 7, 2014, by Associate City Solicitor E. Rhett Towles of Springfield, Massachusetts, to Michael Morisy of MuckRock News. It formally acknowledges receipt of a January 6, 2014 public records request seeking the city's current Dog Registration or Dog License Database. Towles notes that the request is currently being reviewed with the appropriate municipal departments and promises a follow-up response as soon as possible.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "letter/1004917-mayors-letter.pdf": {
+      "relativePath": "letter/1004917-mayors-letter.pdf",
+      "category": "letter",
+      "filename": "1004917-mayors-letter.pdf",
+      "extraction": {
+        "Letter Date": "January 1, 2014",
+        "Sender Name / Organization": "Tim B. Flynn, Mayor / Office of the Mayor, City of Oxnard",
+        "Recipient Name / Organization": "Members of the City Council, City of Oxnard",
+        "Subject / Reference": "Agenda Item No. M-1",
+        "Main Purpose / Request": "To set 2014 priorities including hiring a permanent city manager and city attorney, establishing priority-based budgeting, and restoring city reserves."
+      },
+      "summary": "In this letter dated January 1, 2014, Oxnard Mayor Tim B. Flynn urges the City Council to keep regaining public trust and lists priorities for 2014. They include hiring a permanent city manager by March 1, 2014, starting the hiring of a new city attorney, and following a month-by-month timeline for performance- and priority-based budgeting ahead of the 2014-2015 fiscal year. He also lists resurfacing the remaining residential streets, restoring the general fund reserve that has fallen from 18% to 10%, and beginning a dialogue with bargaining units over pension contributions and liabilities.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "letter/1009064-letter-from-gov-terry-mcauliffe.pdf": {
+      "relativePath": "letter/1009064-letter-from-gov-terry-mcauliffe.pdf",
+      "category": "letter",
+      "filename": "1009064-letter-from-gov-terry-mcauliffe.pdf",
+      "extraction": {
+        "Letter Date": "September 25, 2013",
+        "Sender Name / Organization": "Terry McAuliffe / McAuliffe for Governor",
+        "Recipient Name / Organization": "Korean Community of Virginia",
+        "Subject / Reference": null,
+        "Main Purpose / Request": "Expressing support for dual-naming the East Sea / Sea of Japan in school textbooks and committing to back legislation as Governor."
+      },
+      "summary": "On September 25, 2013, Terry McAuliffe, writing on McAuliffe for Governor campaign letterhead, wrote to the Korean Community of Virginia to support their education advocacy. He agrees that Virginia textbooks should include both the names 'East Sea' and 'Sea of Japan' in maps and descriptions. McAuliffe pledges that, as Governor, he will support legislation requiring newly adopted textbooks to carry both names.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "email/20463616-emergency-justification-form-email.pdf": {
+      "relativePath": "email/20463616-emergency-justification-form-email.pdf",
+      "category": "email",
+      "filename": "20463616-emergency-justification-form-email.pdf",
+      "extraction": {
+        "Date / Time": "September 17, 2020 at 11:45 AM",
+        "From (Sender)": "Matthew Montaño",
+        "To (Recipient)": "Justin Porter",
+        "Subject": "RE: Emergency Justification form",
+        "Core Message / Action Item": "Sending the Emergency Justification Form for the Dyslexia Platform as an attachment, in reply to Justin Porter's request for approval and signature."
+      },
+      "summary": "This September 17, 2020 email thread among Texas Education Agency staff concerns an Emergency Justification Form for a dyslexia platform. Dean Howard, Assistant Director of Contracts and Purchasing, notes that the signed form sent earlier was for a video project and that the dyslexia form is still needed on the current form with a signature. State Director of Special Education Justin Porter traces the request back to mid-May and submits the form to Deputy Commissioner Matthew Montaño for approval and signature, and Montaño replies with the form attached.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "email/3892423-RE-your-Forbes-article.pdf": {
+      "relativePath": "email/3892423-RE-your-Forbes-article.pdf",
+      "category": "email",
+      "filename": "3892423-RE-your-Forbes-article.pdf",
+      "extraction": {
+        "Date / Time": "Tuesday, June 13, 2017 at 2:27 PM",
+        "From (Sender)": "Victoria Hutter",
+        "To (Recipient)": "Adam Andrzejewski <Adam@openthebooks.com>",
+        "Subject": "RE: your Forbes article",
+        "Core Message / Action Item": "Thanking Adam Andrzejewski for correcting the article and adding that in 2015, 65 percent of NEA direct grants went to small and medium-sized organizations."
+      },
+      "summary": "In this June 13, 2017 email exchange, NEA Assistant Director of Press Victoria Hutter disputes a statement in Adam Andrzejewski's Forbes article that the NEA had not disclosed its $630,000 in grants to the New York Shakespeare Festival since 2009 or its $25,000 grant for the Public Theater's New York Voices program, citing press reports of NEA statements that no NEA funds supported the Public Theater's Julius Caesar production. Andrzejewski removes the disputed wording and revises the paragraph to say the NEA disclosed those grants and had not funded that Shakespeare in the Park performance. Hutter thanks him and adds that in 2015, 65 percent of NEA direct grants went to small and medium-sized organizations.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    },
+    "email/4315312-FW-Letter-of-Resignation.pdf": {
+      "relativePath": "email/4315312-FW-Letter-of-Resignation.pdf",
+      "category": "email",
+      "filename": "4315312-FW-Letter-of-Resignation.pdf",
+      "extraction": {
+        "Date / Time": "Wednesday, March 21, 2012 at 8:16 AM",
+        "From (Sender)": "Sidonie Squier, HSD",
+        "To (Recipient)": "Keith Gardner",
+        "Subject": "FW: letter of resignation",
+        "Core Message / Action Item": "Forwarding Dan Derksen's letter of resignation and his message about leaving the office."
+      },
+      "summary": "Sent on March 21, 2012, this email from Sidonie Squier of HSD forwards to Keith Gardner a March 19 message from Dan Derksen, with his resignation letter attached. Derksen tells Squier that an earlier attachment was the letter he sent to the Governor via Keith and that this one is addressed to her. He says he has discussed it with the staff, turned in his key and badge, and will not return to the office but remains available by email or phone.",
+      "completed": true,
+      "updatedAt": "2026-10-31T12:02:45.521614+00:00"
+    }
+  }
+}

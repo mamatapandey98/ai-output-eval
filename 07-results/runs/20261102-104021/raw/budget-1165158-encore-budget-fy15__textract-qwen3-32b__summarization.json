@@ -1,0 +1,26 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "taskId": 112,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:40:24.960Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:40:25.303Z",
+  "configuredAt": "2026-11-02T10:40:30.804Z",
+  "executedAt": "2026-11-02T10:40:31.218Z",
+  "lastPolledAt": "2026-11-02T10:40:35.575Z",
+  "finishedAt": "2026-11-02T10:40:35.575Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The FY15 Budgeted Profit and Loss for Encore Academy 2014-2015 School Year outlines the financial plan with $4,746,466 in total expenses and $4,746,466 in total revenue. The revenue consists of $3,996,048 from Base Funding - Net Federal Entitlement Funding and $211,991 from State & Local Funding Philanthropy. The expenses are categorized into Salaries and Benefits, Other Than Personnel, and Non-Operating expenses, with a total of $2,046,869 allocated to Other Than Personnel expenses, $384,000 to Non-Operating expenses, and $2,315,597 to Salaries and Benefits. The budget ends with a net surplus or deficit of $0."
+    }
+  ],
+  "processingMs": 4357,
+  "totalMs": 10615,
+  "deleted": true,
+  "summary": "Page 1: The FY15 Budgeted Profit and Loss for Encore Academy 2014-2015 School Year outlines the financial plan with $4,746,466 in total expenses and $4,746,466 in total revenue. The revenue consists of $3,996,048 from Base Funding - Net Federal Entitlement Funding and $211,991 from State & Local Funding Philanthropy. The expenses are categorized into Salaries and Benefits, Other Than Personnel, and Non-Operating expenses, with a total of $2,046,869 allocated to Other Than Personnel expenses, $384,000 to Non-Operating expenses, and $2,315,597 to Salaries and Benefits. The budget ends with a net surplus or deficit of $0."
+}

@@ -1,0 +1,26 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "taskId": 152,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:06:47.568Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:06:48.952Z",
+  "configuredAt": "2026-11-02T11:06:56.363Z",
+  "executedAt": "2026-11-02T11:06:57.784Z",
+  "lastPolledAt": "2026-11-02T11:07:02.823Z",
+  "finishedAt": "2026-11-02T11:07:02.823Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Email exchange between Jon Entine and Keith Kloor regarding a news story about Kevin Folta. Kloor discusses the difficulty of writing the story and addresses criticism about the phrase \"close ties\" used in the article. Kloor clarifies that the phrase was not in the headline or deck, was added during final edits while he was traveling, and acknowledges that Folta and others, including Entine, found the descriptor questionable. Entine praised the reporting as fair and well-executed but questioned the use of \"close ties,\" calling it both incorrect and inflammatory."
+    }
+  ],
+  "processingMs": 5039,
+  "totalMs": 15255,
+  "deleted": true,
+  "summary": "Page 1: Email exchange between Jon Entine and Keith Kloor regarding a news story about Kevin Folta. Kloor discusses the difficulty of writing the story and addresses criticism about the phrase \"close ties\" used in the article. Kloor clarifies that the phrase was not in the headline or deck, was added during final edits while he was traveling, and acknowledges that Folta and others, including Entine, found the descriptor questionable. Entine praised the reporting as fair and well-executed but questioned the use of \"close ties,\" calling it both incorrect and inflammatory."
+}

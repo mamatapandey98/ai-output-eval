@@ -1,0 +1,26 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "taskId": 143,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:00:50.586Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:00:51.854Z",
+  "configuredAt": "2026-11-02T11:00:59.868Z",
+  "executedAt": "2026-11-02T11:01:00.238Z",
+  "lastPolledAt": "2026-11-02T11:01:03.454Z",
+  "finishedAt": "2026-11-02T11:01:03.454Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Terry McAuliffe supports using both 'East Sea' and 'Sea of Japan' names in Virginia's school textbooks, promising to reform the education system to reflect accurate historical understanding."
+    }
+  ],
+  "processingMs": 3216,
+  "totalMs": 12868,
+  "deleted": true,
+  "summary": "Page 1: Terry McAuliffe supports using both 'East Sea' and 'Sea of Japan' names in Virginia's school textbooks, promising to reform the education system to reflect accurate historical understanding."
+}

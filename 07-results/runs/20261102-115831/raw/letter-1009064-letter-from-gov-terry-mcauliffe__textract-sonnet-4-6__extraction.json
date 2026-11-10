@@ -1,0 +1,88 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-sonnet-4-6",
+  "job": "extraction",
+  "taskId": 240,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:18:50.547Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:18:51.842Z",
+  "configuredAt": "2026-11-02T12:18:59.758Z",
+  "executedAt": "2026-11-02T12:19:00.963Z",
+  "lastPolledAt": "2026-11-02T12:19:09.045Z",
+  "finishedAt": "2026-11-02T12:19:09.045Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "September 25, 2013",
+      "sender_name__organization": "Terry McAuliffe",
+      "recipient_name__organization": "Korean Community of Virginia",
+      "subject__reference": "Support for labeling the body of water between Korea and Japan with both names: East Sea and Sea of Japan in Virginia's school textbooks",
+      "main_purpose__request": "Terry McAuliffe expresses support for the Korean Community of Virginia's efforts to have Virginia school textbooks label the body of water known as the East Sea or the Sea of Japan with both names. He pledges that as Governor, he will support legislation to ensure new textbooks reflect this historical truth, referencing legislation introduced by Democratic Senator Dave Marsden in 2012."
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "September 25, 2013",
+      "pages": [
+        {
+          "page": 1,
+          "value": "September 25, 2013"
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Terry McAuliffe",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Terry McAuliffe"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "Korean Community of Virginia",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Korean Community of Virginia"
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": "Support for labeling the body of water between Korea and Japan with both names: East Sea and Sea of Japan in Virginia's school textbooks",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Support for labeling the body of water between Korea and Japan with both names: East Sea and Sea of Japan in Virginia's school textbooks"
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "Terry McAuliffe expresses support for the Korean Community of Virginia's efforts to have Virginia school textbooks label the body of water known as the East Sea or the Sea of Japan with both names. He pledges that as Governor, he will support legislation to ensure new textbooks reflect this historical truth, referencing legislation introduced by Democratic Senator Dave Marsden in 2012.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Terry McAuliffe expresses support for the Korean Community of Virginia's efforts to have Virginia school textbooks label the body of water known as the East Sea or the Sea of Japan with both names. He pledges that as Governor, he will support legislation to ensure new textbooks reflect this historical truth, referencing legislation introduced by Democratic Senator Dave Marsden in 2012."
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 8082,
+  "totalMs": 18498,
+  "deleted": true
+}

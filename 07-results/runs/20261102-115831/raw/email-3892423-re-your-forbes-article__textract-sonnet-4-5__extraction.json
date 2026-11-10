@@ -1,0 +1,144 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "textract-sonnet-4-5",
+  "job": "extraction",
+  "taskId": 256,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:29:19.894Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:29:21.292Z",
+  "configuredAt": "2026-11-02T12:29:28.879Z",
+  "executedAt": "2026-11-02T12:29:30.129Z",
+  "lastPolledAt": "2026-11-02T12:29:43.434Z",
+  "finishedAt": "2026-11-02T12:29:43.434Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "date__time": "Tuesday, June 13, 2017 2:27:00 PM",
+      "from_sender": "Victoria Hutter",
+      "to_recipient": "Adam@openthebooks.com",
+      "subject": "RE: your Forbes article",
+      "core_message__action_item": "Victoria Hutter thanks Adam for making changes to the Forbes article and provides additional information about NEA grant distribution (65% to small and medium-sized organizations in 2015) and their review process. She offers to provide additional information if needed. The email references a previous exchange where Adam confirmed removing certain words from an article paragraph about NEA funding to NYSF."
+    },
+    {
+      "pg_no": 2,
+      "date__time": "Tuesday, June 13, 2017 11:00 AM",
+      "from_sender": "Victoria Hutter <hutterv@arts.gov>",
+      "to_recipient": "Adam Andrzejewski",
+      "subject": "your Forbes article",
+      "core_message__action_item": "Victoria Hutter is writing to Adam Andrzejewski to dispute statements made in his recent Forbes article, clarifying that the NEA has been transparent about its funding of the Public Theater and providing evidence through multiple news articles showing the NEA disclosed this information to reporters."
+    },
+    {
+      "pg_no": 3,
+      "date__time": "",
+      "from_sender": "Victoria Hutter, Assistant Director - Press, Public Affairs, National Endowment for the Arts",
+      "to_recipient": "",
+      "subject": "",
+      "core_message__action_item": "The NEA declined to comment on whether the Public had applied for grants for the summer season. The Public Theater received $25,000 for the New York Voices program at Joe's Pub. Playbill has reached out regarding the application process for Shakespeare in the Park Season. Anyone can download detailed funding history from NEA grantees for the past 19 years at https://apps.nea.gov/grantsearch/"
+    }
+  ],
+  "extraction": {
+    "Date / Time": {
+      "value": "Tuesday, June 13, 2017 2:27:00 PM",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Tuesday, June 13, 2017 2:27:00 PM"
+        },
+        {
+          "page": 2,
+          "value": "Tuesday, June 13, 2017 11:00 AM"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ]
+    },
+    "From (Sender)": {
+      "value": "Victoria Hutter",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Victoria Hutter"
+        },
+        {
+          "page": 2,
+          "value": "Victoria Hutter <hutterv@arts.gov>"
+        },
+        {
+          "page": 3,
+          "value": "Victoria Hutter, Assistant Director - Press, Public Affairs, National Endowment for the Arts"
+        }
+      ]
+    },
+    "To (Recipient)": {
+      "value": "Adam@openthebooks.com",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Adam@openthebooks.com"
+        },
+        {
+          "page": 2,
+          "value": "Adam Andrzejewski"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ]
+    },
+    "Subject": {
+      "value": "RE: your Forbes article",
+      "pages": [
+        {
+          "page": 1,
+          "value": "RE: your Forbes article"
+        },
+        {
+          "page": 2,
+          "value": "your Forbes article"
+        },
+        {
+          "page": 3,
+          "value": ""
+        }
+      ]
+    },
+    "Core Message / Action Item": {
+      "value": "Victoria Hutter thanks Adam for making changes to the Forbes article and provides additional information about NEA grant distribution (65% to small and medium-sized organizations in 2015) and their review process. She offers to provide additional information if needed. The email references a previous exchange where Adam confirmed removing certain words from an article paragraph about NEA funding to NYSF.",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Victoria Hutter thanks Adam for making changes to the Forbes article and provides additional information about NEA grant distribution (65% to small and medium-sized organizations in 2015) and their review process. She offers to provide additional information if needed. The email references a previous exchange where Adam confirmed removing certain words from an article paragraph about NEA funding to NYSF."
+        },
+        {
+          "page": 2,
+          "value": "Victoria Hutter is writing to Adam Andrzejewski to dispute statements made in his recent Forbes article, clarifying that the NEA has been transparent about its funding of the Public Theater and providing evidence through multiple news articles showing the NEA disclosed this information to reporters."
+        },
+        {
+          "page": 3,
+          "value": "The NEA declined to comment on whether the Public had applied for grants for the summer season. The Public Theater received $25,000 for the New York Voices program at Joe's Pub. Playbill has reached out regarding the application process for Shakespeare in the Park Season. Anyone can download detailed funding history from NEA grantees for the past 19 years at https://apps.nea.gov/grantsearch/"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Date / Time",
+      "From (Sender)",
+      "To (Recipient)",
+      "Subject",
+      "Core Message / Action Item"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 13305,
+  "totalMs": 23540,
+  "deleted": true
+}

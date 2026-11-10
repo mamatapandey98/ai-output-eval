@@ -1,0 +1,945 @@
+{
+  "runId": "20261102-115831",
+  "createdAt": "2026-11-02T11:58:31.450Z",
+  "mode": "guarded-extraction",
+  "safety": {
+    "slowLimitMs": 60000,
+    "pollMs": 1000,
+    "cooldownMs": 20000,
+    "retries": false
+  },
+  "settings": {
+    "jobs": [
+      "extraction"
+    ]
+  },
+  "classificationCategories": [
+    {
+      "name": "budget",
+      "description": "A financial plan showing projected or planned revenues, expenditures, or allocations."
+    },
+    {
+      "name": "news article",
+      "description": "A newspaper or other news publication article reporting on a topic or event."
+    },
+    {
+      "name": "invoice",
+      "description": "A bill requesting payment for goods or services."
+    },
+    {
+      "name": "letter",
+      "description": "Formal written correspondence addressed to a person or organization."
+    },
+    {
+      "name": "email",
+      "description": "A printed email message or email thread."
+    }
+  ],
+  "documents": [
+    {
+      "id": "budget-1165158-encore-budget-fy15",
+      "file": "budget/1165158-encore-budget-fy15.pdf",
+      "category": "budget",
+      "summary": "Encore Academy’s FY15 budget projects $4,746,466 in revenue and the same amount in expenses, resulting in a $0 net balance.",
+      "classification": {
+        "label": "budget",
+        "pages": [
+          {
+            "page": 1,
+            "label": "budget"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Fiscal Year / Period",
+            "type": "Text",
+            "description": "Fiscal Year / Period stated in the budget."
+          },
+          {
+            "name": "Organization / Department Name",
+            "type": "Text",
+            "description": "Organization / Department Name stated in the budget."
+          },
+          {
+            "name": "Total Budget / Revenue",
+            "type": "Text",
+            "description": "Total Budget / Revenue stated in the budget."
+          },
+          {
+            "name": "Total Expenditure / Costs",
+            "type": "Text",
+            "description": "Total Expenditure / Costs stated in the budget."
+          },
+          {
+            "name": "Net Balance / Surplus / Deficit",
+            "type": "Text",
+            "description": "Net Balance / Surplus / Deficit stated in the budget."
+          }
+        ],
+        "values": {
+          "Fiscal Year / Period": "2014–2015 (FY15)",
+          "Organization / Department Name": "Encore Academy",
+          "Total Budget / Revenue": "$4,746,466",
+          "Total Expenditure / Costs": "$4,746,466",
+          "Net Balance / Surplus / Deficit": "$0"
+        }
+      },
+      "pages": 1,
+      "bytes": 44935,
+      "jobs": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "budget-1165040-singleton-budget",
+      "file": "budget/1165040-singleton-budget.pdf",
+      "category": "budget",
+      "summary": "This document presents the 2014–2015 Budget Projections for James M. Singleton Charter School based on a projected enrollment of 520 students. Total projected revenues stand at $5,461,160, funded predominantly by state and local Minimum Foundation Program (MFP) formula dollars ($4.35M) alongside Title I and IDEA federal funds ($805K). Anticipated operating expenditures match revenues exactly at $5,461,160, led by instructional and administrative salaries ($2.71M) and facility operations ($995K), delivering a balanced net budget.",
+      "classification": {
+        "label": "budget",
+        "pages": [
+          {
+            "page": 1,
+            "label": "budget"
+          },
+          {
+            "page": 2,
+            "label": "budget"
+          },
+          {
+            "page": 3,
+            "label": "budget"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Fiscal Year / Period",
+            "type": "Text",
+            "description": "Fiscal Year / Period stated in the budget."
+          },
+          {
+            "name": "Organization / Department Name",
+            "type": "Text",
+            "description": "Organization / Department Name stated in the budget."
+          },
+          {
+            "name": "Total Budget / Revenue",
+            "type": "Text",
+            "description": "Total Budget / Revenue stated in the budget."
+          },
+          {
+            "name": "Total Expenditure / Costs",
+            "type": "Text",
+            "description": "Total Expenditure / Costs stated in the budget."
+          },
+          {
+            "name": "Net Balance / Surplus / Deficit",
+            "type": "Text",
+            "description": "Net Balance / Surplus / Deficit stated in the budget."
+          }
+        ],
+        "values": {
+          "Fiscal Year / Period": "2014–2015",
+          "Organization / Department Name": "James M. Singleton Charter School",
+          "Total Budget / Revenue": "$5,461,160.00",
+          "Total Expenditure / Costs": "$5,461,160.00",
+          "Net Balance / Surplus / Deficit": "$0.00 (Balanced Budget)"
+        }
+      },
+      "pages": 3,
+      "bytes": 770163,
+      "jobs": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "news-article-3903433-consumer-alert-newspaper",
+      "file": "news article/3903433-Consumer-Alert-Newspaper.pdf",
+      "category": "news article",
+      "summary": "Warren Brown’s Washington Post article describes a conservative coalition’s proposals to reduce federal consumer regulation and reactions from consumer groups.",
+      "classification": {
+        "label": "news article",
+        "pages": [
+          {
+            "page": 1,
+            "label": "news article"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Headline / Title",
+            "type": "Text",
+            "description": "Headline / Title stated in the news article."
+          },
+          {
+            "name": "Author / Byline",
+            "type": "Text",
+            "description": "Author / Byline stated in the news article."
+          },
+          {
+            "name": "Publication Date",
+            "type": "Text",
+            "description": "Publication Date stated in the news article."
+          },
+          {
+            "name": "Publication Source / Organization",
+            "type": "Text",
+            "description": "Publication Source / Organization stated in the news article."
+          },
+          {
+            "name": "Primary Subject / Topic",
+            "type": "Text",
+            "description": "Primary Subject / Topic stated in the news article."
+          }
+        ],
+        "values": {
+          "Headline / Title": "Conservative Consumer Ideas Floated: Coalition Calls for Less Regulation",
+          "Author / Byline": "Warren Brown",
+          "Publication Date": null,
+          "Publication Source / Organization": "The Washington Post",
+          "Primary Subject / Topic": "A conservative coalition’s proposals to reduce consumer regulation"
+        }
+      },
+      "pages": 1,
+      "bytes": 498881,
+      "jobs": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "news-article-2071912-conservative-groups-push-development-missoulan",
+      "file": "news article/2071912-conservative-groups-push-development-missoulan.pdf",
+      "category": "news article",
+      "summary": "A two-page Missoulian article by Dick Manning covers the western wise-use movement and its pro-development coalition, its members and disputed political ties, and its policy agenda; page one also includes a related environmental group sidebar.",
+      "classification": {
+        "label": "news article",
+        "pages": [
+          {
+            "page": 1,
+            "label": "news article"
+          },
+          {
+            "page": 2,
+            "label": "news article"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Headline / Title",
+            "type": "Text",
+            "description": "Headline / Title stated in the news article."
+          },
+          {
+            "name": "Author / Byline",
+            "type": "Text",
+            "description": "Author / Byline stated in the news article."
+          },
+          {
+            "name": "Publication Date",
+            "type": "Text",
+            "description": "Publication Date stated in the news article."
+          },
+          {
+            "name": "Publication Source / Organization",
+            "type": "Text",
+            "description": "Publication Source / Organization stated in the news article."
+          },
+          {
+            "name": "Primary Subject / Topic",
+            "type": "Text",
+            "description": "Primary Subject / Topic stated in the news article."
+          }
+        ],
+        "values": {
+          "Headline / Title": "Conservative groups push development",
+          "Author / Byline": "Dick Manning",
+          "Publication Date": "July 23, 1989",
+          "Publication Source / Organization": "The Missoulian",
+          "Primary Subject / Topic": "The Western pro-development coalition and the wise-use movement, including coalition membership and related political ties."
+        }
+      },
+      "pages": 2,
+      "bytes": 951075,
+      "jobs": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "invoice-5978221-sprout-invoice",
+      "file": "invoice/5978221-Sprout-Invoice.pdf",
+      "category": "invoice",
+      "summary": "This invoice was issued by Sprout Social to Alexa Popplewell of the Santa Rosa Police Department for an annual premium plan subscription totaling $1,188.00. The invoice was billed on September 28, 2018, with payment due on receipt. Records confirm full payment of $1,188.00 via Visa on October 1, 2018, leaving a zero remaining balance.",
+      "classification": {
+        "label": "invoice",
+        "pages": [
+          {
+            "page": 1,
+            "label": "invoice"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Invoice Number",
+            "type": "Text",
+            "description": "Invoice Number stated in the invoice."
+          },
+          {
+            "name": "Invoice Date",
+            "type": "Text",
+            "description": "Invoice Date stated in the invoice."
+          },
+          {
+            "name": "Vendor / Seller Name",
+            "type": "Text",
+            "description": "Vendor / Seller Name stated in the invoice."
+          },
+          {
+            "name": "Total Amount",
+            "type": "Text",
+            "description": "Total Amount stated in the invoice."
+          },
+          {
+            "name": "Due Date",
+            "type": "Text",
+            "description": "Due Date stated in the invoice."
+          }
+        ],
+        "values": {
+          "Invoice Number": "1102092",
+          "Invoice Date": "Sep 28, 2018",
+          "Vendor / Seller Name": "Sprout Social",
+          "Total Amount": "$1,188.00",
+          "Due Date": "Sep 28, 2018"
+        }
+      },
+      "pages": 1,
+      "bytes": 21159,
+      "jobs": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "invoice-20694747-invoice",
+      "file": "invoice/20694747-invoice.pdf",
+      "category": "invoice",
+      "summary": "This invoice was issued by the City of Richmond Police Department to Tom Nash of MuckRock News for processing a public FOIA records request concerning police use-of-force and civilian complaint data from 2013 to 2019. The charges reflect two hours of labor by Major Crimes ($80.00) and 30 minutes by Internal Affairs ($20.00) at an hourly rate of $40.00. The total amount due is $100.00; payment should be sent to the department's Central Records Unit.",
+      "classification": {
+        "label": "invoice",
+        "pages": [
+          {
+            "page": 1,
+            "label": "invoice"
+          },
+          {
+            "page": 2,
+            "label": "invoice"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Invoice Number",
+            "type": "Text",
+            "description": "Invoice Number stated in the invoice."
+          },
+          {
+            "name": "Invoice Date",
+            "type": "Text",
+            "description": "Invoice Date stated in the invoice."
+          },
+          {
+            "name": "Vendor / Seller Name",
+            "type": "Text",
+            "description": "Vendor / Seller Name stated in the invoice."
+          },
+          {
+            "name": "Total Amount",
+            "type": "Text",
+            "description": "Total Amount stated in the invoice."
+          },
+          {
+            "name": "Due Date",
+            "type": "Text",
+            "description": "Due Date stated in the invoice."
+          }
+        ],
+        "values": {
+          "Invoice Number": "04-30-2021-03",
+          "Invoice Date": null,
+          "Vendor / Seller Name": "City of Richmond Police Department",
+          "Total Amount": "$100.00",
+          "Due Date": null
+        }
+      },
+      "pages": 2,
+      "bytes": 77309,
+      "jobs": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "letter-1009064-letter-from-gov-terry-mcauliffe",
+      "file": "letter/1009064-letter-from-gov-terry-mcauliffe.pdf",
+      "category": "letter",
+      "summary": "On September 25, 2013, gubernatorial candidate Terry McAuliffe wrote to the Korean Community of Virginia to endorse their educational advocacy efforts. He affirms that Virginia textbooks should recognize both the 'East Sea' and 'Sea of Japan' names on maps and instructional descriptions. McAuliffe pledges to support state legislation ensuring all newly adopted materials carry both designations upon taking office as Governor.",
+      "classification": {
+        "label": "letter",
+        "pages": [
+          {
+            "page": 1,
+            "label": "letter"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Letter Date",
+            "type": "Text",
+            "description": "Letter Date stated in the letter."
+          },
+          {
+            "name": "Sender Name / Organization",
+            "type": "Text",
+            "description": "Sender Name / Organization stated in the letter."
+          },
+          {
+            "name": "Recipient Name / Organization",
+            "type": "Text",
+            "description": "Recipient Name / Organization stated in the letter."
+          },
+          {
+            "name": "Subject / Reference",
+            "type": "Text",
+            "description": "Subject / Reference stated in the letter."
+          },
+          {
+            "name": "Main Purpose / Request",
+            "type": "Text",
+            "description": "Main Purpose / Request stated in the letter."
+          }
+        ],
+        "values": {
+          "Letter Date": "September 25, 2013",
+          "Sender Name / Organization": "Terry McAuliffe / McAuliffe for Governor",
+          "Recipient Name / Organization": "Korean Community of Virginia",
+          "Subject / Reference": "Dual naming of East Sea / Sea of Japan in Virginia textbooks",
+          "Main Purpose / Request": "Expressing support for dual-naming the East Sea / Sea of Japan in school textbooks and committing to back legislation as Governor."
+        }
+      },
+      "pages": 1,
+      "bytes": 198363,
+      "jobs": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "letter-1004917-mayors-letter",
+      "file": "letter/1004917-mayors-letter.pdf",
+      "category": "letter",
+      "summary": "In this memorandum dated January 1, 2014, Oxnard Mayor Tim B. Flynn outlines crucial strategic objectives for the City Council to restore public trust and ensure ethical administration. Key initiatives include establishing firm selection timelines for a permanent City Manager and City Attorney, alongside adopting a priority-based budgeting schedule for FY 2014–2015. Mayor Flynn also calls for urgent action on street resurfacing, rebuilding the depleted general fund reserve, and managing pension liabilities.",
+      "classification": {
+        "label": "letter",
+        "pages": [
+          {
+            "page": 1,
+            "label": "letter"
+          },
+          {
+            "page": 2,
+            "label": "letter"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Letter Date",
+            "type": "Text",
+            "description": "Letter Date stated in the letter."
+          },
+          {
+            "name": "Sender Name / Organization",
+            "type": "Text",
+            "description": "Sender Name / Organization stated in the letter."
+          },
+          {
+            "name": "Recipient Name / Organization",
+            "type": "Text",
+            "description": "Recipient Name / Organization stated in the letter."
+          },
+          {
+            "name": "Subject / Reference",
+            "type": "Text",
+            "description": "Subject / Reference stated in the letter."
+          },
+          {
+            "name": "Main Purpose / Request",
+            "type": "Text",
+            "description": "Main Purpose / Request stated in the letter."
+          }
+        ],
+        "values": {
+          "Letter Date": "January 1, 2014",
+          "Sender Name / Organization": "Tim B. Flynn, Mayor / Office of the Mayor, City of Oxnard",
+          "Recipient Name / Organization": "Members of the City Council, City of Oxnard",
+          "Subject / Reference": "Agenda Item No. M-1 (2014 Strategic Priorities and Timelines)",
+          "Main Purpose / Request": "To set 2014 priorities including hiring a permanent city manager and city attorney, establishing priority-based budgeting, and restoring city reserves."
+        }
+      },
+      "pages": 2,
+      "bytes": 153390,
+      "jobs": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "email-3862260-kloor-on-nature-article",
+      "file": "email/3862260-Kloor-on-Nature-Article.pdf",
+      "category": "email",
+      "summary": "Jon Entine forwards an email exchange in which Keith Kloor explains and defends the reporting and editing of a Nature story, including an objection to its headline.",
+      "classification": {
+        "label": "email",
+        "pages": [
+          {
+            "page": 1,
+            "label": "email"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Date / Time",
+            "type": "Text",
+            "description": "Date / Time stated in the email."
+          },
+          {
+            "name": "From (Sender)",
+            "type": "Text",
+            "description": "From (Sender) stated in the email."
+          },
+          {
+            "name": "To (Recipient)",
+            "type": "Text",
+            "description": "To (Recipient) stated in the email."
+          },
+          {
+            "name": "Subject",
+            "type": "Text",
+            "description": "Subject stated in the email."
+          },
+          {
+            "name": "Core Message / Action Item",
+            "type": "Text",
+            "description": "Core Message / Action Item stated in the email."
+          }
+        ],
+        "values": {
+          "Date / Time": "Saturday, August 8, 2015 1:59:56 PM EDT",
+          "From (Sender)": "Jon Entine",
+          "To (Recipient)": "Kevin Folta",
+          "Subject": "Fwd: Curious",
+          "Core Message / Action Item": "Entine forwards a discussion in which Keith Kloor explains and defends how a Nature story was edited and addresses an objection to its headline."
+        }
+      },
+      "pages": 1,
+      "bytes": 87217,
+      "jobs": [
+        "extraction"
+      ]
+    },
+    {
+      "id": "email-3892423-re-your-forbes-article",
+      "file": "email/3892423-RE-your-Forbes-article.pdf",
+      "category": "email",
+      "summary": "In this email exchange dated June 13, 2017, NEA Assistant Director of Press Victoria Hutter corresponds with Forbes contributor Adam Andrzejewski regarding an article on arts funding. Andrzejewski agrees to remove inaccuracies and reflect the NEA's official statement clarifying that no federal funds supported the controversial Shakespeare in the Park production of Julius Caesar. Hutter thanks him for the swift correction and provides additional public grant disbursement data demonstrating agency transparency.",
+      "classification": {
+        "label": "email",
+        "pages": [
+          {
+            "page": 1,
+            "label": "email"
+          },
+          {
+            "page": 2,
+            "label": "email"
+          },
+          {
+            "page": 3,
+            "label": "email"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Date / Time",
+            "type": "Text",
+            "description": "Date / Time stated in the email."
+          },
+          {
+            "name": "From (Sender)",
+            "type": "Text",
+            "description": "From (Sender) stated in the email."
+          },
+          {
+            "name": "To (Recipient)",
+            "type": "Text",
+            "description": "To (Recipient) stated in the email."
+          },
+          {
+            "name": "Subject",
+            "type": "Text",
+            "description": "Subject stated in the email."
+          },
+          {
+            "name": "Core Message / Action Item",
+            "type": "Text",
+            "description": "Core Message / Action Item stated in the email."
+          }
+        ],
+        "values": {
+          "Date / Time": "Tuesday, June 13, 2017 at 2:27 PM",
+          "From (Sender)": "Victoria Hutter (Assistant Director - Press, National Endowment for the Arts)",
+          "To (Recipient)": "Adam Andrzejewski (CEO, OpenTheBooks / Forbes Contributor) <Adam@openthebooks.com>",
+          "Subject": "RE: your Forbes article",
+          "Core Message / Action Item": "Correcting inaccuracies in a Forbes article regarding NEA grants to the Public Theater and providing grant transparency data."
+        }
+      },
+      "pages": 3,
+      "bytes": 121212,
+      "jobs": [
+        "extraction"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "textract-qwen3-32b",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/qwen.qwen3-32b-v1:0"
+    },
+    {
+      "id": "textract-sonnet-4-6",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.anthropic.claude-sonnet-4-6"
+    },
+    {
+      "id": "textract-sonnet-4-5",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    },
+    {
+      "id": "textract-haiku-4-5",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.anthropic.claude-haiku-4-5-20251001-v1:0"
+    },
+    {
+      "id": "textract-llama4-maverick",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.meta.llama4-maverick-17b-instruct-v1:0"
+    }
+  ],
+  "taskPlan": [
+    {
+      "documentId": "budget-1165158-encore-budget-fy15",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "budget-1165158-encore-budget-fy15",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "budget-1165158-encore-budget-fy15",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "budget-1165158-encore-budget-fy15",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "budget-1165158-encore-budget-fy15",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    },
+    {
+      "documentId": "budget-1165040-singleton-budget",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "budget-1165040-singleton-budget",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "budget-1165040-singleton-budget",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "budget-1165040-singleton-budget",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "budget-1165040-singleton-budget",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-3903433-consumer-alert-newspaper",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-3903433-consumer-alert-newspaper",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-3903433-consumer-alert-newspaper",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-3903433-consumer-alert-newspaper",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-3903433-consumer-alert-newspaper",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-5978221-sprout-invoice",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-5978221-sprout-invoice",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-5978221-sprout-invoice",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-5978221-sprout-invoice",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-5978221-sprout-invoice",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-20694747-invoice",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-20694747-invoice",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-20694747-invoice",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-20694747-invoice",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "invoice-20694747-invoice",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1004917-mayors-letter",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1004917-mayors-letter",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1004917-mayors-letter",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1004917-mayors-letter",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "letter-1004917-mayors-letter",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3862260-kloor-on-nature-article",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3862260-kloor-on-nature-article",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3862260-kloor-on-nature-article",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3862260-kloor-on-nature-article",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3862260-kloor-on-nature-article",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3892423-re-your-forbes-article",
+      "variantId": "textract-qwen3-32b",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3892423-re-your-forbes-article",
+      "variantId": "textract-sonnet-4-6",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3892423-re-your-forbes-article",
+      "variantId": "textract-sonnet-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3892423-re-your-forbes-article",
+      "variantId": "textract-haiku-4-5",
+      "job": "extraction"
+    },
+    {
+      "documentId": "email-3892423-re-your-forbes-article",
+      "variantId": "textract-llama4-maverick",
+      "job": "extraction"
+    }
+  ],
+  "successfulTasksSkipped": [],
+  "pipelines": {
+    "textract-qwen3-32b": {
+      "id": 166,
+      "name": "llmjudge-textract-qwen3-32b",
+      "created": false
+    },
+    "textract-sonnet-4-6": {
+      "id": 167,
+      "name": "llmjudge-textract-sonnet-4-6",
+      "created": false
+    },
+    "textract-sonnet-4-5": {
+      "id": 168,
+      "name": "llmjudge-textract-sonnet-4-5",
+      "created": false
+    },
+    "textract-haiku-4-5": {
+      "id": 169,
+      "name": "llmjudge-textract-haiku-4-5",
+      "created": false
+    },
+    "textract-llama4-maverick": {
+      "id": 170,
+      "name": "llmjudge-textract-llama4-maverick",
+      "created": false
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "documentId": "budget-1165040-singleton-budget",
+  "variantId": "textract-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 118,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:44:10.345Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:44:11.602Z",
+  "configuredAt": "2026-11-02T10:44:20.886Z",
+  "executedAt": "2026-11-02T10:44:21.224Z",
+  "lastPolledAt": "2026-11-02T10:44:31.113Z",
+  "finishedAt": "2026-11-02T10:44:31.113Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The document outlines the 2014-15 budget projections for VAMED IVI. CINOLETON CRARTEN, detailing funding sources and expenditures. Total revenue is $5,461,160, sourced from state/local per-pupil funding ($4,346,160), federal grants/Title I/IDEA ($805,000 + $185,000 ERATE/LA-4), and donations ($50,000). Key expenditures include: Salaries (Code 100) totaling $2,709,910 covering administration, instructional/non-instructional staff; Employee Benefits (Code 200) totaling $668,711.57 for health insurance, Social Security, Medicare, retirement, and disability; Purchased Professional Services (Code 300) totaling $271,609 for legal, auditing, and management services; Purchased Property Services (Code 400) totaling $995,359 for utilities, facility use, repairs, and maintenance; and Other Purchased Services (Code 500) totaling $640,475 for transportation, insurance, food service, travel, and communications."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The James M. Singleton Charter School 2014-15 Budget Projections outline key expenditures across two categories. Supplies (Object Code 600) total $95,095.43, covering materials and supplies ($42,295.43), food & commodities ($2,500), books and periodicals ($35,300), and other/custodial supplies ($15,000). Other Use of Funds (Object Code 900) total $80,000, including depreciation ($15,000) and indirect cost ($65,000), with no contingency allocated. Total expenditures amount to $5,461,160.00 with no budget difference reported."
+    },
+    {
+      "pg_no": 3,
+      "generation_response": "The James Singleton Charter School Program Budget Assumptions for 2012-2013 outline key financial and operational parameters: student enrollment is 520 (MFP count) plus 40 LA4 students; MFP allocation is $8,358 per pupil (state and local), pending legislative approval; LA4 allocation is $5,532.50 per pupil, pending state approval; teacher-to-student ratio is 22:1; and federal funds (Title I, Title II, IDEA B) total $805,000, representing 90% of the 2013-14 allocation pending BESE approval, with a school calendar of 182–192 instructional days."
+    }
+  ],
+  "processingMs": 9889,
+  "totalMs": 20768,
+  "deleted": true,
+  "summary": "Page 1: The document outlines the 2014-15 budget projections for VAMED IVI. CINOLETON CRARTEN, detailing funding sources and expenditures. Total revenue is $5,461,160, sourced from state/local per-pupil funding ($4,346,160), federal grants/Title I/IDEA ($805,000 + $185,000 ERATE/LA-4), and donations ($50,000). Key expenditures include: Salaries (Code 100) totaling $2,709,910 covering administration, instructional/non-instructional staff; Employee Benefits (Code 200) totaling $668,711.57 for health insurance, Social Security, Medicare, retirement, and disability; Purchased Professional Services (Code 300) totaling $271,609 for legal, auditing, and management services; Purchased Property Services (Code 400) totaling $995,359 for utilities, facility use, repairs, and maintenance; and Other Purchased Services (Code 500) totaling $640,475 for transportation, insurance, food service, travel, and communications.\n\nPage 2: The James M. Singleton Charter School 2014-15 Budget Projections outline key expenditures across two categories. Supplies (Object Code 600) total $95,095.43, covering materials and supplies ($42,295.43), food & commodities ($2,500), books and periodicals ($35,300), and other/custodial supplies ($15,000). Other Use of Funds (Object Code 900) total $80,000, including depreciation ($15,000) and indirect cost ($65,000), with no contingency allocated. Total expenditures amount to $5,461,160.00 with no budget difference reported.\n\nPage 3: The James Singleton Charter School Program Budget Assumptions for 2012-2013 outline key financial and operational parameters: student enrollment is 520 (MFP count) plus 40 LA4 students; MFP allocation is $8,358 per pupil (state and local), pending legislative approval; LA4 allocation is $5,532.50 per pupil, pending state approval; teacher-to-student ratio is 22:1; and federal funds (Title I, Title II, IDEA B) total $805,000, representing 90% of the 2013-14 allocation pending BESE approval, with a school calendar of 182–192 instructional days."
+}

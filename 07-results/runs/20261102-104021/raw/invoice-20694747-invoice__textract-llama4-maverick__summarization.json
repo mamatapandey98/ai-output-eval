@@ -1,0 +1,30 @@
+{
+  "documentId": "invoice-20694747-invoice",
+  "variantId": "textract-llama4-maverick",
+  "job": "summarization",
+  "taskId": 138,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:57:40.943Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:57:42.239Z",
+  "configuredAt": "2026-11-02T10:57:49.713Z",
+  "executedAt": "2026-11-02T10:57:51.117Z",
+  "lastPolledAt": "2026-11-02T10:57:54.611Z",
+  "finishedAt": "2026-11-02T10:57:54.611Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The Richmond Police Department invoiced MuckRock News $100 for 2 hours of work at $40/hour for a FOIA request regarding use of force incidents, civilian complaints, and officer-involved shootings from 2013-2019."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The City of Richmond Police Department accepts certified checks, money orders, and cash as payment methods, with a request not to mail in cash."
+    }
+  ],
+  "processingMs": 3494,
+  "totalMs": 13668,
+  "deleted": true,
+  "summary": "Page 1: The Richmond Police Department invoiced MuckRock News $100 for 2 hours of work at $40/hour for a FOIA request regarding use of force incidents, civilian complaints, and officer-involved shootings from 2013-2019.\n\nPage 2: The City of Richmond Police Department accepts certified checks, money orders, and cash as payment methods, with a request not to mail in cash."
+}

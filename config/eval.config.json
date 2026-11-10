@@ -1,0 +1,62 @@
+{
+  "dataDir": "data",
+  "groundTruthFile": "01-ground-truth-annotation/data/final-reference.json",
+  "variantsFile": "config/variants.json",
+  "runsDir": "runs",
+  "evidenceDir": "07-results/runs",
+  "screensDir": "screens",
+  "cacheDir": ".cache",
+  "pipelineNamePrefix": "llmjudge",
+  "jobs": ["summarization"],
+  "task": {
+    "additionalInstruction": "",
+    "enableContext": false
+  },
+  "execution": {
+    "concurrency": 50,
+    "restAfterTaskMs": 20000,
+    "pollMs": 10000,
+    "timeoutMs": 1800000,
+    "deleteTasksAfterRun": true
+  },
+  "screen": {
+    "perCategory": 4,
+    "variants": ["textract-sonnet-4-6", "textract-qwen3-32b"],
+    "concurrency": 1
+  },
+  "similarity": {
+    "embeddingModel": "Xenova/all-MiniLM-L6-v2",
+    "useEmbeddings": false,
+    "cosineFloor": 0.2,
+    "weights": {
+      "cosine": 0.5,
+      "word": 0.25,
+      "char": 0.25
+    },
+    "matchThreshold": 0.8,
+    "partialThreshold": 0.5,
+    "numericMismatchCap": 0.4
+  },
+  "judge": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash",
+    "effort": "high",
+    "maxRetries": 0,
+    "timeoutMs": 600000,
+    "thinkingLevel": "HIGH",
+    "concurrency": 1,
+    "useServerFallback": true,
+    "includeSourcePdf": false,
+    "weights": {
+      "coverage": 0.4,
+      "accuracy": 0.4,
+      "clarity": 0.1,
+      "conciseness": 0.1
+    }
+  },
+  "outliers": {
+    "robustZ": 2.5,
+    "minScoreGap": 0.25,
+    "lengthRobustZ": 3.0
+  }
+}

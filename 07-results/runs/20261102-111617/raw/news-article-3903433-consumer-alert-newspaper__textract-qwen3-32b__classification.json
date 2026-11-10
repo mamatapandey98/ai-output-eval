@@ -1,0 +1,42 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-qwen3-32b",
+  "job": "classification",
+  "taskId": 169,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:22:43.259Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:22:44.826Z",
+  "configuredAt": "2026-11-02T11:22:55.811Z",
+  "executedAt": "2026-11-02T11:22:56.190Z",
+  "lastPolledAt": "2026-11-02T11:23:02.027Z",
+  "finishedAt": "2026-11-02T11:23:02.027Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "news article"
+    }
+  ],
+  "classification": {
+    "label": "news article",
+    "pages": [
+      {
+        "page": 1,
+        "label": "news article"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 5837,
+  "totalMs": 18768,
+  "deleted": true
+}

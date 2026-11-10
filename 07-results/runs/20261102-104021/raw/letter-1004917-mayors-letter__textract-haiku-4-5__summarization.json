@@ -1,0 +1,30 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "taskId": 147,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:03:27.503Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:03:28.789Z",
+  "configuredAt": "2026-11-02T11:03:38.331Z",
+  "executedAt": "2026-11-02T11:03:38.793Z",
+  "lastPolledAt": "2026-11-02T11:03:46.172Z",
+  "finishedAt": "2026-11-02T11:03:46.172Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This is a January 1, 2014 letter from Tim B. Flynn, Mayor of Oxnard, California, to the City Council outlining priorities for 2014. The mayor highlights past achievements in ethics reform, fiscal accountability, and infrastructure following a Ventura County District Attorney investigation. He emphasizes three key opportunities for 2014: (1) hiring a permanent city manager by March 1, 2014, with decisions needed by January 14 regarding public and council involvement in the hiring process; (2) beginning the city attorney hiring process by January 14, 2014 (concluding after the city manager hire), with new performance-based goals to minimize lawsuits; and (3) implementing priority-based budgeting aligned with strategic priorities established in April 2013 to improve fiscal management and citizen engagement."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The City of Oxnard outlined a performance and priority-based budgeting process from January to June 2014, with monthly milestones including distilling strategic objectives into policy initiatives, conducting study sessions, gathering stakeholder input, and finalizing the fiscal year 2014-2015 budget by June 17. Additional 2014 priorities included: resurfacing residential streets ($30 million plan with bonding), attracting higher-paying jobs and improving business environment, restoring the general fund reserve from 10% to 18%, establishing a K-12 magnet school program with the school district, negotiating pension contributions with bargaining units, reviving the city marketing program and downtown revitalization, securing funding for Santa Clara River levees, determining redevelopment property purchases, and making the Golf Course and Performing Arts Center self-sustaining."
+    }
+  ],
+  "processingMs": 7379,
+  "totalMs": 18669,
+  "deleted": true,
+  "summary": "Page 1: This is a January 1, 2014 letter from Tim B. Flynn, Mayor of Oxnard, California, to the City Council outlining priorities for 2014. The mayor highlights past achievements in ethics reform, fiscal accountability, and infrastructure following a Ventura County District Attorney investigation. He emphasizes three key opportunities for 2014: (1) hiring a permanent city manager by March 1, 2014, with decisions needed by January 14 regarding public and council involvement in the hiring process; (2) beginning the city attorney hiring process by January 14, 2014 (concluding after the city manager hire), with new performance-based goals to minimize lawsuits; and (3) implementing priority-based budgeting aligned with strategic priorities established in April 2013 to improve fiscal management and citizen engagement.\n\nPage 2: The City of Oxnard outlined a performance and priority-based budgeting process from January to June 2014, with monthly milestones including distilling strategic objectives into policy initiatives, conducting study sessions, gathering stakeholder input, and finalizing the fiscal year 2014-2015 budget by June 17. Additional 2014 priorities included: resurfacing residential streets ($30 million plan with bonding), attracting higher-paying jobs and improving business environment, restoring the general fund reserve from 10% to 18%, establishing a K-12 magnet school program with the school district, negotiating pension contributions with bargaining units, reviving the city marketing program and downtown revitalization, securing funding for Santa Clara River levees, determining redevelopment property purchases, and making the Golf Course and Performing Arts Center self-sustaining."
+}

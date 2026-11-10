@@ -1,0 +1,88 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "taskId": 243,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:20:50.230Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:20:51.476Z",
+  "configuredAt": "2026-11-02T12:21:00.029Z",
+  "executedAt": "2026-11-02T12:21:00.381Z",
+  "lastPolledAt": "2026-11-02T12:21:04.730Z",
+  "finishedAt": "2026-11-02T12:21:04.730Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "September 25, 2013",
+      "sender_name__organization": "Terry McAuliffe",
+      "recipient_name__organization": "Korean Community of Virginia",
+      "subject__reference": "",
+      "main_purpose__request": "supporting legislation to use both names, East Sea/Sea of Japan, in Virginia's textbooks"
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "September 25, 2013",
+      "pages": [
+        {
+          "page": 1,
+          "value": "September 25, 2013"
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Terry McAuliffe",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Terry McAuliffe"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "Korean Community of Virginia",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Korean Community of Virginia"
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": null,
+      "pages": [
+        {
+          "page": 1,
+          "value": ""
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "supporting legislation to use both names, East Sea/Sea of Japan, in Virginia's textbooks",
+      "pages": [
+        {
+          "page": 1,
+          "value": "supporting legislation to use both names, East Sea/Sea of Japan, in Virginia's textbooks"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 4349,
+  "totalMs": 14500,
+  "deleted": true
+}

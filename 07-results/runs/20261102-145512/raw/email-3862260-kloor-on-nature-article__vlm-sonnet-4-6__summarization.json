@@ -1,0 +1,27 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 267,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:03:16.293Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:03:17.687Z",
+  "configuredAt": "2026-11-02T15:03:27.129Z",
+  "executedAt": "2026-11-02T15:03:28.399Z",
+  "lastPolledAt": "2026-11-02T15:03:49.632Z",
+  "finishedAt": "2026-11-02T15:03:49.632Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This is an email exchange from August 8, 2015, involving Jon Entine (Executive Director, Genetic Literacy Project), Keith Kloor (journalist), and Kevin Folta. Jon Entine praised Keith Kloor's story as fair and well-executed but questioned the use of the phrase \"close ties\" in the headline, calling it incorrect and inflammatory. Keith responded that the story was difficult to write, acknowledged that others (including Kevin Folta) also objected to the \"close ties\" descriptor, and explained that the phrase was added during final edits without his review, as he was traveling. Keith also noted that Jon Entine appears in the emails being discussed and suggested they speak."
+    }
+  ],
+  "summary": "Page 1: This is an email exchange from August 8, 2015, involving Jon Entine (Executive Director, Genetic Literacy Project), Keith Kloor (journalist), and Kevin Folta. Jon Entine praised Keith Kloor's story as fair and well-executed but questioned the use of the phrase \"close ties\" in the headline, calling it incorrect and inflammatory. Keith responded that the story was difficult to write, acknowledged that others (including Kevin Folta) also objected to the \"close ties\" descriptor, and explained that the phrase was added during final edits without his review, as he was traveling. Keith also noted that Jon Entine appears in the emails being discussed and suggested they speak.",
+  "outputValid": true,
+  "processingMs": 21233,
+  "totalMs": 33339,
+  "deleted": true
+}

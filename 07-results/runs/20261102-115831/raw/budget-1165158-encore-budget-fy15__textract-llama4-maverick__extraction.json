@@ -1,0 +1,88 @@
+{
+  "documentId": "budget-1165158-encore-budget-fy15",
+  "variantId": "textract-llama4-maverick",
+  "job": "extraction",
+  "taskId": 213,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:01:03.306Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:01:04.615Z",
+  "configuredAt": "2026-11-02T12:01:11.663Z",
+  "executedAt": "2026-11-02T12:01:12.953Z",
+  "lastPolledAt": "2026-11-02T12:01:16.801Z",
+  "finishedAt": "2026-11-02T12:01:16.801Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "fiscal_year__period": "2014-2015",
+      "organization__department_name": "Encore Academy",
+      "total_budget__revenue": "4,746,466",
+      "total_expenditure__costs": "4,746,466",
+      "net_balance__surplus__deficit": "0"
+    }
+  ],
+  "extraction": {
+    "Fiscal Year / Period": {
+      "value": "2014-2015",
+      "pages": [
+        {
+          "page": 1,
+          "value": "2014-2015"
+        }
+      ]
+    },
+    "Organization / Department Name": {
+      "value": "Encore Academy",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Encore Academy"
+        }
+      ]
+    },
+    "Total Budget / Revenue": {
+      "value": "4,746,466",
+      "pages": [
+        {
+          "page": 1,
+          "value": "4,746,466"
+        }
+      ]
+    },
+    "Total Expenditure / Costs": {
+      "value": "4,746,466",
+      "pages": [
+        {
+          "page": 1,
+          "value": "4,746,466"
+        }
+      ]
+    },
+    "Net Balance / Surplus / Deficit": {
+      "value": "0",
+      "pages": [
+        {
+          "page": 1,
+          "value": "0"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Fiscal Year / Period",
+      "Organization / Department Name",
+      "Total Budget / Revenue",
+      "Total Expenditure / Costs",
+      "Net Balance / Surplus / Deficit"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 3848,
+  "totalMs": 13495,
+  "deleted": true
+}

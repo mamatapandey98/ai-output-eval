@@ -1,0 +1,26 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "textract-qwen3-32b",
+  "job": "summarization",
+  "taskId": 122,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:47:03.493Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:47:04.988Z",
+  "configuredAt": "2026-11-02T10:47:13.390Z",
+  "executedAt": "2026-11-02T10:47:13.792Z",
+  "lastPolledAt": "2026-11-02T10:47:21.164Z",
+  "finishedAt": "2026-11-02T10:47:21.164Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The National Consumer Coalition, a group of conservative organizations, has proposed a series of economic policies aimed at reducing government regulation and promoting consumer choice. These recommendations include abolishing federal fuel economy standards, reviewing U.S. antitrust laws, eliminating farm subsidies, and assessing user fees for government services. John Sununu, the White House Chief of Staff, endorsed the general philosophy of the coalition, suggesting that consumers are capable of making their own decisions. However, liberal consumer groups criticized Sununu's involvement, arguing that it could mislead businesses and officials. Additionally, Public Citizen faced accusations of receiving kickbacks from companies it evaluated, though the organization denied any influence on its findings."
+    }
+  ],
+  "processingMs": 7372,
+  "totalMs": 17671,
+  "deleted": true,
+  "summary": "Page 1: The National Consumer Coalition, a group of conservative organizations, has proposed a series of economic policies aimed at reducing government regulation and promoting consumer choice. These recommendations include abolishing federal fuel economy standards, reviewing U.S. antitrust laws, eliminating farm subsidies, and assessing user fees for government services. John Sununu, the White House Chief of Staff, endorsed the general philosophy of the coalition, suggesting that consumers are capable of making their own decisions. However, liberal consumer groups criticized Sununu's involvement, arguing that it could mislead businesses and officials. Additionally, Public Citizen faced accusations of receiving kickbacks from companies it evaluated, though the organization denied any influence on its findings."
+}

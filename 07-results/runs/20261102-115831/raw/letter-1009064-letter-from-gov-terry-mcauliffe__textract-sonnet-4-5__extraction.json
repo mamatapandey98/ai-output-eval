@@ -1,0 +1,88 @@
+{
+  "documentId": "letter-1009064-letter-from-gov-terry-mcauliffe",
+  "variantId": "textract-sonnet-4-5",
+  "job": "extraction",
+  "taskId": 241,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T12:19:30.791Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T12:19:32.188Z",
+  "configuredAt": "2026-11-02T12:19:40.392Z",
+  "executedAt": "2026-11-02T12:19:40.737Z",
+  "lastPolledAt": "2026-11-02T12:19:50.821Z",
+  "finishedAt": "2026-11-02T12:19:50.821Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "letter_date": "September 25, 2013",
+      "sender_name__organization": "Terry McAuliffe",
+      "recipient_name__organization": "Korean Community of Virginia",
+      "subject__reference": "School textbooks labeling of the East Sea/Sea of Japan in Virginia's education system",
+      "main_purpose__request": "To express support for efforts to ensure Virginia school textbooks use both names (East Sea/Sea of Japan) when labeling the body of water, and to commit to supporting legislation like that introduced by Senator Dave Marsden in 2012"
+    }
+  ],
+  "extraction": {
+    "Letter Date": {
+      "value": "September 25, 2013",
+      "pages": [
+        {
+          "page": 1,
+          "value": "September 25, 2013"
+        }
+      ]
+    },
+    "Sender Name / Organization": {
+      "value": "Terry McAuliffe",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Terry McAuliffe"
+        }
+      ]
+    },
+    "Recipient Name / Organization": {
+      "value": "Korean Community of Virginia",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Korean Community of Virginia"
+        }
+      ]
+    },
+    "Subject / Reference": {
+      "value": "School textbooks labeling of the East Sea/Sea of Japan in Virginia's education system",
+      "pages": [
+        {
+          "page": 1,
+          "value": "School textbooks labeling of the East Sea/Sea of Japan in Virginia's education system"
+        }
+      ]
+    },
+    "Main Purpose / Request": {
+      "value": "To express support for efforts to ensure Virginia school textbooks use both names (East Sea/Sea of Japan) when labeling the body of water, and to commit to supporting legislation like that introduced by Senator Dave Marsden in 2012",
+      "pages": [
+        {
+          "page": 1,
+          "value": "To express support for efforts to ensure Virginia school textbooks use both names (East Sea/Sea of Japan) when labeling the body of water, and to commit to supporting legislation like that introduced by Senator Dave Marsden in 2012"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Letter Date",
+      "Sender Name / Organization",
+      "Recipient Name / Organization",
+      "Subject / Reference",
+      "Main Purpose / Request"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 10084,
+  "totalMs": 20030,
+  "deleted": true
+}

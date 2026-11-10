@@ -1,0 +1,30 @@
+{
+  "documentId": "news-article-2071912-conservative-groups-push-development-missoulan",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "taskId": 130,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T10:52:31.691Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T10:52:33.167Z",
+  "configuredAt": "2026-11-02T10:52:43.612Z",
+  "executedAt": "2026-11-02T10:52:43.967Z",
+  "lastPolledAt": "2026-11-02T10:52:51.204Z",
+  "finishedAt": "2026-11-02T10:52:51.204Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The article discusses the \"wise-use\" movement, a coalition of approximately 200 pro-development groups in the American West with roots in earlier land-use conflicts like the Sagebrush Rebellion. The movement includes organizations such as Communities for a Great Northwest in Montana and Rep. Ron Marlenee's Montana PLUS. Key figures like Ron Arnold describe members as \"new environmentalists\" dedicated to responsible ecological care of natural resources. The movement has faced scrutiny over alleged ties to Rev. Sun Myung Moon's Unification Church, though leaders deny any influence from the religious organization."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": ""
+    }
+  ],
+  "processingMs": 7237,
+  "totalMs": 19513,
+  "deleted": true,
+  "summary": "Page 1: The article discusses the \"wise-use\" movement, a coalition of approximately 200 pro-development groups in the American West with roots in earlier land-use conflicts like the Sagebrush Rebellion. The movement includes organizations such as Communities for a Great Northwest in Montana and Rep. Ron Marlenee's Montana PLUS. Key figures like Ron Arnold describe members as \"new environmentalists\" dedicated to responsible ecological care of natural resources. The movement has faced scrutiny over alleged ties to Rev. Sun Myung Moon's Unification Church, though leaders deny any influence from the religious organization.\n\nPage 2: "
+}

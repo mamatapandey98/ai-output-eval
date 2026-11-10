@@ -1,0 +1,121 @@
+{
+  "runId": "20261102-103030",
+  "createdAt": "2026-11-02T10:30:34.115Z",
+  "settings": {
+    "jobs": [
+      "summarization"
+    ],
+    "embeddingModel": "Xenova/all-MiniLM-L6-v2",
+    "judgeProvider": "gemini",
+    "judgeModel": "gemini-3.5-flash",
+    "includeSourcePdf": false
+  },
+  "classificationCategories": [
+    {
+      "name": "budget",
+      "description": "A financial plan showing projected or planned revenues, expenditures, or allocations."
+    },
+    {
+      "name": "news article",
+      "description": "A newspaper or other news publication article reporting on a topic or event."
+    },
+    {
+      "name": "invoice",
+      "description": "A bill requesting payment for goods or services."
+    },
+    {
+      "name": "letter",
+      "description": "Formal written correspondence addressed to a person or organization."
+    },
+    {
+      "name": "email",
+      "description": "A printed email message or email thread."
+    }
+  ],
+  "documents": [
+    {
+      "id": "invoice-5978221-sprout-invoice",
+      "file": "invoice/5978221-Sprout-Invoice.pdf",
+      "category": "invoice",
+      "summary": "This invoice was issued by Sprout Social to Alexa Popplewell of the Santa Rosa Police Department for an annual premium plan subscription totaling $1,188.00. The invoice was billed on September 28, 2018, with payment due on receipt. Records confirm full payment of $1,188.00 via Visa on October 1, 2018, leaving a zero remaining balance.",
+      "classification": {
+        "label": "invoice",
+        "pages": [
+          {
+            "page": 1,
+            "label": "invoice"
+          }
+        ]
+      },
+      "extraction": {
+        "fields": [
+          {
+            "name": "Invoice Number",
+            "type": "Text",
+            "description": "Invoice Number stated in the invoice."
+          },
+          {
+            "name": "Invoice Date",
+            "type": "Text",
+            "description": "Invoice Date stated in the invoice."
+          },
+          {
+            "name": "Vendor / Seller Name",
+            "type": "Text",
+            "description": "Vendor / Seller Name stated in the invoice."
+          },
+          {
+            "name": "Total Amount",
+            "type": "Text",
+            "description": "Total Amount stated in the invoice."
+          },
+          {
+            "name": "Due Date",
+            "type": "Text",
+            "description": "Due Date stated in the invoice."
+          }
+        ],
+        "values": {
+          "Invoice Number": "1102092",
+          "Invoice Date": "Page 1: September 28, 2018; Document-level: Sep 28, 2018",
+          "Vendor / Seller Name": "Sprout Social",
+          "Total Amount": "Page 1: $1,188.00 USD; Document-level: $1,188.00",
+          "Due Date": "Page 1: September 28, 2018; Document-level: Sep 28, 2018"
+        }
+      },
+      "pages": 1,
+      "bytes": 21159,
+      "jobs": [
+        "summarization"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "textract-sonnet-4-5",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0"
+    },
+    {
+      "id": "textract-haiku-4-5",
+      "ocr_provider": "aws_textract",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.anthropic.claude-haiku-4-5-20251001-v1:0"
+    }
+  ],
+  "pipelines": {
+    "textract-sonnet-4-5": {
+      "id": 168,
+      "name": "llmjudge-textract-sonnet-4-5",
+      "created": false
+    },
+    "textract-haiku-4-5": {
+      "id": 169,
+      "name": "llmjudge-textract-haiku-4-5",
+      "created": false
+    }
+  }
+}

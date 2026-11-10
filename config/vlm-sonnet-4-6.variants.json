@@ -1,0 +1,14 @@
+{
+  "$comment": "One VLM pipeline: Qwen3 VL 235B is the OCR/vision component; Claude Sonnet 4.6 is the downstream LLM. This is a controlled OCR-mode swap against Textract Sonnet 4.6.",
+  "variants": [
+    {
+      "id": "vlm-sonnet-4-6",
+      "ocr_provider": "vlm",
+      "parsing_method": "layout_conserved",
+      "llm_model_provider": "bedrock",
+      "llm_model": "bedrock/us.anthropic.claude-sonnet-4-6",
+      "vlm_model_provider": "bedrock",
+      "vlm_model": "bedrock/qwen.qwen3-vl-235b-a22b"
+    }
+  ]
+}

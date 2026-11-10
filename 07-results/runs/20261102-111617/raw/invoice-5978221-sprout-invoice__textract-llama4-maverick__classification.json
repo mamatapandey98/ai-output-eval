@@ -1,0 +1,42 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "textract-llama4-maverick",
+  "job": "classification",
+  "taskId": 183,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:31:52.334Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:31:53.574Z",
+  "configuredAt": "2026-11-02T11:32:01.002Z",
+  "executedAt": "2026-11-02T11:32:02.413Z",
+  "lastPolledAt": "2026-11-02T11:32:07.358Z",
+  "finishedAt": "2026-11-02T11:32:07.358Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "invoice"
+    }
+  ],
+  "classification": {
+    "label": "invoice",
+    "pages": [
+      {
+        "page": 1,
+        "label": "invoice"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 4945,
+  "totalMs": 15024,
+  "deleted": true
+}

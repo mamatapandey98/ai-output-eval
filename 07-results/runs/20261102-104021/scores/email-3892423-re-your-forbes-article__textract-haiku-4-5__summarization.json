@@ -1,0 +1,46 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "candidatePages": 3,
+  "candidateChars": 2011,
+  "resultPages": 3,
+  "withSourcePdf": false,
+  "judgeProvider": "gemini",
+  "rubricVersion": "summary-reference-v4",
+  "requestedModel": "gemini-3.5-flash",
+  "servedModel": "gemini-3.6-flash",
+  "thinkingLevel": "HIGH",
+  "maxOutputTokens": null,
+  "stopReason": "STOP",
+  "usage": {
+    "input_tokens": 1264,
+    "output_tokens": 1031,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0
+  },
+  "status": "scored",
+  "scoreScale": "0-10",
+  "weights": {
+    "coverage": 0.4,
+    "accuracy": 0.4,
+    "clarity": 0.1,
+    "conciseness": 0.1
+  },
+  "verdict": {
+    "coverage": 10,
+    "accuracy": 10,
+    "clarity": 8.5,
+    "conciseness": 7
+  },
+  "criteriaScores": {
+    "coverage": 10,
+    "accuracy": 10,
+    "clarity": 8.5,
+    "conciseness": 7
+  },
+  "overall": 9.55,
+  "overallOutOf10": 9.55,
+  "overallPercentage": 95.5,
+  "score": 0.955
+}

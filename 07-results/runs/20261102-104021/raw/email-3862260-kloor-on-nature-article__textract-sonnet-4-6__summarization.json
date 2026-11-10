@@ -1,0 +1,26 @@
+{
+  "documentId": "email-3862260-kloor-on-nature-article",
+  "variantId": "textract-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 150,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:05:25.021Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:05:26.373Z",
+  "configuredAt": "2026-11-02T11:05:33.820Z",
+  "executedAt": "2026-11-02T11:05:35.191Z",
+  "lastPolledAt": "2026-11-02T11:05:43.004Z",
+  "finishedAt": "2026-11-02T11:05:43.004Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This email thread involves Jon Entine, Keith Kloor, and Kevin Folta discussing a news story written by Keith Kloor. Jon Entine praised the story as fair and well-executed but questioned the use of the phrase \"close ties\" in the headline, calling it incorrect and inflammatory. Keith Kloor acknowledged the concern, noting that Kevin Folta also objected to the phrase. Kloor explained that the \"close ties\" line was not in the headline or subheading and was added during final edits while he was traveling, meaning he did not review the final draft before publication. Kloor also mentioned that Jon Entine appears in the emails related to the story and suggested they speak further."
+    }
+  ],
+  "processingMs": 7813,
+  "totalMs": 17983,
+  "deleted": true,
+  "summary": "Page 1: This email thread involves Jon Entine, Keith Kloor, and Kevin Folta discussing a news story written by Keith Kloor. Jon Entine praised the story as fair and well-executed but questioned the use of the phrase \"close ties\" in the headline, calling it incorrect and inflammatory. Keith Kloor acknowledged the concern, noting that Kevin Folta also objected to the phrase. Kloor explained that the \"close ties\" line was not in the headline or subheading and was added during final edits while he was traveling, meaning he did not review the final draft before publication. Kloor also mentioned that Jon Entine appears in the emails related to the story and suggested they speak further."
+}

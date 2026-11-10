@@ -1,0 +1,34 @@
+{
+  "documentId": "email-3892423-re-your-forbes-article",
+  "variantId": "textract-haiku-4-5",
+  "job": "summarization",
+  "taskId": 157,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:10:10.084Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:10:11.527Z",
+  "configuredAt": "2026-11-02T11:10:19.897Z",
+  "executedAt": "2026-11-02T11:10:20.306Z",
+  "lastPolledAt": "2026-11-02T11:10:27.644Z",
+  "finishedAt": "2026-11-02T11:10:27.644Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "Email exchange between Victoria Hutter (Assistant Director of Press & Public Affairs at the National Endowment for the Arts) and Adam Andrzejewski regarding a Forbes article. Hutter thanks Andrzejewski for making requested changes and provides additional context: in 2015, 65% of NEA direct grants went to small and medium-sized organizations. The NEA funds non-profits for specific projects/productions based on artistic excellence and merit reviewed by citizen expert panels. Andrzejewski confirms corrections were made to the article, which now accurately reflects that while the NEA did not fund a specific Shakespeare in the Park performance, it had provided $630,000 in grants to New York Shakespeare Festival since 2009 and continued funding other projects like \"New York Voices\" at Joe's Pub with a $25,000 grant in February."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "Adam Andrzejewski, founder and CEO of OpenTheBooks.com, wrote a Forbes article claiming the NEA failed to disclose $630,000 in grants to the New York Shakespeare Festival (NYSF) since 2009, and $25,000 to \"New York Voices\" at Joe's Pub. Victoria Hutter from the NEA responded on June 13, 2017, disputing these claims and clarifying that the NEA has been transparent about its Public Theater funding. The NEA stated it provided $300,000-$320,000 to the New York Shakespeare Festival over four years, but no funds specifically supported the \"Julius Caesar\" production. Recent NEA grants to Shakespeare in the Park include $100,000 (2016), $60,000 (2015), and $80,000 (2014)."
+    },
+    {
+      "pg_no": 3,
+      "generation_response": "The NEA declined to comment on whether the Public applied for grants this summer. The Public Theater received $25,000 for the New York Voices program at Joe's Pub. Playbill contacted the theatre company about its Shakespeare in the Park Season application process. The NEA provides a grant search utility on their website (https://apps.nea.gov/grantsearch/) allowing access to 19 years of detailed funding history for grantees, with earlier records available through their online archive of annual reports."
+    }
+  ],
+  "processingMs": 7338,
+  "totalMs": 17560,
+  "deleted": true,
+  "summary": "Page 1: Email exchange between Victoria Hutter (Assistant Director of Press & Public Affairs at the National Endowment for the Arts) and Adam Andrzejewski regarding a Forbes article. Hutter thanks Andrzejewski for making requested changes and provides additional context: in 2015, 65% of NEA direct grants went to small and medium-sized organizations. The NEA funds non-profits for specific projects/productions based on artistic excellence and merit reviewed by citizen expert panels. Andrzejewski confirms corrections were made to the article, which now accurately reflects that while the NEA did not fund a specific Shakespeare in the Park performance, it had provided $630,000 in grants to New York Shakespeare Festival since 2009 and continued funding other projects like \"New York Voices\" at Joe's Pub with a $25,000 grant in February.\n\nPage 2: Adam Andrzejewski, founder and CEO of OpenTheBooks.com, wrote a Forbes article claiming the NEA failed to disclose $630,000 in grants to the New York Shakespeare Festival (NYSF) since 2009, and $25,000 to \"New York Voices\" at Joe's Pub. Victoria Hutter from the NEA responded on June 13, 2017, disputing these claims and clarifying that the NEA has been transparent about its Public Theater funding. The NEA stated it provided $300,000-$320,000 to the New York Shakespeare Festival over four years, but no funds specifically supported the \"Julius Caesar\" production. Recent NEA grants to Shakespeare in the Park include $100,000 (2016), $60,000 (2015), and $80,000 (2014).\n\nPage 3: The NEA declined to comment on whether the Public applied for grants this summer. The Public Theater received $25,000 for the New York Voices program at Joe's Pub. Playbill contacted the theatre company about its Shakespeare in the Park Season application process. The NEA provides a grant search utility on their website (https://apps.nea.gov/grantsearch/) allowing access to 19 years of detailed funding history for grantees, with earlier records available through their online archive of annual reports."
+}

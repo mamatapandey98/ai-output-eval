@@ -1,0 +1,88 @@
+{
+  "documentId": "news-article-3903433-consumer-alert-newspaper",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "extraction",
+  "taskId": 281,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T15:16:29.190Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T15:16:30.688Z",
+  "configuredAt": "2026-11-02T15:16:39.289Z",
+  "executedAt": "2026-11-02T15:16:39.698Z",
+  "lastPolledAt": "2026-11-02T15:16:59.461Z",
+  "finishedAt": "2026-11-02T15:16:59.461Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "headline__title": "Conservative Consumer Ideas Floated",
+      "author__byline": "Warren Brown",
+      "publication_date": null,
+      "publication_source__organization": "Washington Post",
+      "primary_subject__topic": "Conservative public interest groups presenting economic policy recommendations to the White House, calling for deregulation and challenging traditional consumerism philosophy"
+    }
+  ],
+  "extraction": {
+    "Headline / Title": {
+      "value": "Conservative Consumer Ideas Floated",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Conservative Consumer Ideas Floated"
+        }
+      ]
+    },
+    "Author / Byline": {
+      "value": "Warren Brown",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Warren Brown"
+        }
+      ]
+    },
+    "Publication Date": {
+      "value": null,
+      "pages": [
+        {
+          "page": 1,
+          "value": null
+        }
+      ]
+    },
+    "Publication Source / Organization": {
+      "value": "Washington Post",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Washington Post"
+        }
+      ]
+    },
+    "Primary Subject / Topic": {
+      "value": "Conservative public interest groups presenting economic policy recommendations to the White House, calling for deregulation and challenging traditional consumerism philosophy",
+      "pages": [
+        {
+          "page": 1,
+          "value": "Conservative public interest groups presenting economic policy recommendations to the White House, calling for deregulation and challenging traditional consumerism philosophy"
+        }
+      ]
+    }
+  },
+  "extractionValidation": {
+    "valid": true,
+    "requestedFields": [
+      "Headline / Title",
+      "Author / Byline",
+      "Publication Date",
+      "Publication Source / Organization",
+      "Primary Subject / Topic"
+    ],
+    "reason": null
+  },
+  "outputValid": true,
+  "processingMs": 19763,
+  "totalMs": 30271,
+  "deleted": true
+}

@@ -1,0 +1,42 @@
+{
+  "documentId": "invoice-5978221-sprout-invoice",
+  "variantId": "textract-qwen3-32b",
+  "job": "classification",
+  "taskId": 179,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:29:27.479Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:29:28.740Z",
+  "configuredAt": "2026-11-02T11:29:35.726Z",
+  "executedAt": "2026-11-02T11:29:37.001Z",
+  "lastPolledAt": "2026-11-02T11:29:40.461Z",
+  "finishedAt": "2026-11-02T11:29:40.461Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "document_type": "invoice"
+    }
+  ],
+  "classification": {
+    "label": "invoice",
+    "pages": [
+      {
+        "page": 1,
+        "label": "invoice"
+      }
+    ]
+  },
+  "classificationValidation": {
+    "valid": true,
+    "expectedPageCount": 1,
+    "observedPageCount": 1,
+    "pagesValid": true,
+    "labelsValid": true
+  },
+  "outputValid": true,
+  "processingMs": 3460,
+  "totalMs": 12982,
+  "deleted": true
+}

@@ -1,0 +1,35 @@
+{
+  "documentId": "budget-1165040-singleton-budget",
+  "variantId": "vlm-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 260,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T14:56:30.954Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T14:56:32.223Z",
+  "configuredAt": "2026-11-02T14:56:40.295Z",
+  "executedAt": "2026-11-02T14:56:40.679Z",
+  "lastPolledAt": "2026-11-02T14:57:15.584Z",
+  "finishedAt": "2026-11-02T14:57:15.584Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "The document outlines the 2014-15 Budget Projections for a school with 520 students. Total revenue is $5,461,160, sourced from state/local per pupil funding ($4,346,160), Title I/II/IDEA grants ($805,000), ERATE ($75,000), LA-4 program funding ($185,000), and donations ($50,000). Key expenditures include Salaries ($2,709,910) covering administration, instructional, and non-instructional staff; Employee Benefits ($668,711.57) including health insurance, retirement, and social security; Purchased Professional Services ($271,609) for legal, accounting, and technical services; Purchased Property Services ($995,359) for utilities, facility usage, and maintenance; and Other Purchased Services ($640,475) covering transportation, insurance, food service, and travel."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The document presents the 2014-15 Budget Projections for James M. Singleton Charter School. It details two expenditure categories: Supplies (Object Code 600), totaling $95,095.43 — covering materials and supplies ($42,295.43), food & commodities ($2,500), books and periodicals ($35,300), and custodial supplies ($15,000); and Other Use of Funds (Object Code 900), totaling $80,000 — including depreciation ($15,000) and indirect cost ($65,000), with no contingency allocated. The school's total projected expenditures amount to $5,461,160.00."
+    },
+    {
+      "pg_no": 3,
+      "generation_response": "The document outlines the 2012-2013 Program Budget Assumptions for James Singleton Charter School. Key assumptions include: a student enrollment of 620 (MFP count) and 40 (LA4); an MFP allocation of $8,368 per pupil (State and Local) and $5,632.60 per pupil for LA4; a teacher-to-student ratio of 22:1; a Federal Funds Allocation (Title I, Title II, IDEA B) of $805,000, representing 90% of the 2013-14 allocation pending BESE approval; and a school calendar of 182–192 instructional days."
+    }
+  ],
+  "summary": "Page 1: The document outlines the 2014-15 Budget Projections for a school with 520 students. Total revenue is $5,461,160, sourced from state/local per pupil funding ($4,346,160), Title I/II/IDEA grants ($805,000), ERATE ($75,000), LA-4 program funding ($185,000), and donations ($50,000). Key expenditures include Salaries ($2,709,910) covering administration, instructional, and non-instructional staff; Employee Benefits ($668,711.57) including health insurance, retirement, and social security; Purchased Professional Services ($271,609) for legal, accounting, and technical services; Purchased Property Services ($995,359) for utilities, facility usage, and maintenance; and Other Purchased Services ($640,475) covering transportation, insurance, food service, and travel.\n\nPage 2: The document presents the 2014-15 Budget Projections for James M. Singleton Charter School. It details two expenditure categories: Supplies (Object Code 600), totaling $95,095.43 — covering materials and supplies ($42,295.43), food & commodities ($2,500), books and periodicals ($35,300), and custodial supplies ($15,000); and Other Use of Funds (Object Code 900), totaling $80,000 — including depreciation ($15,000) and indirect cost ($65,000), with no contingency allocated. The school's total projected expenditures amount to $5,461,160.00.\n\nPage 3: The document outlines the 2012-2013 Program Budget Assumptions for James Singleton Charter School. Key assumptions include: a student enrollment of 620 (MFP count) and 40 (LA4); an MFP allocation of $8,368 per pupil (State and Local) and $5,632.60 per pupil for LA4; a teacher-to-student ratio of 22:1; a Federal Funds Allocation (Title I, Title II, IDEA B) of $805,000, representing 90% of the 2013-14 allocation pending BESE approval; and a school calendar of 182–192 instructional days.",
+  "outputValid": true,
+  "processingMs": 34905,
+  "totalMs": 44630,
+  "deleted": true
+}

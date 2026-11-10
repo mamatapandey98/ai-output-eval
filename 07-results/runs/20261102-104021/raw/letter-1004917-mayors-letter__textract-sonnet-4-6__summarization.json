@@ -1,0 +1,30 @@
+{
+  "documentId": "letter-1004917-mayors-letter",
+  "variantId": "textract-sonnet-4-6",
+  "job": "summarization",
+  "taskId": 145,
+  "status": "completed",
+  "outcome": "completed",
+  "startedAt": "2026-11-02T11:02:01.451Z",
+  "submissionUncertain": false,
+  "createdAt": "2026-11-02T11:02:02.743Z",
+  "configuredAt": "2026-11-02T11:02:10.628Z",
+  "executedAt": "2026-11-02T11:02:11.891Z",
+  "lastPolledAt": "2026-11-02T11:02:20.047Z",
+  "finishedAt": "2026-11-02T11:02:20.047Z",
+  "failedRemarks": null,
+  "result": [
+    {
+      "pg_no": 1,
+      "generation_response": "This document is a letter dated January 1, 2014, from Mayor Tim B. Flynn of Oxnard, California, addressed to the City Council. The mayor reflects on the progress made in 2013, including ethics reform, addressing fiscal abuses identified in the Ventura County District Attorney's Investigation Report, road repairs, and job creation. He outlines three key priorities for 2014: (1) hiring a permanent city manager by March 1, 2014, with decisions needed on the public's role in the process by January 14, 2014; (2) beginning the hiring process for a new city attorney no later than January 14, 2014, while also setting performance-based goals to minimize lawsuits; and (3) implementing priority-based budgeting aligned with the strategic priorities established in April 2013, to ensure spending reflects community needs and increases citizen engagement."
+    },
+    {
+      "pg_no": 2,
+      "generation_response": "The document outlines a Performance and Priority Based Budgeting plan for the City of Oxnard, detailing a month-by-month timeline from January to June 2014 to develop and approve the fiscal year 2014-2015 budget. Key steps include working with city council members on strategic objectives, conducting study sessions, gathering input from civic organizations, and finalizing spending priorities. Additionally, the document highlights other 2014 priorities such as a $30 million street resurfacing plan, attracting higher-paying jobs, restoring the general fund reserve from 10% back to 18%, establishing a K-12 magnet program, addressing pension liabilities, reviving city marketing, securing funding for Santa Clara River levees, managing former redevelopment properties, and making the Golf Course and Performing Arts Center financially self-sustaining. The document concludes with Mayor Tim Flynn expressing commitment to making Oxnard a world-class city."
+    }
+  ],
+  "processingMs": 8156,
+  "totalMs": 18596,
+  "deleted": true,
+  "summary": "Page 1: This document is a letter dated January 1, 2014, from Mayor Tim B. Flynn of Oxnard, California, addressed to the City Council. The mayor reflects on the progress made in 2013, including ethics reform, addressing fiscal abuses identified in the Ventura County District Attorney's Investigation Report, road repairs, and job creation. He outlines three key priorities for 2014: (1) hiring a permanent city manager by March 1, 2014, with decisions needed on the public's role in the process by January 14, 2014; (2) beginning the hiring process for a new city attorney no later than January 14, 2014, while also setting performance-based goals to minimize lawsuits; and (3) implementing priority-based budgeting aligned with the strategic priorities established in April 2013, to ensure spending reflects community needs and increases citizen engagement.\n\nPage 2: The document outlines a Performance and Priority Based Budgeting plan for the City of Oxnard, detailing a month-by-month timeline from January to June 2014 to develop and approve the fiscal year 2014-2015 budget. Key steps include working with city council members on strategic objectives, conducting study sessions, gathering input from civic organizations, and finalizing spending priorities. Additionally, the document highlights other 2014 priorities such as a $30 million street resurfacing plan, attracting higher-paying jobs, restoring the general fund reserve from 10% back to 18%, establishing a K-12 magnet program, addressing pension liabilities, reviving city marketing, securing funding for Santa Clara River levees, managing former redevelopment properties, and making the Golf Course and Performing Arts Center financially self-sustaining. The document concludes with Mayor Tim Flynn expressing commitment to making Oxnard a world-class city."
+}
